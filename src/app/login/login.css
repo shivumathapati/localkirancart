@@ -92,7 +92,7 @@
 
 .btn-primary{
   background:linear-gradient(180deg,var(--accent),#0757d1);
-  color:#fff;
+  /* color:#fff; */
   border-color:transparent;
 }
 
