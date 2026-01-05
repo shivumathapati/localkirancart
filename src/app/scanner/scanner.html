@@ -1,0 +1,78 @@
+<div class="container">
+  <h2>Inventory Management</h2>
+
+  @if (!isScanning && !isFillingForm) {
+    <div class="card">
+      <button class="btn-primary" (click)="startScan()">
+        Add New Product (Scan Barcode)
+      </button>
+    </div>
+  }
+
+  @if (isScanning) {
+    <div class="scanner-wrapper">
+      <p>Align UPC barcode within the frame</p>
+      <zxing-scanner 
+        [formats]="allowedFormats"
+        (scanSuccess)="handleScanSuccess($event)">
+      </zxing-scanner>
+      <button class="btn-secondary" (click)="isScanning = false">Stop</button>
+    </div>
+  }
+
+  @if (isFillingForm) {
+    <div class="card">
+           <h2>{{ isExistingProduct ? 'Update Stock' : 'Add New Product' }}</h2>
+
+      <p><strong>Barcode:</strong> {{ product.upc }}</p>
+
+      <div class="form-group">
+        <label>Product Name</label>
+        <input [(ngModel)]="product.name" placeholder="Enter name">
+      </div>
+
+      <div class="form-group">
+        <label>Price (Rs)</label>
+        <input type="number" [(ngModel)]="product.price">
+      </div>
+
+      <div class="form-group">
+        <label>Quantity</label>
+        <input type="number" [(ngModel)]="product.quantity">
+      </div>
+
+      <div class="actions">
+        <button class="btn-success" (click)="saveProduct()">Add to Inventory</button>
+        <button class="btn-secondary" (click)="isFillingForm = false">Cancel</button>
+      </div>
+    </div>
+  }
+</div>
+
+<!-- 
+<div class="container">
+  @if (isScanning) {
+    <zxing-scanner (scanSuccess)="handleScanSuccess($event)"></zxing-scanner>
+    <button (click)="isScanning = false">Stop</button>
+  }
+
+  @if (isFillingForm) {
+    <div class="card">
+      <h2>{{ isExistingProduct ? 'Update Stock' : 'Add New Product' }}</h2>
+      <p>Barcode: <b>{{ product.upc }}</b></p>
+
+      <label>Name</label>
+      <input [(ngModel)]="product.name" [disabled]="isExistingProduct">
+
+      <label>Price</label>
+      <input type="number" [(ngModel)]="product.price">
+
+      <label>{{ isExistingProduct ? 'Quantity to ADD' : 'Initial Quantity' }}</label>
+      <input type="number" [(ngModel)]="product.quantity">
+
+      <button (click)="saveProduct()">
+        {{ isExistingProduct ? 'Update Inventory' : 'Save New Product' }}
+      </button>
+    </div>
+  }
+</div> -->
