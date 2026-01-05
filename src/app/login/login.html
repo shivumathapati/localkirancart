@@ -1,0 +1,24 @@
+﻿<div class="login-wrapper">
+  <form class="login-card" novalidate (submit)="$event.preventDefault(); login(username.value, password.value)">
+    <h1 class="brand">LocalKiranCart</h1>
+
+    <div class="field">
+      <label for="username">Username / Email</label>
+      <input id="username" name="username" #username type="text" placeholder="Enter username or email" required />
+    </div>
+
+    <div class="field">
+      <label for="password">Password</label>
+      <input id="password" name="password" #password type="password" placeholder="Enter password" required />
+    </div>
+
+    <div class="actions-row">
+      <a href="#" class="forgot">Forgot password?</a>
+    </div>
+
+    <div class="buttons">
+      <button type="submit" class="btn btn-primary">Login</button>
+      <button type="button" class="btn btn-outline" onclick="location.href='/signup'">Sign Up</button>
+    </div>
+  </form>
+</div>
