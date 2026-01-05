@@ -1,6 +1,6 @@
 ﻿import { Auth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from '@angular/fire/auth';
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -9,7 +9,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.css'],
 })
 export class Login {
-  constructor(private auth: Auth ,private rout:Router) {}
+  
+  constructor(private auth: Auth, private router:Router) {}
 
   register(email: string, password: string) {
     createUserWithEmailAndPassword(this.auth, email, password)
@@ -26,8 +27,8 @@ export class Login {
       .then((userCredential) => {
         console.log('User exists & logged in:', userCredential.user);
         alert('Login successful');
-        this.rout.navigate(['/dashboard']);
         // window.location.href = '/dashboard';
+        this.router.navigate(['/dashboard']);
       })
       .catch((error) => {
         if (error.code === 'auth/user-not-found') {
