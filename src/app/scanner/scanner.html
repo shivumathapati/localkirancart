@@ -18,7 +18,7 @@
     </div>
     }
 
-    @if (isFillingForm) {
+    @if (!isFillingForm) {
     <div class="card">
         <h2>{{ isExistingProduct ? 'Update Stock' : 'Add New Product' }}</h2>
 
