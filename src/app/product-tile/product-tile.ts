@@ -1,16 +1,20 @@
 
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { ChangeDetectionStrategy } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { ProductService } from '../service/products';
+import { Observable } from 'rxjs';
+import { Product } from '../models/product/product-module';
+import { AsyncPipe } from '@angular/common';
 @Component({
   selector: 'app-product-tile',
-  imports: [MatButtonModule, MatCardModule],
+  imports: [MatButtonModule, MatCardModule,AsyncPipe],
   templateUrl: './product-tile.html',
   styleUrl: './product-tile.css',
 })
 export class ProductTile {
-
+private productService = inject(ProductService);
 
   data = [
 
@@ -81,9 +85,10 @@ export class ProductTile {
 
   ]
 
+products$ = this.productService.getAllProducts();
   
 
-constructor() { }
-
-  
 }
+
+  
+

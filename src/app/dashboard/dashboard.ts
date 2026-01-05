@@ -4,8 +4,8 @@ import { Scanner } from '../scanner/scanner';
 
 @Component({
   selector: 'app-dashboard',
-  // imports: [ProductTile,Scanner],
-  imports: [Scanner],
+  imports: [ProductTile,Scanner],
+  // imports: [Scanner],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.css',
 })

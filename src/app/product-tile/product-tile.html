@@ -2,19 +2,19 @@
 
     
     <ul class="card-container">
-        @for (product of data; track product) {
+        @for (product of products$ | async; track product) {
             <li>
 
                 <mat-card class="example-card" appearance="outlined">
                 <mat-card-header>
                     <div mat-card-avatar class="example-header-image"></div>
-                    <mat-card-title>{{ product.title }}</mat-card-title>
-                    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                    <mat-card-title>{{ product.name }}</mat-card-title>
+                    <mat-card-subtitle>Qt. {{product.quantity}}</mat-card-subtitle>
                 </mat-card-header>
-                <img mat-card-image src="{{product.uri}}" alt="Photo of a Shiba Inu">
+                <!-- <img mat-card-image src="{{product.}}" alt="Photo of a Shiba Inu"> -->
                 <mat-card-content>
                     <p>
-                  will add leter
+                    Price:     {{product.price}} RS
                     </p>
                 </mat-card-content>
                 <mat-card-actions>
