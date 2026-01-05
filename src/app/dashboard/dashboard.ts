@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { ProductTile } from "../product-tile/product-tile";
 
 @Component({
   selector: 'app-dashboard',
-  imports: [],
+  imports: [ProductTile],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.css',
 })
