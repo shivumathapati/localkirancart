@@ -19,6 +19,7 @@ private productService = inject(ProductService);
 
 
 products$ = this.productService.getAllProducts();
+jhjimjh$ = this.productService.uploadProducts();
   categories = new ProductCategories().categories;
   
 
