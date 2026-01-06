@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { ProductService } from '../service/products';
 
 @Component({
   selector: 'app-product-categories',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './product-categories.css',
 })
 export class ProductCategories {
-
+private productService = inject(ProductService);
   categories = [
     {
       "id": "CAT01",
@@ -170,6 +171,10 @@ export class ProductCategories {
       ]
     }
   ]
-
+  selectedCategory: string = '';
   
+  selectCategory(category: string) {
+    this.productService.setCategory(category);
+  }
+
 }

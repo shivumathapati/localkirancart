@@ -1,1002 +1,3122 @@
 [
   {
-    "documentId": "100000000001",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:01:00+05:30",
-    "name": "Product 1",
-    "price": 53,
-    "quantity": 11,
-    "subcategory": "Dairy",
-    "upc": "100000000001"
+    "upc": "890100000001",
+    "name": "Premium Basmati Rice 1kg",
+    "price": 120,
+    "quantity": 50,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
   },
   {
-    "documentId": "100000000002",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:02:00+05:30",
-    "name": "Product 2",
-    "price": 56,
-    "quantity": 12,
-    "subcategory": "Beverages",
-    "upc": "100000000002"
-  },
-  {
-    "documentId": "100000000003",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:03:00+05:30",
-    "name": "Product 3",
-    "price": 59,
-    "quantity": 13,
-    "subcategory": "Cakes",
-    "upc": "100000000003"
-  },
-  {
-    "documentId": "100000000004",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:04:00+05:30",
-    "name": "Product 4",
-    "price": 62,
-    "quantity": 14,
-    "subcategory": "Bakery",
-    "upc": "100000000004"
-  },
-  {
-    "documentId": "100000000005",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:05:00+05:30",
-    "name": "Product 5",
-    "price": 65,
-    "quantity": 15,
-    "subcategory": "Grains",
-    "upc": "100000000005"
-  },
-  {
-    "documentId": "100000000006",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:06:00+05:30",
-    "name": "Product 6",
-    "price": 68,
-    "quantity": 16,
-    "subcategory": "Milk",
-    "upc": "100000000006"
-  },
-  {
-    "documentId": "100000000007",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:07:00+05:30",
-    "name": "Product 7",
-    "price": 71,
-    "quantity": 17,
-    "subcategory": "Dairy",
-    "upc": "100000000007"
-  },
-  {
-    "documentId": "100000000008",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:08:00+05:30",
-    "name": "Product 8",
-    "price": 74,
-    "quantity": 18,
-    "subcategory": "Beverages",
-    "upc": "100000000008"
-  },
-  {
-    "documentId": "100000000009",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:09:00+05:30",
-    "name": "Product 9",
-    "price": 77,
-    "quantity": 19,
-    "subcategory": "Cakes",
-    "upc": "100000000009"
-  },
-  {
-    "documentId": "100000000010",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:10:00+05:30",
-    "name": "Product 10",
-    "price": 80,
-    "quantity": 20,
-    "subcategory": "Bakery",
-    "upc": "100000000010"
-  },
-  {
-    "documentId": "100000000011",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:11:00+05:30",
-    "name": "Product 11",
-    "price": 83,
-    "quantity": 21,
-    "subcategory": "Grains",
-    "upc": "100000000011"
-  },
-  {
-    "documentId": "100000000012",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:12:00+05:30",
-    "name": "Product 12",
-    "price": 86,
-    "quantity": 22,
-    "subcategory": "Milk",
-    "upc": "100000000012"
-  },
-  {
-    "documentId": "100000000013",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:13:00+05:30",
-    "name": "Product 13",
-    "price": 89,
-    "quantity": 23,
-    "subcategory": "Dairy",
-    "upc": "100000000013"
-  },
-  {
-    "documentId": "100000000014",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:14:00+05:30",
-    "name": "Product 14",
-    "price": 92,
-    "quantity": 24,
-    "subcategory": "Beverages",
-    "upc": "100000000014"
-  },
-  {
-    "documentId": "100000000015",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:15:00+05:30",
-    "name": "Product 15",
-    "price": 95,
-    "quantity": 25,
-    "subcategory": "Cakes",
-    "upc": "100000000015"
-  },
-  {
-    "documentId": "100000000016",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:16:00+05:30",
-    "name": "Product 16",
-    "price": 98,
-    "quantity": 26,
-    "subcategory": "Bakery",
-    "upc": "100000000016"
-  },
-  {
-    "documentId": "100000000017",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:17:00+05:30",
-    "name": "Product 17",
-    "price": 101,
-    "quantity": 27,
-    "subcategory": "Grains",
-    "upc": "100000000017"
-  },
-  {
-    "documentId": "100000000018",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:18:00+05:30",
-    "name": "Product 18",
-    "price": 104,
-    "quantity": 28,
-    "subcategory": "Milk",
-    "upc": "100000000018"
-  },
-  {
-    "documentId": "100000000019",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:19:00+05:30",
-    "name": "Product 19",
-    "price": 107,
-    "quantity": 29,
-    "subcategory": "Dairy",
-    "upc": "100000000019"
-  },
-  {
-    "documentId": "100000000020",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:20:00+05:30",
-    "name": "Product 20",
-    "price": 110,
+    "upc": "890100000002",
+    "name": "Sona Masoori Rice 5kg",
+    "price": 350,
     "quantity": 30,
-    "subcategory": "Beverages",
-    "upc": "100000000020"
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
   },
   {
-    "documentId": "100000000021",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:21:00+05:30",
-    "name": "Product 21",
-    "price": 113,
-    "quantity": 31,
-    "subcategory": "Cakes",
-    "upc": "100000000021"
+    "upc": "890100000003",
+    "name": "Kolam Rice 10kg",
+    "price": 620,
+    "quantity": 20,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
   },
   {
-    "documentId": "100000000022",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:22:00+05:30",
-    "name": "Product 22",
-    "price": 116,
-    "quantity": 32,
-    "subcategory": "Bakery",
-    "upc": "100000000022"
+    "upc": "890100000004",
+    "name": "Brown Rice 1kg",
+    "price": 160,
+    "quantity": 40,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
   },
   {
-    "documentId": "100000000023",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:23:00+05:30",
-    "name": "Product 23",
-    "price": 119,
-    "quantity": 33,
-    "subcategory": "Grains",
-    "upc": "100000000023"
+    "upc": "890100000005",
+    "name": "Organic Rice 5kg",
+    "price": 480,
+    "quantity": 15,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
   },
   {
-    "documentId": "100000000024",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:24:00+05:30",
-    "name": "Product 24",
-    "price": 122,
-    "quantity": 34,
-    "subcategory": "Milk",
-    "upc": "100000000024"
+    "upc": "890100000006",
+    "name": "Broken Rice 1kg",
+    "price": 60,
+    "quantity": 70,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
   },
   {
-    "documentId": "100000000025",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:25:00+05:30",
-    "name": "Product 25",
-    "price": 125,
+    "upc": "890100000007",
+    "name": "Steam Rice 10kg",
+    "price": 590,
+    "quantity": 25,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
+  },
+  {
+    "upc": "890100000008",
+    "name": "Raw Rice 5kg",
+    "price": 280,
     "quantity": 35,
-    "subcategory": "Dairy",
-    "upc": "100000000025"
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
   },
   {
-    "documentId": "100000000026",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:26:00+05:30",
-    "name": "Product 26",
-    "price": 128,
-    "quantity": 36,
-    "subcategory": "Beverages",
-    "upc": "100000000026"
+    "upc": "890100000009",
+    "name": "Mini Basmati Rice 1kg",
+    "price": 110,
+    "quantity": 45,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
   },
   {
-    "documentId": "100000000027",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:27:00+05:30",
-    "name": "Product 27",
-    "price": 131,
-    "quantity": 37,
-    "subcategory": "Cakes",
-    "upc": "100000000027"
+    "upc": "890100000010",
+    "name": "Jeera Samba Rice 5kg",
+    "price": 420,
+    "quantity": 18,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Rice"
   },
   {
-    "documentId": "100000000028",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:28:00+05:30",
-    "name": "Product 28",
-    "price": 134,
-    "quantity": 38,
-    "subcategory": "Bakery",
-    "upc": "100000000028"
+    "upc": "890100000011",
+    "name": "Whole Wheat 1kg",
+    "price": 55,
+    "quantity": 60,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Wheat"
   },
   {
-    "documentId": "100000000029",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:29:00+05:30",
-    "name": "Product 29",
-    "price": 137,
-    "quantity": 39,
-    "subcategory": "Grains",
-    "upc": "100000000029"
+    "upc": "890100000012",
+    "name": "Sharbati Wheat 5kg",
+    "price": 260,
+    "quantity": 40,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Wheat"
   },
   {
-    "documentId": "100000000030",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:30:00+05:30",
-    "name": "Product 30",
+    "upc": "890100000013",
+    "name": "Organic Wheat 2kg",
+    "price": 140,
+    "quantity": 30,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Wheat"
+  },
+  {
+    "upc": "890100000014",
+    "name": "Lokwan Wheat 10kg",
+    "price": 520,
+    "quantity": 20,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Wheat"
+  },
+  {
+    "upc": "890100000015",
+    "name": "Desi Wheat 1kg",
+    "price": 65,
+    "quantity": 50,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Wheat"
+  },
+  {
+    "upc": "890100000016",
+    "name": "Aashirvaad Atta 5kg",
+    "price": 290,
+    "quantity": 35,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Atta"
+  },
+  {
+    "upc": "890100000017",
+    "name": "Whole Wheat Atta 10kg",
+    "price": 520,
+    "quantity": 20,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Atta"
+  },
+  {
+    "upc": "890100000018",
+    "name": "Multigrain Atta 5kg",
+    "price": 340,
+    "quantity": 25,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Atta"
+  },
+  {
+    "upc": "890100000019",
+    "name": "Organic Atta 2kg",
+    "price": 180,
+    "quantity": 40,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Atta"
+  },
+  {
+    "upc": "890100000020",
+    "name": "Chakki Fresh Atta 1kg",
+    "price": 60,
+    "quantity": 70,
+    "category": "Staples & Grocery Essentials",
+    "subcategory": "Atta"
+  },
+  {
+    "upc": "890200000001",
+    "name": "Marie Gold Biscuits 200g",
+    "price": 35,
+    "quantity": 60,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000002",
+    "name": "Good Day Butter Biscuits",
+    "price": 40,
+    "quantity": 50,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000003",
+    "name": "Hide & Seek Chocolate Biscuits",
+    "price": 45,
+    "quantity": 45,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000004",
+    "name": "Oreo Vanilla Cream",
+    "price": 30,
+    "quantity": 70,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000005",
+    "name": "Bourbon Cream Biscuits",
+    "price": 50,
+    "quantity": 40,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000006",
+    "name": "Milk Bikis Cream",
+    "price": 25,
+    "quantity": 80,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000007",
+    "name": "Little Hearts Biscuits",
+    "price": 20,
+    "quantity": 90,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000008",
+    "name": "Treat Croissant Chocolate",
+    "price": 15,
+    "quantity": 100,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000009",
+    "name": "Jim Jam Cream Biscuits",
+    "price": 55,
+    "quantity": 35,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000010",
+    "name": "Nutri Choice Digestive",
+    "price": 60,
+    "quantity": 30,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Biscuits"
+  },
+  {
+    "upc": "890200000011",
+    "name": "Lays Classic Salted",
+    "price": 20,
+    "quantity": 80,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890200000012",
+    "name": "Lays Magic Masala",
+    "price": 20,
+    "quantity": 75,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890200000013",
+    "name": "Kurkure Masala Munch",
+    "price": 20,
+    "quantity": 85,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890200000014",
+    "name": "Bingo Mad Angles",
+    "price": 25,
+    "quantity": 70,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890200000015",
+    "name": "Pringles Original",
+    "price": 120,
+    "quantity": 25,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890200000016",
+    "name": "Uncle Chipps Spicy Treat",
+    "price": 20,
+    "quantity": 90,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890200000017",
+    "name": "Too Yumm Multigrain Chips",
+    "price": 30,
+    "quantity": 60,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890200000018",
+    "name": "Balaji Wafers Cream & Onion",
+    "price": 15,
+    "quantity": 100,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890200000019",
+    "name": "Haldiram’s Potato Chips",
+    "price": 25,
+    "quantity": 65,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890200000020",
+    "name": "Maxx Potato Chips",
+    "price": 10,
+    "quantity": 120,
+    "category": "Packaged Food & Snacks",
+    "subcategory": "Chips"
+  },
+  {
+    "upc": "890300000001",
+    "name": "Amul Toned Milk 1L",
+    "price": 54,
+    "quantity": 80,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000002",
+    "name": "Amul Gold Milk 1L",
+    "price": 66,
+    "quantity": 60,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000003",
+    "name": "Nandini Toned Milk 1L",
+    "price": 52,
+    "quantity": 75,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000004",
+    "name": "Nandini Full Cream Milk 1L",
+    "price": 64,
+    "quantity": 55,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000005",
+    "name": "Heritage Milk 500ml",
+    "price": 28,
+    "quantity": 90,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000006",
+    "name": "Country Delight Cow Milk 1L",
+    "price": 72,
+    "quantity": 40,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000007",
+    "name": "Organic Cow Milk 1L",
+    "price": 80,
+    "quantity": 30,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000008",
+    "name": "Amul Slim & Trim Milk 1L",
+    "price": 50,
+    "quantity": 65,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000009",
+    "name": "Aavin Milk 1L",
+    "price": 48,
+    "quantity": 85,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000010",
+    "name": "Gokul Milk 1L",
+    "price": 55,
+    "quantity": 70,
+    "category": "Dairy & Bakery",
+    "subcategory": "Milk"
+  },
+  {
+    "upc": "890300000011",
+    "name": "Amul Masti Curd 500g",
+    "price": 35,
+    "quantity": 60,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000012",
+    "name": "Mother Dairy Curd 400g",
+    "price": 30,
+    "quantity": 65,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000013",
+    "name": "Nandini Thick Curd 500g",
+    "price": 34,
+    "quantity": 70,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000014",
+    "name": "Heritage Fresh Curd 500g",
+    "price": 32,
+    "quantity": 55,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000015",
+    "name": "Organic Curd 400g",
+    "price": 45,
+    "quantity": 40,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000016",
+    "name": "Amul Lite Curd 500g",
+    "price": 36,
+    "quantity": 50,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000017",
+    "name": "Nestle A+ Dahi 400g",
+    "price": 38,
+    "quantity": 45,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000018",
+    "name": "Country Delight Curd 500g",
+    "price": 48,
+    "quantity": 35,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000019",
+    "name": "Farm Fresh Curd 1kg",
+    "price": 70,
+    "quantity": 25,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000020",
+    "name": "Aavin Curd 500g",
+    "price": 33,
+    "quantity": 60,
+    "category": "Dairy & Bakery",
+    "subcategory": "Curd"
+  },
+  {
+    "upc": "890300000021",
+    "name": "Amul Butter 100g",
+    "price": 55,
+    "quantity": 50,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000022",
+    "name": "Amul Butter 500g",
+    "price": 245,
+    "quantity": 30,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000023",
+    "name": "Mother Dairy Butter 100g",
+    "price": 52,
+    "quantity": 55,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000024",
+    "name": "Britannia Butter 200g",
+    "price": 95,
+    "quantity": 45,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000025",
+    "name": "Unsalted Butter 100g",
+    "price": 60,
+    "quantity": 40,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000026",
+    "name": "Organic Butter 200g",
+    "price": 140,
+    "quantity": 25,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000027",
+    "name": "Table Butter 500g",
+    "price": 230,
+    "quantity": 20,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000028",
+    "name": "Cooking Butter 1kg",
+    "price": 460,
+    "quantity": 15,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000029",
+    "name": "Salted Butter 100g",
+    "price": 50,
+    "quantity": 65,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000030",
+    "name": "Premium Butter 250g",
+    "price": 130,
+    "quantity": 35,
+    "category": "Dairy & Bakery",
+    "subcategory": "Butter"
+  },
+  {
+    "upc": "890300000031",
+    "name": "Amul Cheese Slices 200g",
+    "price": 125,
+    "quantity": 40,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890300000032",
+    "name": "Amul Mozzarella Cheese 200g",
+    "price": 110,
+    "quantity": 35,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890300000033",
+    "name": "Britannia Cheese Block 200g",
+    "price": 115,
+    "quantity": 30,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890300000034",
+    "name": "Cheddar Cheese 200g",
+    "price": 140,
+    "quantity": 25,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890300000035",
+    "name": "Cheese Cubes 200g",
+    "price": 120,
+    "quantity": 45,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890300000036",
+    "name": "Parmesan Cheese 100g",
+    "price": 180,
+    "quantity": 20,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890300000037",
+    "name": "Pizza Cheese Blend 500g",
+    "price": 260,
+    "quantity": 18,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890300000038",
+    "name": "Low Fat Cheese 200g",
+    "price": 135,
+    "quantity": 28,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890300000039",
+    "name": "Organic Cheese 200g",
+    "price": 170,
+    "quantity": 22,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890300000040",
+    "name": "Processed Cheese 1kg",
+    "price": 520,
+    "quantity": 10,
+    "category": "Dairy & Bakery",
+    "subcategory": "Cheese"
+  },
+  {
+    "upc": "890400000001",
+    "name": "Tata Tea Gold 250g",
     "price": 140,
     "quantity": 40,
-    "subcategory": "Milk",
-    "upc": "100000000030"
+    "category": "Beverages",
+    "subcategory": "Tea"
   },
   {
-    "documentId": "100000000031",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:31:00+05:30",
-    "name": "Product 31",
-    "price": 143,
-    "quantity": 41,
-    "subcategory": "Dairy",
-    "upc": "100000000031"
+    "upc": "890400000002",
+    "name": "Red Label Tea 500g",
+    "price": 260,
+    "quantity": 35,
+    "category": "Beverages",
+    "subcategory": "Tea"
   },
   {
-    "documentId": "100000000032",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:32:00+05:30",
-    "name": "Product 32",
-    "price": 146,
-    "quantity": 42,
-    "subcategory": "Beverages",
-    "upc": "100000000032"
+    "upc": "890400000003",
+    "name": "Tata Agni Tea 250g",
+    "price": 120,
+    "quantity": 50,
+    "category": "Beverages",
+    "subcategory": "Tea"
   },
   {
-    "documentId": "100000000033",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:33:00+05:30",
-    "name": "Product 33",
-    "price": 149,
-    "quantity": 43,
-    "subcategory": "Cakes",
-    "upc": "100000000033"
+    "upc": "890400000004",
+    "name": "Tata Tea Premium 1kg",
+    "price": 520,
+    "quantity": 25,
+    "category": "Beverages",
+    "subcategory": "Tea"
   },
   {
-    "documentId": "100000000034",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:34:00+05:30",
-    "name": "Product 34",
-    "price": 152,
-    "quantity": 44,
-    "subcategory": "Bakery",
-    "upc": "100000000034"
+    "upc": "890400000005",
+    "name": "Red Label Natural Care",
+    "price": 180,
+    "quantity": 30,
+    "category": "Beverages",
+    "subcategory": "Tea"
   },
   {
-    "documentId": "100000000035",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:35:00+05:30",
-    "name": "Product 35",
-    "price": 155,
+    "upc": "890400000006",
+    "name": "Brooke Bond 3 Roses",
+    "price": 210,
+    "quantity": 28,
+    "category": "Beverages",
+    "subcategory": "Tea"
+  },
+  {
+    "upc": "890400000007",
+    "name": "Wagh Bakri Tea 500g",
+    "price": 240,
+    "quantity": 32,
+    "category": "Beverages",
+    "subcategory": "Tea"
+  },
+  {
+    "upc": "890400000008",
+    "name": "Green Tea Lemon 100g",
+    "price": 160,
     "quantity": 45,
-    "subcategory": "Grains",
-    "upc": "100000000035"
+    "category": "Beverages",
+    "subcategory": "Tea"
   },
   {
-    "documentId": "100000000036",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:36:00+05:30",
-    "name": "Product 36",
-    "price": 158,
-    "quantity": 46,
-    "subcategory": "Milk",
-    "upc": "100000000036"
+    "upc": "890400000009",
+    "name": "Organic Green Tea 50g",
+    "price": 200,
+    "quantity": 20,
+    "category": "Beverages",
+    "subcategory": "Tea"
   },
   {
-    "documentId": "100000000037",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:37:00+05:30",
-    "name": "Product 37",
-    "price": 161,
-    "quantity": 47,
-    "subcategory": "Dairy",
-    "upc": "100000000037"
+    "upc": "890400000010",
+    "name": "Masala Tea Powder 250g",
+    "price": 150,
+    "quantity": 38,
+    "category": "Beverages",
+    "subcategory": "Tea"
   },
   {
-    "documentId": "100000000038",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:38:00+05:30",
-    "name": "Product 38",
-    "price": 164,
+    "upc": "890400000011",
+    "name": "Nescafe Classic 50g",
+    "price": 145,
+    "quantity": 40,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000012",
+    "name": "Bru Instant Coffee 100g",
+    "price": 210,
+    "quantity": 35,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000013",
+    "name": "Nescafe Gold 100g",
+    "price": 540,
+    "quantity": 20,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000014",
+    "name": "Bru Green Label 200g",
+    "price": 280,
+    "quantity": 30,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000015",
+    "name": "Filter Coffee Powder 250g",
+    "price": 180,
+    "quantity": 45,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000016",
+    "name": "Davidoff Rich Aroma 100g",
+    "price": 620,
+    "quantity": 15,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000017",
+    "name": "Continental Coffee 200g",
+    "price": 260,
+    "quantity": 25,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000018",
+    "name": "Cold Coffee Powder 100g",
+    "price": 150,
+    "quantity": 40,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000019",
+    "name": "Organic Coffee Beans 250g",
+    "price": 420,
+    "quantity": 18,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000020",
+    "name": "Instant Coffee Sachets",
+    "price": 90,
+    "quantity": 60,
+    "category": "Beverages",
+    "subcategory": "Coffee"
+  },
+  {
+    "upc": "890400000021",
+    "name": "Coca Cola 1.25L",
+    "price": 65,
+    "quantity": 80,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000022",
+    "name": "Pepsi 1.25L",
+    "price": 65,
+    "quantity": 75,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000023",
+    "name": "Sprite 1L",
+    "price": 60,
+    "quantity": 70,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000024",
+    "name": "Thums Up 2L",
+    "price": 95,
+    "quantity": 50,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000025",
+    "name": "Fanta Orange 1L",
+    "price": 60,
+    "quantity": 65,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000026",
+    "name": "Mountain Dew 1L",
+    "price": 60,
+    "quantity": 68,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000027",
+    "name": "Limca 500ml",
+    "price": 30,
+    "quantity": 90,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000028",
+    "name": "7UP 2L",
+    "price": 95,
+    "quantity": 45,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000029",
+    "name": "Coca Cola Can 300ml",
+    "price": 40,
+    "quantity": 85,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000030",
+    "name": "Pepsi Black Can",
+    "price": 45,
+    "quantity": 60,
+    "category": "Beverages",
+    "subcategory": "Soft Drinks"
+  },
+  {
+    "upc": "890400000031",
+    "name": "Tropicana Orange Juice 1L",
+    "price": 120,
+    "quantity": 40,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000032",
+    "name": "Real Mixed Fruit Juice 1L",
+    "price": 110,
+    "quantity": 45,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000033",
+    "name": "Minute Maid Mango 1L",
+    "price": 105,
+    "quantity": 50,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000034",
+    "name": "Paper Boat Aamras 500ml",
+    "price": 90,
+    "quantity": 60,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000035",
+    "name": "B Natural Apple Juice 1L",
+    "price": 115,
+    "quantity": 35,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000036",
+    "name": "Real Pomegranate Juice",
+    "price": 130,
+    "quantity": 30,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000037",
+    "name": "Tropicana Pineapple Juice",
+    "price": 118,
+    "quantity": 38,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000038",
+    "name": "Paper Boat Guava Juice",
+    "price": 85,
+    "quantity": 55,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000039",
+    "name": "Organic Fruit Juice 1L",
+    "price": 160,
+    "quantity": 25,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000040",
+    "name": "Mixed Berry Juice 1L",
+    "price": 140,
+    "quantity": 28,
+    "category": "Beverages",
+    "subcategory": "Fruit Juices"
+  },
+  {
+    "upc": "890400000041",
+    "name": "Red Bull Energy Drink",
+    "price": 125,
+    "quantity": 40,
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
+  },
+  {
+    "upc": "890400000042",
+    "name": "Monster Energy 350ml",
+    "price": 140,
+    "quantity": 35,
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
+  },
+  {
+    "upc": "890400000043",
+    "name": "Glucon-D Energy Drink",
+    "price": 95,
+    "quantity": 50,
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
+  },
+  {
+    "upc": "890400000044",
+    "name": "Fast&Up Reload Drink",
+    "price": 110,
+    "quantity": 45,
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
+  },
+  {
+    "upc": "890400000045",
+    "name": "Enerzal Powder 100g",
+    "price": 85,
+    "quantity": 55,
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
+  },
+  {
+    "upc": "890400000046",
+    "name": "Gatorade Lemon 500ml",
+    "price": 70,
+    "quantity": 60,
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
+  },
+  {
+    "upc": "890400000047",
+    "name": "Powerade Blue 500ml",
+    "price": 75,
+    "quantity": 58,
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
+  },
+  {
+    "upc": "890400000048",
+    "name": "ORSL Energy Drink",
+    "price": 65,
+    "quantity": 70,
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
+  },
+  {
+    "upc": "890400000049",
+    "name": "Electral Energy Drink",
+    "price": 60,
+    "quantity": 65,
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
+  },
+  {
+    "upc": "890400000050",
+    "name": "Hydration Drink Mix",
+    "price": 90,
     "quantity": 48,
-    "subcategory": "Beverages",
-    "upc": "100000000038"
+    "category": "Beverages",
+    "subcategory": "Energy Drinks"
   },
   {
-    "documentId": "100000000039",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:39:00+05:30",
-    "name": "Product 39",
-    "price": 167,
-    "quantity": 49,
-    "subcategory": "Cakes",
-    "upc": "100000000039"
+    "upc": "890400000051",
+    "name": "Bournvita 500g",
+    "price": 240,
+    "quantity": 35,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
   },
   {
-    "documentId": "100000000040",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:40:00+05:30",
-    "name": "Product 40",
+    "upc": "890400000052",
+    "name": "Horlicks Classic 500g",
+    "price": 255,
+    "quantity": 30,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
+  },
+  {
+    "upc": "890400000053",
+    "name": "Boost Energy Drink 500g",
+    "price": 260,
+    "quantity": 28,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
+  },
+  {
+    "upc": "890400000054",
+    "name": "Complan Nutrition Drink",
+    "price": 280,
+    "quantity": 25,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
+  },
+  {
+    "upc": "890400000055",
+    "name": "Ensure Health Drink",
+    "price": 620,
+    "quantity": 15,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
+  },
+  {
+    "upc": "890400000056",
+    "name": "Junior Horlicks 500g",
+    "price": 270,
+    "quantity": 22,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
+  },
+  {
+    "upc": "890400000057",
+    "name": "Women’s Horlicks",
+    "price": 290,
+    "quantity": 20,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
+  },
+  {
+    "upc": "890400000058",
+    "name": "Protinex Original",
+    "price": 540,
+    "quantity": 18,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
+  },
+  {
+    "upc": "890400000059",
+    "name": "Viva Malt Drink",
+    "price": 210,
+    "quantity": 32,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
+  },
+  {
+    "upc": "890400000060",
+    "name": "Organic Health Drink",
+    "price": 360,
+    "quantity": 15,
+    "category": "Beverages",
+    "subcategory": "Health Drinks"
+  },
+  {
+    "upc": "890400000061",
+    "name": "Amul Flavoured Milk Chocolate",
+    "price": 30,
+    "quantity": 80,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000062",
+    "name": "Amul Kesar Milk",
+    "price": 35,
+    "quantity": 75,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000063",
+    "name": "Nestle A+ Milkshake",
+    "price": 40,
+    "quantity": 65,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000064",
+    "name": "Britannia Little Hearts Milk",
+    "price": 28,
+    "quantity": 85,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000065",
+    "name": "Hershey’s Milkshake",
+    "price": 45,
+    "quantity": 55,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000066",
+    "name": "Badam Milk 200ml",
+    "price": 35,
+    "quantity": 70,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000067",
+    "name": "Strawberry Milk Drink",
+    "price": 30,
+    "quantity": 78,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000068",
+    "name": "Vanilla Milk Drink",
+    "price": 32,
+    "quantity": 72,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000069",
+    "name": "Chocolate Milk 500ml",
+    "price": 60,
+    "quantity": 50,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000070",
+    "name": "Organic Flavoured Milk",
+    "price": 55,
+    "quantity": 45,
+    "category": "Beverages",
+    "subcategory": "Flavoured Milk"
+  },
+  {
+    "upc": "890400000071",
+    "name": "Kinley Soda 750ml",
+    "price": 20,
+    "quantity": 90,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000072",
+    "name": "Bisleri Soda 750ml",
+    "price": 20,
+    "quantity": 88,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000073",
+    "name": "Catch Club Soda",
+    "price": 22,
+    "quantity": 80,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000074",
+    "name": "Schweppes Soda",
+    "price": 35,
+    "quantity": 60,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000075",
+    "name": "Paper Boat Sparkling Soda",
+    "price": 30,
+    "quantity": 65,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000076",
+    "name": "Sprite Soda Water",
+    "price": 25,
+    "quantity": 70,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000077",
+    "name": "Lemon Soda 500ml",
+    "price": 28,
+    "quantity": 75,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000078",
+    "name": "Tonic Water 500ml",
+    "price": 45,
+    "quantity": 55,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000079",
+    "name": "Sparkling Water 1L",
+    "price": 50,
+    "quantity": 40,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000080",
+    "name": "Club Soda Can",
+    "price": 25,
+    "quantity": 68,
+    "category": "Beverages",
+    "subcategory": "Soda"
+  },
+  {
+    "upc": "890400000081",
+    "name": "Bisleri Water 1L",
+    "price": 20,
+    "quantity": 100,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000082",
+    "name": "Kinley Water 1L",
+    "price": 20,
+    "quantity": 95,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000083",
+    "name": "Aquafina Water 1L",
+    "price": 20,
+    "quantity": 90,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000084",
+    "name": "Rail Neer Water",
+    "price": 15,
+    "quantity": 120,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000085",
+    "name": "Himalayan Mineral Water",
+    "price": 60,
+    "quantity": 40,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000086",
+    "name": "Bailey Water 1L",
+    "price": 18,
+    "quantity": 85,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000087",
+    "name": "Smartwater 1L",
+    "price": 90,
+    "quantity": 25,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000088",
+    "name": "Alkaline Water 1L",
+    "price": 70,
+    "quantity": 35,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000089",
+    "name": "Spring Water Bottle",
+    "price": 50,
+    "quantity": 45,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000090",
+    "name": "RO Purified Water",
+    "price": 15,
+    "quantity": 110,
+    "category": "Beverages",
+    "subcategory": "Packaged Water"
+  },
+  {
+    "upc": "890400000091",
+    "name": "Tender Coconut Water 200ml",
+    "price": 35,
+    "quantity": 70,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "890400000092",
+    "name": "Paper Boat Coconut Water",
+    "price": 45,
+    "quantity": 60,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "890400000093",
+    "name": "Raw Pressery Coconut Water",
+    "price": 95,
+    "quantity": 30,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "890400000094",
+    "name": "Zico Coconut Water",
+    "price": 90,
+    "quantity": 28,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "890400000095",
+    "name": "Organic Coconut Water",
+    "price": 85,
+    "quantity": 35,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "890400000096",
+    "name": "Fresh Coconut Water Bottle",
+    "price": 40,
+    "quantity": 65,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "890400000097",
+    "name": "Coconut Water 500ml",
+    "price": 60,
+    "quantity": 50,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "890400000098",
+    "name": "Natural Coconut Water",
+    "price": 55,
+    "quantity": 55,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "890400000099",
+    "name": "Packaged Coconut Water",
+    "price": 50,
+    "quantity": 58,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "890400000100",
+    "name": "Premium Coconut Water",
+    "price": 110,
+    "quantity": 22,
+    "category": "Beverages",
+    "subcategory": "Coconut Water"
+  },
+  {
+    "upc": "SPC0001",
+    "name": "Pure Turmeric Powder 100g",
+    "price": 45,
+    "quantity": 50,
+    "category": "Spices & Condiments",
+    "subcategory": "Turmeric Powder"
+  },
+  {
+    "upc": "SPC0002",
+    "name": "Organic Turmeric Powder 200g",
+    "price": 85,
+    "quantity": 40,
+    "category": "Spices & Condiments",
+    "subcategory": "Turmeric Powder"
+  },
+  {
+    "upc": "SPC0003",
+    "name": "Premium Turmeric Powder 500g",
+    "price": 190,
+    "quantity": 25,
+    "category": "Spices & Condiments",
+    "subcategory": "Turmeric Powder"
+  },
+  {
+    "upc": "SPC0004",
+    "name": "Red Chilli Powder 100g",
+    "price": 55,
+    "quantity": 60,
+    "category": "Spices & Condiments",
+    "subcategory": "Red Chilli Powder"
+  },
+  {
+    "upc": "SPC0005",
+    "name": "Kashmiri Red Chilli Powder 200g",
+    "price": 120,
+    "quantity": 35,
+    "category": "Spices & Condiments",
+    "subcategory": "Red Chilli Powder"
+  },
+  {
+    "upc": "SPC0006",
+    "name": "Extra Hot Chilli Powder 500g",
+    "price": 260,
+    "quantity": 20,
+    "category": "Spices & Condiments",
+    "subcategory": "Red Chilli Powder"
+  },
+  {
+    "upc": "SPC0007",
+    "name": "Coriander Powder 100g",
+    "price": 40,
+    "quantity": 55,
+    "category": "Spices & Condiments",
+    "subcategory": "Coriander Powder"
+  },
+  {
+    "upc": "SPC0008",
+    "name": "Fresh Coriander Powder 200g",
+    "price": 75,
+    "quantity": 45,
+    "category": "Spices & Condiments",
+    "subcategory": "Coriander Powder"
+  },
+  {
+    "upc": "SPC0009",
+    "name": "Aromatic Coriander Powder 500g",
+    "price": 170,
+    "quantity": 30,
+    "category": "Spices & Condiments",
+    "subcategory": "Coriander Powder"
+  },
+  {
+    "upc": "SPC0010",
+    "name": "Classic Garam Masala 100g",
+    "price": 65,
+    "quantity": 50,
+    "category": "Spices & Condiments",
+    "subcategory": "Garam Masala"
+  },
+  {
+    "upc": "SPC0011",
+    "name": "Homestyle Garam Masala 200g",
+    "price": 120,
+    "quantity": 40,
+    "category": "Spices & Condiments",
+    "subcategory": "Garam Masala"
+  },
+  {
+    "upc": "SPC0012",
+    "name": "Premium Garam Masala 500g",
+    "price": 280,
+    "quantity": 25,
+    "category": "Spices & Condiments",
+    "subcategory": "Garam Masala"
+  },
+  {
+    "upc": "SPC0013",
+    "name": "Cumin Seeds 100g",
+    "price": 60,
+    "quantity": 50,
+    "category": "Spices & Condiments",
+    "subcategory": "Cumin Seeds"
+  },
+  {
+    "upc": "SPC0014",
+    "name": "Whole Cumin Seeds 200g",
+    "price": 110,
+    "quantity": 40,
+    "category": "Spices & Condiments",
+    "subcategory": "Cumin Seeds"
+  },
+  {
+    "upc": "SPC0015",
+    "name": "Aromatic Cumin Seeds 500g",
+    "price": 260,
+    "quantity": 20,
+    "category": "Spices & Condiments",
+    "subcategory": "Cumin Seeds"
+  },
+  {
+    "upc": "SPC0016",
+    "name": "Mustard Seeds 100g",
+    "price": 35,
+    "quantity": 60,
+    "category": "Spices & Condiments",
+    "subcategory": "Mustard Seeds"
+  },
+  {
+    "upc": "SPC0017",
+    "name": "Black Mustard Seeds 200g",
+    "price": 65,
+    "quantity": 45,
+    "category": "Spices & Condiments",
+    "subcategory": "Mustard Seeds"
+  },
+  {
+    "upc": "SPC0018",
+    "name": "Premium Mustard Seeds 500g",
+    "price": 150,
+    "quantity": 30,
+    "category": "Spices & Condiments",
+    "subcategory": "Mustard Seeds"
+  },
+  {
+    "upc": "SPC0019",
+    "name": "Mango Pickle 250g",
+    "price": 95,
+    "quantity": 40,
+    "category": "Spices & Condiments",
+    "subcategory": "Pickles"
+  },
+  {
+    "upc": "SPC0020",
+    "name": "Mixed Vegetable Pickle 500g",
+    "price": 180,
+    "quantity": 30,
+    "category": "Spices & Condiments",
+    "subcategory": "Pickles"
+  },
+  {
+    "upc": "SPC0021",
+    "name": "Lime Pickle 1kg",
+    "price": 320,
+    "quantity": 20,
+    "category": "Spices & Condiments",
+    "subcategory": "Pickles"
+  },
+  {
+    "upc": "SPC0022",
+    "name": "Tomato Sauce 200g",
+    "price": 55,
+    "quantity": 60,
+    "category": "Spices & Condiments",
+    "subcategory": "Sauces"
+  },
+  {
+    "upc": "SPC0023",
+    "name": "Chilli Sauce 500g",
+    "price": 120,
+    "quantity": 40,
+    "category": "Spices & Condiments",
+    "subcategory": "Sauces"
+  },
+  {
+    "upc": "SPC0024",
+    "name": "Soy Sauce 1L",
+    "price": 210,
+    "quantity": 25,
+    "category": "Spices & Condiments",
+    "subcategory": "Sauces"
+  },
+  {
+    "upc": "SPC0025",
+    "name": "Classic Tomato Ketchup 200g",
+    "price": 50,
+    "quantity": 70,
+    "category": "Spices & Condiments",
+    "subcategory": "Ketchup"
+  },
+  {
+    "upc": "SPC0026",
+    "name": "Spicy Tomato Ketchup 500g",
+    "price": 115,
+    "quantity": 45,
+    "category": "Spices & Condiments",
+    "subcategory": "Ketchup"
+  },
+  {
+    "upc": "SPC0027",
+    "name": "No Sugar Tomato Ketchup 1kg",
+    "price": 230,
+    "quantity": 25,
+    "category": "Spices & Condiments",
+    "subcategory": "Ketchup"
+  },
+  {
+    "upc": "SPC0028",
+    "name": "White Vinegar 200ml",
+    "price": 40,
+    "quantity": 60,
+    "category": "Spices & Condiments",
+    "subcategory": "Vinegar"
+  },
+  {
+    "upc": "SPC0029",
+    "name": "Apple Cider Vinegar 500ml",
+    "price": 160,
+    "quantity": 35,
+    "category": "Spices & Condiments",
+    "subcategory": "Vinegar"
+  },
+  {
+    "upc": "SPC0030",
+    "name": "Synthetic Vinegar 1L",
+    "price": 110,
+    "quantity": 40,
+    "category": "Spices & Condiments",
+    "subcategory": "Vinegar"
+  },
+  {
+    "upc": "PC0001",
+    "name": "Neem Bath Soap 100g",
+    "price": 35,
+    "quantity": 80,
+    "category": "Personal Care",
+    "subcategory": "Bath Soap"
+  },
+  {
+    "upc": "PC0002",
+    "name": "Aloe Vera Bath Soap 125g",
+    "price": 45,
+    "quantity": 70,
+    "category": "Personal Care",
+    "subcategory": "Bath Soap"
+  },
+  {
+    "upc": "PC0003",
+    "name": "Moisturizing Bath Soap 150g",
+    "price": 55,
+    "quantity": 60,
+    "category": "Personal Care",
+    "subcategory": "Bath Soap"
+  },
+  {
+    "upc": "PC0004",
+    "name": "Herbal Bath Soap Pack of 3",
+    "price": 135,
+    "quantity": 40,
+    "category": "Personal Care",
+    "subcategory": "Bath Soap"
+  },
+  {
+    "upc": "PC0005",
+    "name": "Sandalwood Bath Soap",
+    "price": 65,
+    "quantity": 50,
+    "category": "Personal Care",
+    "subcategory": "Bath Soap"
+  },
+  {
+    "upc": "PC0006",
+    "name": "Anti-Dandruff Shampoo 100ml",
+    "price": 85,
+    "quantity": 60,
+    "category": "Personal Care",
+    "subcategory": "Shampoo"
+  },
+  {
+    "upc": "PC0007",
+    "name": "Herbal Shampoo 200ml",
+    "price": 160,
+    "quantity": 50,
+    "category": "Personal Care",
+    "subcategory": "Shampoo"
+  },
+  {
+    "upc": "PC0008",
+    "name": "Protein Shampoo 340ml",
+    "price": 280,
+    "quantity": 35,
+    "category": "Personal Care",
+    "subcategory": "Shampoo"
+  },
+  {
+    "upc": "PC0009",
+    "name": "Kids Mild Shampoo 100ml",
+    "price": 95,
+    "quantity": 45,
+    "category": "Personal Care",
+    "subcategory": "Shampoo"
+  },
+  {
+    "upc": "PC0010",
+    "name": "Daily Use Shampoo 650ml",
+    "price": 420,
+    "quantity": 25,
+    "category": "Personal Care",
+    "subcategory": "Shampoo"
+  },
+  {
+    "upc": "PC0011",
+    "name": "Smoothening Conditioner 100ml",
+    "price": 110,
+    "quantity": 50,
+    "category": "Personal Care",
+    "subcategory": "Conditioner"
+  },
+  {
+    "upc": "PC0012",
+    "name": "Herbal Conditioner 200ml",
+    "price": 210,
+    "quantity": 40,
+    "category": "Personal Care",
+    "subcategory": "Conditioner"
+  },
+  {
+    "upc": "PC0013",
+    "name": "Damage Repair Conditioner",
+    "price": 260,
+    "quantity": 35,
+    "category": "Personal Care",
+    "subcategory": "Conditioner"
+  },
+  {
+    "upc": "PC0014",
+    "name": "Anti-Hairfall Conditioner",
+    "price": 240,
+    "quantity": 30,
+    "category": "Personal Care",
+    "subcategory": "Conditioner"
+  },
+  {
+    "upc": "PC0015",
+    "name": "Moisture Lock Conditioner",
+    "price": 280,
+    "quantity": 25,
+    "category": "Personal Care",
+    "subcategory": "Conditioner"
+  },
+  {
+    "upc": "PC0016",
+    "name": "Herbal Toothpaste 100g",
+    "price": 65,
+    "quantity": 80,
+    "category": "Personal Care",
+    "subcategory": "Toothpaste"
+  },
+  {
+    "upc": "PC0017",
+    "name": "Whitening Toothpaste 150g",
+    "price": 95,
+    "quantity": 70,
+    "category": "Personal Care",
+    "subcategory": "Toothpaste"
+  },
+  {
+    "upc": "PC0018",
+    "name": "Sensitive Toothpaste 100g",
+    "price": 120,
+    "quantity": 50,
+    "category": "Personal Care",
+    "subcategory": "Toothpaste"
+  },
+  {
+    "upc": "PC0019",
+    "name": "Kids Toothpaste 80g",
+    "price": 75,
+    "quantity": 60,
+    "category": "Personal Care",
+    "subcategory": "Toothpaste"
+  },
+  {
+    "upc": "PC0020",
+    "name": "Gel Toothpaste 150g",
+    "price": 105,
+    "quantity": 45,
+    "category": "Personal Care",
+    "subcategory": "Toothpaste"
+  },
+  {
+    "upc": "PC0021",
+    "name": "Soft Bristle Toothbrush",
+    "price": 40,
+    "quantity": 90,
+    "category": "Personal Care",
+    "subcategory": "Toothbrush"
+  },
+  {
+    "upc": "PC0022",
+    "name": "Medium Bristle Toothbrush",
+    "price": 45,
+    "quantity": 85,
+    "category": "Personal Care",
+    "subcategory": "Toothbrush"
+  },
+  {
+    "upc": "PC0023",
+    "name": "Kids Toothbrush",
+    "price": 35,
+    "quantity": 70,
+    "category": "Personal Care",
+    "subcategory": "Toothbrush"
+  },
+  {
+    "upc": "PC0024",
+    "name": "Charcoal Toothbrush",
+    "price": 65,
+    "quantity": 50,
+    "category": "Personal Care",
+    "subcategory": "Toothbrush"
+  },
+  {
+    "upc": "PC0025",
+    "name": "Toothbrush Pack of 3",
+    "price": 120,
+    "quantity": 40,
+    "category": "Personal Care",
+    "subcategory": "Toothbrush"
+  },
+  {
+    "upc": "PC0026",
+    "name": "Coconut Hair Oil 100ml",
+    "price": 70,
+    "quantity": 75,
+    "category": "Personal Care",
+    "subcategory": "Hair Oil"
+  },
+  {
+    "upc": "PC0027",
+    "name": "Almond Hair Oil 200ml",
+    "price": 180,
+    "quantity": 50,
+    "category": "Personal Care",
+    "subcategory": "Hair Oil"
+  },
+  {
+    "upc": "PC0028",
+    "name": "Ayurvedic Hair Oil 100ml",
+    "price": 120,
+    "quantity": 45,
+    "category": "Personal Care",
+    "subcategory": "Hair Oil"
+  },
+  {
+    "upc": "PC0029",
+    "name": "Onion Hair Oil 150ml",
+    "price": 210,
+    "quantity": 35,
+    "category": "Personal Care",
+    "subcategory": "Hair Oil"
+  },
+  {
+    "upc": "PC0030",
+    "name": "Hair Growth Oil 200ml",
+    "price": 260,
+    "quantity": 30,
+    "category": "Personal Care",
+    "subcategory": "Hair Oil"
+  },
+  {
+    "upc": "PC0031",
+    "name": "Neem Face Wash 100ml",
+    "price": 110,
+    "quantity": 60,
+    "category": "Personal Care",
+    "subcategory": "Face Wash"
+  },
+  {
+    "upc": "PC0032",
+    "name": "Charcoal Face Wash",
+    "price": 150,
+    "quantity": 45,
+    "category": "Personal Care",
+    "subcategory": "Face Wash"
+  },
+  {
+    "upc": "PC0033",
+    "name": "Vitamin C Face Wash",
+    "price": 190,
+    "quantity": 40,
+    "category": "Personal Care",
+    "subcategory": "Face Wash"
+  },
+  {
+    "upc": "PC0034",
+    "name": "Men Oil Control Face Wash",
+    "price": 170,
+    "quantity": 35,
+    "category": "Personal Care",
+    "subcategory": "Face Wash"
+  },
+  {
+    "upc": "PC0035",
+    "name": "Gentle Face Wash",
+    "price": 130,
+    "quantity": 50,
+    "category": "Personal Care",
+    "subcategory": "Face Wash"
+  },
+  {
+    "upc": "PC0036",
+    "name": "Regular Shaving Cream 70g",
+    "price": 65,
+    "quantity": 70,
+    "category": "Personal Care",
+    "subcategory": "Shaving Cream"
+  },
+  {
+    "upc": "PC0037",
+    "name": "Aloe Vera Shaving Cream",
+    "price": 85,
+    "quantity": 60,
+    "category": "Personal Care",
+    "subcategory": "Shaving Cream"
+  },
+  {
+    "upc": "PC0038",
+    "name": "Sensitive Skin Shaving Cream",
+    "price": 110,
+    "quantity": 45,
+    "category": "Personal Care",
+    "subcategory": "Shaving Cream"
+  },
+  {
+    "upc": "PC0039",
+    "name": "Foam Shaving Cream",
+    "price": 160,
+    "quantity": 40,
+    "category": "Personal Care",
+    "subcategory": "Shaving Cream"
+  },
+  {
+    "upc": "PC0040",
+    "name": "Menthol Shaving Cream",
+    "price": 95,
+    "quantity": 55,
+    "category": "Personal Care",
+    "subcategory": "Shaving Cream"
+  },
+  {
+    "upc": "PC0041",
+    "name": "Fresh Deodorant Spray",
+    "price": 180,
+    "quantity": 45,
+    "category": "Personal Care",
+    "subcategory": "Deodorant"
+  },
+  {
+    "upc": "PC0042",
+    "name": "Sporty Deodorant",
+    "price": 210,
+    "quantity": 40,
+    "category": "Personal Care",
+    "subcategory": "Deodorant"
+  },
+  {
+    "upc": "PC0043",
+    "name": "Long Lasting Deodorant",
+    "price": 240,
+    "quantity": 35,
+    "category": "Personal Care",
+    "subcategory": "Deodorant"
+  },
+  {
+    "upc": "PC0044",
+    "name": "Floral Deodorant",
+    "price": 190,
+    "quantity": 50,
+    "category": "Personal Care",
+    "subcategory": "Deodorant"
+  },
+  {
+    "upc": "PC0045",
+    "name": "Travel Size Deodorant",
+    "price": 120,
+    "quantity": 60,
+    "category": "Personal Care",
+    "subcategory": "Deodorant"
+  },
+  {
+    "upc": "PC0046",
+    "name": "Regular Sanitary Napkins Pack of 6",
+    "price": 85,
+    "quantity": 60,
+    "category": "Personal Care",
+    "subcategory": "Sanitary Napkins"
+  },
+  {
+    "upc": "PC0047",
+    "name": "XL Sanitary Napkins Pack of 8",
+    "price": 140,
+    "quantity": 50,
+    "category": "Personal Care",
+    "subcategory": "Sanitary Napkins"
+  },
+  {
+    "upc": "PC0048",
+    "name": "Cottony Soft Sanitary Napkins",
+    "price": 160,
+    "quantity": 45,
+    "category": "Personal Care",
+    "subcategory": "Sanitary Napkins"
+  },
+  {
+    "upc": "PC0049",
+    "name": "Overnight Sanitary Napkins",
+    "price": 190,
+    "quantity": 40,
+    "category": "Personal Care",
+    "subcategory": "Sanitary Napkins"
+  },
+  {
+    "upc": "PC0050",
+    "name": "Eco Friendly Sanitary Napkins",
+    "price": 220,
+    "quantity": 30,
+    "category": "Personal Care",
+    "subcategory": "Sanitary Napkins"
+  },
+  {
+    "upc": "HC0001",
+    "name": "Detergent Powder Regular 500g",
+    "price": 65,
+    "quantity": 80,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0002",
+    "name": "Detergent Powder Lemon 1kg",
+    "price": 120,
+    "quantity": 60,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0003",
+    "name": "Detergent Powder Floral 2kg",
+    "price": 230,
+    "quantity": 45,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0004",
+    "name": "Detergent Powder Front Load 1kg",
+    "price": 180,
+    "quantity": 40,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0005",
+    "name": "Detergent Powder Top Load 3kg",
+    "price": 320,
+    "quantity": 30,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0006",
+    "name": "Detergent Powder Mini Pack 200g",
+    "price": 30,
+    "quantity": 100,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0007",
+    "name": "Detergent Powder Jasmine 1kg",
+    "price": 135,
+    "quantity": 55,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0008",
+    "name": "Detergent Powder Strong Clean 2kg",
+    "price": 260,
+    "quantity": 35,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0009",
+    "name": "Detergent Powder Value Pack 4kg",
+    "price": 420,
+    "quantity": 25,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0010",
+    "name": "Detergent Powder Eco Pack",
+    "price": 150,
+    "quantity": 50,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Powder"
+  },
+  {
+    "upc": "HC0011",
+    "name": "Detergent Liquid Front Load 1L",
+    "price": 210,
+    "quantity": 40,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0012",
+    "name": "Detergent Liquid Top Load 500ml",
+    "price": 120,
+    "quantity": 55,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0013",
+    "name": "Detergent Liquid Floral 2L",
+    "price": 380,
+    "quantity": 30,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0014",
+    "name": "Detergent Liquid Baby Safe",
+    "price": 260,
+    "quantity": 25,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0015",
+    "name": "Detergent Liquid Concentrated",
+    "price": 300,
+    "quantity": 35,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0016",
+    "name": "Detergent Liquid Mini 250ml",
+    "price": 70,
+    "quantity": 80,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0017",
+    "name": "Detergent Liquid Lemon 1L",
+    "price": 190,
+    "quantity": 45,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0018",
+    "name": "Detergent Liquid Eco Friendly",
+    "price": 240,
+    "quantity": 30,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0019",
+    "name": "Detergent Liquid Stain Remover",
+    "price": 280,
+    "quantity": 35,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0020",
+    "name": "Detergent Liquid Refill Pack",
+    "price": 160,
+    "quantity": 60,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Detergent Liquid"
+  },
+  {
+    "upc": "HC0021",
+    "name": "Dishwash Bar Regular",
+    "price": 20,
+    "quantity": 120,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0022",
+    "name": "Dishwash Bar Lemon",
+    "price": 25,
+    "quantity": 110,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0023",
+    "name": "Dishwash Bar Value Pack",
+    "price": 45,
+    "quantity": 90,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0024",
+    "name": "Dishwash Bar Herbal",
+    "price": 30,
+    "quantity": 80,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0025",
+    "name": "Dishwash Bar Extra Power",
+    "price": 35,
+    "quantity": 75,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0026",
+    "name": "Dishwash Bar Mini",
+    "price": 15,
+    "quantity": 150,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0027",
+    "name": "Dishwash Bar Antibacterial",
+    "price": 40,
+    "quantity": 65,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0028",
+    "name": "Dishwash Bar Lime Fresh",
+    "price": 28,
+    "quantity": 85,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0029",
+    "name": "Dishwash Bar Pack of 4",
+    "price": 90,
+    "quantity": 55,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0030",
+    "name": "Dishwash Bar Eco",
+    "price": 32,
+    "quantity": 70,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Bar"
+  },
+  {
+    "upc": "HC0031",
+    "name": "Dishwash Liquid Lemon 500ml",
+    "price": 95,
+    "quantity": 70,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Liquid"
+  },
+  {
+    "upc": "HC0032",
+    "name": "Dishwash Liquid Lime 1L",
     "price": 170,
     "quantity": 50,
-    "subcategory": "Bakery",
-    "upc": "100000000040"
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Liquid"
   },
   {
-    "documentId": "100000000041",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:41:00+05:30",
-    "name": "Product 41",
-    "price": 173,
-    "quantity": 51,
-    "subcategory": "Grains",
-    "upc": "100000000041"
+    "upc": "HC0033",
+    "name": "Dishwash Liquid Gel 750ml",
+    "price": 150,
+    "quantity": 45,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Liquid"
   },
   {
-    "documentId": "100000000042",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:42:00+05:30",
-    "name": "Product 42",
-    "price": 176,
-    "quantity": 52,
-    "subcategory": "Milk",
-    "upc": "100000000042"
-  },
-  {
-    "documentId": "100000000043",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:43:00+05:30",
-    "name": "Product 43",
-    "price": 179,
-    "quantity": 53,
-    "subcategory": "Dairy",
-    "upc": "100000000043"
-  },
-  {
-    "documentId": "100000000044",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:44:00+05:30",
-    "name": "Product 44",
-    "price": 182,
-    "quantity": 54,
-    "subcategory": "Beverages",
-    "upc": "100000000044"
-  },
-  {
-    "documentId": "100000000045",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:45:00+05:30",
-    "name": "Product 45",
-    "price": 185,
-    "quantity": 55,
-    "subcategory": "Cakes",
-    "upc": "100000000045"
-  },
-  {
-    "documentId": "100000000046",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:46:00+05:30",
-    "name": "Product 46",
-    "price": 188,
-    "quantity": 56,
-    "subcategory": "Bakery",
-    "upc": "100000000046"
-  },
-  {
-    "documentId": "100000000047",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:47:00+05:30",
-    "name": "Product 47",
-    "price": 191,
-    "quantity": 57,
-    "subcategory": "Grains",
-    "upc": "100000000047"
-  },
-  {
-    "documentId": "100000000048",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:48:00+05:30",
-    "name": "Product 48",
-    "price": 194,
-    "quantity": 58,
-    "subcategory": "Milk",
-    "upc": "100000000048"
-  },
-  {
-    "documentId": "100000000049",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:49:00+05:30",
-    "name": "Product 49",
-    "price": 197,
-    "quantity": 59,
-    "subcategory": "Dairy",
-    "upc": "100000000049"
-  },
-  {
-    "documentId": "100000000050",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:50:00+05:30",
-    "name": "Product 50",
-    "price": 200,
+    "upc": "HC0034",
+    "name": "Dishwash Liquid Refill",
+    "price": 130,
     "quantity": 60,
-    "subcategory": "Beverages",
-    "upc": "100000000050"
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Liquid"
   },
   {
-    "documentId": "100000000051",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:51:00+05:30",
-    "name": "Product 51",
-    "price": 203,
-    "quantity": 61,
-    "subcategory": "Cakes",
-    "upc": "100000000051"
+    "upc": "HC0035",
+    "name": "Dishwash Liquid Antibacterial",
+    "price": 190,
+    "quantity": 40,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Dishwash Liquid"
   },
   {
-    "documentId": "100000000052",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:52:00+05:30",
-    "name": "Product 52",
-    "price": 206,
-    "quantity": 62,
-    "subcategory": "Bakery",
-    "upc": "100000000052"
+    "upc": "HC0036",
+    "name": "Floor Cleaner Floral 1L",
+    "price": 140,
+    "quantity": 55,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Floor Cleaner"
   },
   {
-    "documentId": "100000000053",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:53:00+05:30",
-    "name": "Product 53",
-    "price": 209,
-    "quantity": 63,
-    "subcategory": "Grains",
-    "upc": "100000000053"
+    "upc": "HC0037",
+    "name": "Floor Cleaner Disinfectant",
+    "price": 165,
+    "quantity": 45,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Floor Cleaner"
   },
   {
-    "documentId": "100000000054",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:54:00+05:30",
-    "name": "Product 54",
-    "price": 212,
-    "quantity": 64,
-    "subcategory": "Milk",
-    "upc": "100000000054"
+    "upc": "HC0038",
+    "name": "Floor Cleaner Lavender",
+    "price": 155,
+    "quantity": 50,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Floor Cleaner"
   },
   {
-    "documentId": "100000000055",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T10:55:00+05:30",
-    "name": "Product 55",
-    "price": 215,
+    "upc": "HC0039",
+    "name": "Floor Cleaner Concentrate",
+    "price": 220,
+    "quantity": 35,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Floor Cleaner"
+  },
+  {
+    "upc": "HC0040",
+    "name": "Floor Cleaner Herbal",
+    "price": 180,
+    "quantity": 40,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Floor Cleaner"
+  },
+  {
+    "upc": "HC0041",
+    "name": "Toilet Cleaner Regular 500ml",
+    "price": 95,
+    "quantity": 60,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Toilet Cleaner"
+  },
+  {
+    "upc": "HC0042",
+    "name": "Toilet Cleaner Strong 1L",
+    "price": 170,
+    "quantity": 45,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Toilet Cleaner"
+  },
+  {
+    "upc": "HC0043",
+    "name": "Toilet Cleaner Disinfectant",
+    "price": 150,
+    "quantity": 50,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Toilet Cleaner"
+  },
+  {
+    "upc": "HC0044",
+    "name": "Toilet Cleaner Fresh",
+    "price": 135,
+    "quantity": 55,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Toilet Cleaner"
+  },
+  {
+    "upc": "HC0045",
+    "name": "Toilet Cleaner Power Gel",
+    "price": 190,
+    "quantity": 40,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Toilet Cleaner"
+  },
+  {
+    "upc": "HC0046",
+    "name": "Black Phenyl 1L",
+    "price": 85,
     "quantity": 65,
-    "subcategory": "Dairy",
-    "upc": "100000000055"
+    "category": "Home Care & Cleaning",
+    "subcategory": "Phenyl"
   },
   {
-    "documentId": "100000000056",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T10:56:00+05:30",
-    "name": "Product 56",
-    "price": 218,
-    "quantity": 66,
-    "subcategory": "Beverages",
-    "upc": "100000000056"
+    "upc": "HC0047",
+    "name": "White Phenyl 1L",
+    "price": 95,
+    "quantity": 60,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Phenyl"
   },
   {
-    "documentId": "100000000057",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T10:57:00+05:30",
-    "name": "Product 57",
-    "price": 221,
-    "quantity": 67,
-    "subcategory": "Cakes",
-    "upc": "100000000057"
+    "upc": "HC0048",
+    "name": "Phenyl Concentrate",
+    "price": 120,
+    "quantity": 50,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Phenyl"
   },
   {
-    "documentId": "100000000058",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T10:58:00+05:30",
-    "name": "Product 58",
-    "price": 224,
-    "quantity": 68,
-    "subcategory": "Bakery",
-    "upc": "100000000058"
+    "upc": "HC0049",
+    "name": "Phenyl Floral",
+    "price": 110,
+    "quantity": 55,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Phenyl"
   },
   {
-    "documentId": "100000000059",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T10:59:00+05:30",
-    "name": "Product 59",
-    "price": 227,
-    "quantity": 69,
-    "subcategory": "Grains",
-    "upc": "100000000059"
+    "upc": "HC0050",
+    "name": "Phenyl Disinfectant",
+    "price": 140,
+    "quantity": 45,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Phenyl"
   },
   {
-    "documentId": "100000000060",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T11:00:00+05:30",
-    "name": "Product 60",
-    "price": 230,
-    "quantity": 70,
-    "subcategory": "Milk",
-    "upc": "100000000060"
-  },
-  {
-    "documentId": "100000000061",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T11:01:00+05:30",
-    "name": "Product 61",
-    "price": 233,
-    "quantity": 71,
-    "subcategory": "Dairy",
-    "upc": "100000000061"
-  },
-  {
-    "documentId": "100000000062",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T11:02:00+05:30",
-    "name": "Product 62",
-    "price": 236,
-    "quantity": 72,
-    "subcategory": "Beverages",
-    "upc": "100000000062"
-  },
-  {
-    "documentId": "100000000063",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T11:03:00+05:30",
-    "name": "Product 63",
-    "price": 239,
-    "quantity": 73,
-    "subcategory": "Cakes",
-    "upc": "100000000063"
-  },
-  {
-    "documentId": "100000000064",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T11:04:00+05:30",
-    "name": "Product 64",
-    "price": 242,
-    "quantity": 74,
-    "subcategory": "Bakery",
-    "upc": "100000000064"
-  },
-  {
-    "documentId": "100000000065",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T11:05:00+05:30",
-    "name": "Product 65",
-    "price": 245,
-    "quantity": 75,
-    "subcategory": "Grains",
-    "upc": "100000000065"
-  },
-  {
-    "documentId": "100000000066",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T11:06:00+05:30",
-    "name": "Product 66",
-    "price": 248,
-    "quantity": 76,
-    "subcategory": "Milk",
-    "upc": "100000000066"
-  },
-  {
-    "documentId": "100000000067",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T11:07:00+05:30",
-    "name": "Product 67",
-    "price": 251,
-    "quantity": 77,
-    "subcategory": "Dairy",
-    "upc": "100000000067"
-  },
-  {
-    "documentId": "100000000068",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T11:08:00+05:30",
-    "name": "Product 68",
-    "price": 254,
-    "quantity": 78,
-    "subcategory": "Beverages",
-    "upc": "100000000068"
-  },
-  {
-    "documentId": "100000000069",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T11:09:00+05:30",
-    "name": "Product 69",
-    "price": 257,
-    "quantity": 79,
-    "subcategory": "Cakes",
-    "upc": "100000000069"
-  },
-  {
-    "documentId": "100000000070",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T11:10:00+05:30",
-    "name": "Product 70",
-    "price": 260,
+    "upc": "HC0051",
+    "name": "Garbage Bags Small Pack",
+    "price": 60,
     "quantity": 80,
-    "subcategory": "Bakery",
-    "upc": "100000000070"
+    "category": "Home Care & Cleaning",
+    "subcategory": "Garbage Bags"
   },
   {
-    "documentId": "100000000071",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T11:11:00+05:30",
-    "name": "Product 71",
-    "price": 263,
-    "quantity": 81,
-    "subcategory": "Grains",
-    "upc": "100000000071"
+    "upc": "HC0052",
+    "name": "Garbage Bags Medium Pack",
+    "price": 90,
+    "quantity": 70,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Garbage Bags"
   },
   {
-    "documentId": "100000000072",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T11:12:00+05:30",
-    "name": "Product 72",
-    "price": 266,
-    "quantity": 82,
-    "subcategory": "Milk",
-    "upc": "100000000072"
+    "upc": "HC0053",
+    "name": "Garbage Bags Large Pack",
+    "price": 130,
+    "quantity": 55,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Garbage Bags"
   },
   {
-    "documentId": "100000000073",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T11:13:00+05:30",
-    "name": "Product 73",
-    "price": 269,
-    "quantity": 83,
-    "subcategory": "Dairy",
-    "upc": "100000000073"
+    "upc": "HC0054",
+    "name": "Garbage Bags Eco Friendly",
+    "price": 150,
+    "quantity": 45,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Garbage Bags"
   },
   {
-    "documentId": "100000000074",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T11:14:00+05:30",
-    "name": "Product 74",
-    "price": 272,
-    "quantity": 84,
-    "subcategory": "Beverages",
-    "upc": "100000000074"
+    "upc": "HC0055",
+    "name": "Garbage Bags Drawstring",
+    "price": 170,
+    "quantity": 40,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Garbage Bags"
   },
   {
-    "documentId": "100000000075",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T11:15:00+05:30",
-    "name": "Product 75",
-    "price": 275,
-    "quantity": 85,
-    "subcategory": "Cakes",
-    "upc": "100000000075"
+    "upc": "HC0056",
+    "name": "Room Freshener Rose Spray",
+    "price": 120,
+    "quantity": 50,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Room Freshener"
   },
   {
-    "documentId": "100000000076",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T11:16:00+05:30",
-    "name": "Product 76",
-    "price": 278,
-    "quantity": 86,
-    "subcategory": "Bakery",
-    "upc": "100000000076"
+    "upc": "HC0057",
+    "name": "Room Freshener Lavender",
+    "price": 130,
+    "quantity": 45,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Room Freshener"
   },
   {
-    "documentId": "100000000077",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T11:17:00+05:30",
-    "name": "Product 77",
-    "price": 281,
-    "quantity": 87,
-    "subcategory": "Grains",
-    "upc": "100000000077"
+    "upc": "HC0058",
+    "name": "Room Freshener Jasmine",
+    "price": 125,
+    "quantity": 50,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Room Freshener"
   },
   {
-    "documentId": "100000000078",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T11:18:00+05:30",
-    "name": "Product 78",
-    "price": 284,
-    "quantity": 88,
-    "subcategory": "Milk",
-    "upc": "100000000078"
+    "upc": "HC0059",
+    "name": "Room Freshener Citrus",
+    "price": 140,
+    "quantity": 40,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Room Freshener"
   },
   {
-    "documentId": "100000000079",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T11:19:00+05:30",
-    "name": "Product 79",
-    "price": 287,
-    "quantity": 89,
-    "subcategory": "Dairy",
-    "upc": "100000000079"
+    "upc": "HC0060",
+    "name": "Room Freshener Long Lasting",
+    "price": 160,
+    "quantity": 35,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Room Freshener"
   },
   {
-    "documentId": "100000000080",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T11:20:00+05:30",
-    "name": "Product 80",
-    "price": 290,
+    "upc": "HC0061",
+    "name": "Mosquito Coil Pack",
+    "price": 60,
     "quantity": 90,
-    "subcategory": "Beverages",
-    "upc": "100000000080"
+    "category": "Home Care & Cleaning",
+    "subcategory": "Insect Repellent"
   },
   {
-    "documentId": "100000000081",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T11:21:00+05:30",
-    "name": "Product 81",
-    "price": 293,
-    "quantity": 91,
-    "subcategory": "Cakes",
-    "upc": "100000000081"
+    "upc": "HC0062",
+    "name": "Liquid Mosquito Repellent",
+    "price": 95,
+    "quantity": 70,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Insect Repellent"
   },
   {
-    "documentId": "100000000082",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T11:22:00+05:30",
-    "name": "Product 82",
-    "price": 296,
-    "quantity": 92,
-    "subcategory": "Bakery",
-    "upc": "100000000082"
+    "upc": "HC0063",
+    "name": "Mosquito Repellent Refill",
+    "price": 85,
+    "quantity": 75,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Insect Repellent"
   },
   {
-    "documentId": "100000000083",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T11:23:00+05:30",
-    "name": "Product 83",
-    "price": 299,
-    "quantity": 93,
-    "subcategory": "Grains",
-    "upc": "100000000083"
+    "upc": "HC0064",
+    "name": "Herbal Insect Repellent",
+    "price": 140,
+    "quantity": 45,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Insect Repellent"
   },
   {
-    "documentId": "100000000084",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T11:24:00+05:30",
-    "name": "Product 84",
-    "price": 302,
-    "quantity": 94,
-    "subcategory": "Milk",
-    "upc": "100000000084"
+    "upc": "HC0065",
+    "name": "Electric Mosquito Repellent",
+    "price": 220,
+    "quantity": 30,
+    "category": "Home Care & Cleaning",
+    "subcategory": "Insect Repellent"
   },
   {
-    "documentId": "100000000085",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T11:25:00+05:30",
-    "name": "Product 85",
-    "price": 305,
-    "quantity": 95,
-    "subcategory": "Dairy",
-    "upc": "100000000085"
+    "upc": "BC0001",
+    "name": "Rice Cereal Baby Food 200g",
+    "price": 180,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
   },
   {
-    "documentId": "100000000086",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T11:26:00+05:30",
-    "name": "Product 86",
-    "price": 308,
-    "quantity": 96,
-    "subcategory": "Beverages",
-    "upc": "100000000086"
+    "upc": "BC0002",
+    "name": "Wheat Apple Baby Food 300g",
+    "price": 220,
+    "quantity": 35,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
   },
   {
-    "documentId": "100000000087",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T11:27:00+05:30",
-    "name": "Product 87",
-    "price": 311,
-    "quantity": 97,
-    "subcategory": "Cakes",
-    "upc": "100000000087"
+    "upc": "BC0003",
+    "name": "Multigrain Baby Food 250g",
+    "price": 240,
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
   },
   {
-    "documentId": "100000000088",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T11:28:00+05:30",
-    "name": "Product 88",
-    "price": 314,
-    "quantity": 98,
-    "subcategory": "Bakery",
-    "upc": "100000000088"
+    "upc": "BC0004",
+    "name": "Organic Baby Food 200g",
+    "price": 260,
+    "quantity": 25,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
   },
   {
-    "documentId": "100000000089",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T11:29:00+05:30",
-    "name": "Product 89",
-    "price": 317,
-    "quantity": 99,
-    "subcategory": "Grains",
-    "upc": "100000000089"
+    "upc": "BC0005",
+    "name": "Banana Apple Baby Food",
+    "price": 210,
+    "quantity": 35,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
   },
   {
-    "documentId": "100000000090",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T11:30:00+05:30",
-    "name": "Product 90",
+    "upc": "BC0006",
+    "name": "Cerelac Rice Veg",
+    "price": 190,
+    "quantity": 45,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
+  },
+  {
+    "upc": "BC0007",
+    "name": "Baby Food Stage 2",
+    "price": 230,
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
+  },
+  {
+    "upc": "BC0008",
+    "name": "Baby Food Stage 3",
+    "price": 260,
+    "quantity": 25,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
+  },
+  {
+    "upc": "BC0009",
+    "name": "Ragi Baby Food",
+    "price": 200,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
+  },
+  {
+    "upc": "BC0010",
+    "name": "Oats Apple Baby Food",
+    "price": 240,
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Baby Food"
+  },
+  {
+    "upc": "BC0011",
+    "name": "Infant Milk Formula Stage 1",
+    "price": 480,
+    "quantity": 20,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0012",
+    "name": "Infant Milk Formula Stage 2",
+    "price": 520,
+    "quantity": 18,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0013",
+    "name": "Infant Milk Formula Stage 3",
+    "price": 560,
+    "quantity": 15,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0014",
+    "name": "Premium Baby Milk Formula",
+    "price": 620,
+    "quantity": 12,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0015",
+    "name": "Organic Baby Milk Formula",
+    "price": 650,
+    "quantity": 10,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0016",
+    "name": "Baby Milk Formula Refill",
+    "price": 430,
+    "quantity": 22,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0017",
+    "name": "Lactose Free Baby Formula",
+    "price": 700,
+    "quantity": 8,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0018",
+    "name": "Soy Based Baby Formula",
+    "price": 680,
+    "quantity": 10,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0019",
+    "name": "Economy Baby Milk Formula",
+    "price": 450,
+    "quantity": 25,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0020",
+    "name": "Baby Formula Travel Pack",
+    "price": 260,
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Baby Milk Formula"
+  },
+  {
+    "upc": "BC0021",
+    "name": "Newborn Diapers Small Pack",
+    "price": 180,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
+  },
+  {
+    "upc": "BC0022",
+    "name": "Diapers Size S",
     "price": 320,
-    "quantity": 100,
-    "subcategory": "Milk",
-    "upc": "100000000090"
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
   },
   {
-    "documentId": "100000000091",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T11:31:00+05:30",
-    "name": "Product 91",
-    "price": 323,
-    "quantity": 101,
-    "subcategory": "Dairy",
-    "upc": "100000000091"
+    "upc": "BC0023",
+    "name": "Diapers Size M",
+    "price": 420,
+    "quantity": 25,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
   },
   {
-    "documentId": "100000000092",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T11:32:00+05:30",
-    "name": "Product 92",
-    "price": 326,
-    "quantity": 102,
-    "subcategory": "Beverages",
-    "upc": "100000000092"
+    "upc": "BC0024",
+    "name": "Diapers Size L",
+    "price": 520,
+    "quantity": 20,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
   },
   {
-    "documentId": "100000000093",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T11:33:00+05:30",
-    "name": "Product 93",
-    "price": 329,
-    "quantity": 103,
-    "subcategory": "Cakes",
-    "upc": "100000000093"
+    "upc": "BC0025",
+    "name": "Diapers Size XL",
+    "price": 620,
+    "quantity": 18,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
   },
   {
-    "documentId": "100000000094",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T11:34:00+05:30",
-    "name": "Product 94",
-    "price": 332,
-    "quantity": 104,
-    "subcategory": "Bakery",
-    "upc": "100000000094"
+    "upc": "BC0026",
+    "name": "Pant Style Diapers M",
+    "price": 560,
+    "quantity": 22,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
   },
   {
-    "documentId": "100000000095",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T11:35:00+05:30",
-    "name": "Product 95",
-    "price": 335,
-    "quantity": 105,
-    "subcategory": "Grains",
-    "upc": "100000000095"
+    "upc": "BC0027",
+    "name": "Pant Style Diapers L",
+    "price": 650,
+    "quantity": 18,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
   },
   {
-    "documentId": "100000000096",
-    "category": "CAT02",
-    "createdAt": "2026-01-05T11:36:00+05:30",
-    "name": "Product 96",
-    "price": 338,
-    "quantity": 106,
-    "subcategory": "Milk",
-    "upc": "100000000096"
+    "upc": "BC0028",
+    "name": "Overnight Diapers",
+    "price": 700,
+    "quantity": 15,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
   },
   {
-    "documentId": "100000000097",
-    "category": "CAT03",
-    "createdAt": "2026-01-05T11:37:00+05:30",
-    "name": "Product 97",
-    "price": 341,
-    "quantity": 107,
-    "subcategory": "Dairy",
-    "upc": "100000000097"
+    "upc": "BC0029",
+    "name": "Eco Friendly Diapers",
+    "price": 750,
+    "quantity": 12,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
   },
   {
-    "documentId": "100000000098",
-    "category": "CAT04",
-    "createdAt": "2026-01-05T11:38:00+05:30",
-    "name": "Product 98",
-    "price": 344,
-    "quantity": 108,
-    "subcategory": "Beverages",
-    "upc": "100000000098"
+    "upc": "BC0030",
+    "name": "Travel Diaper Pack",
+    "price": 250,
+    "quantity": 35,
+    "category": "Baby Care",
+    "subcategory": "Diapers"
   },
   {
-    "documentId": "100000000099",
-    "category": "CAT05",
-    "createdAt": "2026-01-05T11:39:00+05:30",
-    "name": "Product 99",
-    "price": 347,
-    "quantity": 109,
-    "subcategory": "Cakes",
-    "upc": "100000000099"
+    "upc": "BC0031",
+    "name": "Baby Wipes 72 Pulls",
+    "price": 120,
+    "quantity": 60,
+    "category": "Baby Care",
+    "subcategory": "Baby Wipes"
   },
   {
-    "documentId": "100000000100",
-    "category": "CAT01",
-    "createdAt": "2026-01-05T11:40:00+05:30",
-    "name": "Product 100",
-    "price": 350,
-    "quantity": 110,
-    "subcategory": "Bakery",
-    "upc": "100000000100"
+    "upc": "BC0032",
+    "name": "Aloe Vera Baby Wipes",
+    "price": 150,
+    "quantity": 50,
+    "category": "Baby Care",
+    "subcategory": "Baby Wipes"
+  },
+  {
+    "upc": "BC0033",
+    "name": "Sensitive Baby Wipes",
+    "price": 170,
+    "quantity": 45,
+    "category": "Baby Care",
+    "subcategory": "Baby Wipes"
+  },
+  {
+    "upc": "BC0034",
+    "name": "Baby Wipes Pack of 3",
+    "price": 320,
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Baby Wipes"
+  },
+  {
+    "upc": "BC0035",
+    "name": "Fragrance Free Baby Wipes",
+    "price": 180,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Baby Wipes"
+  },
+  {
+    "upc": "BC0036",
+    "name": "Baby Soap Mild 75g",
+    "price": 45,
+    "quantity": 80,
+    "category": "Baby Care",
+    "subcategory": "Baby Soap"
+  },
+  {
+    "upc": "BC0037",
+    "name": "Moisturizing Baby Soap",
+    "price": 55,
+    "quantity": 70,
+    "category": "Baby Care",
+    "subcategory": "Baby Soap"
+  },
+  {
+    "upc": "BC0038",
+    "name": "Herbal Baby Soap",
+    "price": 65,
+    "quantity": 60,
+    "category": "Baby Care",
+    "subcategory": "Baby Soap"
+  },
+  {
+    "upc": "BC0039",
+    "name": "Baby Soap Pack of 3",
+    "price": 150,
+    "quantity": 45,
+    "category": "Baby Care",
+    "subcategory": "Baby Soap"
+  },
+  {
+    "upc": "BC0040",
+    "name": "Organic Baby Soap",
+    "price": 75,
+    "quantity": 50,
+    "category": "Baby Care",
+    "subcategory": "Baby Soap"
+  },
+  {
+    "upc": "BC0041",
+    "name": "No Tears Baby Shampoo",
+    "price": 160,
+    "quantity": 45,
+    "category": "Baby Care",
+    "subcategory": "Baby Shampoo"
+  },
+  {
+    "upc": "BC0042",
+    "name": "Mild Baby Shampoo 100ml",
+    "price": 120,
+    "quantity": 60,
+    "category": "Baby Care",
+    "subcategory": "Baby Shampoo"
+  },
+  {
+    "upc": "BC0043",
+    "name": "Herbal Baby Shampoo",
+    "price": 180,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Baby Shampoo"
+  },
+  {
+    "upc": "BC0044",
+    "name": "Baby Shampoo 200ml",
+    "price": 220,
+    "quantity": 35,
+    "category": "Baby Care",
+    "subcategory": "Baby Shampoo"
+  },
+  {
+    "upc": "BC0045",
+    "name": "Organic Baby Shampoo",
+    "price": 260,
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Baby Shampoo"
+  },
+  {
+    "upc": "BC0046",
+    "name": "Baby Massage Oil 100ml",
+    "price": 140,
+    "quantity": 50,
+    "category": "Baby Care",
+    "subcategory": "Baby Oil"
+  },
+  {
+    "upc": "BC0047",
+    "name": "Almond Baby Oil",
+    "price": 180,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Baby Oil"
+  },
+  {
+    "upc": "BC0048",
+    "name": "Ayurvedic Baby Oil",
+    "price": 160,
+    "quantity": 45,
+    "category": "Baby Care",
+    "subcategory": "Baby Oil"
+  },
+  {
+    "upc": "BC0049",
+    "name": "Organic Baby Oil",
+    "price": 210,
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Baby Oil"
+  },
+  {
+    "upc": "BC0050",
+    "name": "Baby Oil 200ml",
+    "price": 240,
+    "quantity": 25,
+    "category": "Baby Care",
+    "subcategory": "Baby Oil"
+  },
+  {
+    "upc": "BC0051",
+    "name": "Baby Lotion Daily Moisture",
+    "price": 160,
+    "quantity": 45,
+    "category": "Baby Care",
+    "subcategory": "Baby Lotion"
+  },
+  {
+    "upc": "BC0052",
+    "name": "Baby Lotion Aloe Vera",
+    "price": 180,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Baby Lotion"
+  },
+  {
+    "upc": "BC0053",
+    "name": "Baby Lotion Shea Butter",
+    "price": 210,
+    "quantity": 35,
+    "category": "Baby Care",
+    "subcategory": "Baby Lotion"
+  },
+  {
+    "upc": "BC0054",
+    "name": "Organic Baby Lotion",
+    "price": 240,
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Baby Lotion"
+  },
+  {
+    "upc": "BC0055",
+    "name": "Baby Lotion Sensitive Skin",
+    "price": 190,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Baby Lotion"
+  },
+  {
+    "upc": "BC0056",
+    "name": "Baby Powder 100g",
+    "price": 95,
+    "quantity": 60,
+    "category": "Baby Care",
+    "subcategory": "Baby Powder"
+  },
+  {
+    "upc": "BC0057",
+    "name": "Herbal Baby Powder",
+    "price": 120,
+    "quantity": 50,
+    "category": "Baby Care",
+    "subcategory": "Baby Powder"
+  },
+  {
+    "upc": "BC0058",
+    "name": "Baby Powder Lavender",
+    "price": 110,
+    "quantity": 55,
+    "category": "Baby Care",
+    "subcategory": "Baby Powder"
+  },
+  {
+    "upc": "BC0059",
+    "name": "Organic Baby Powder",
+    "price": 140,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Baby Powder"
+  },
+  {
+    "upc": "BC0060",
+    "name": "Baby Powder 200g",
+    "price": 170,
+    "quantity": 35,
+    "category": "Baby Care",
+    "subcategory": "Baby Powder"
+  },
+  {
+    "upc": "BC0061",
+    "name": "Feeding Bottle 125ml",
+    "price": 180,
+    "quantity": 40,
+    "category": "Baby Care",
+    "subcategory": "Feeding Bottles"
+  },
+  {
+    "upc": "BC0062",
+    "name": "Feeding Bottle 250ml",
+    "price": 220,
+    "quantity": 35,
+    "category": "Baby Care",
+    "subcategory": "Feeding Bottles"
+  },
+  {
+    "upc": "BC0063",
+    "name": "Anti-Colic Feeding Bottle",
+    "price": 280,
+    "quantity": 30,
+    "category": "Baby Care",
+    "subcategory": "Feeding Bottles"
+  },
+  {
+    "upc": "BC0064",
+    "name": "Glass Feeding Bottle",
+    "price": 320,
+    "quantity": 25,
+    "category": "Baby Care",
+    "subcategory": "Feeding Bottles"
+  },
+  {
+    "upc": "BC0065",
+    "name": "Feeding Bottle Twin Pack",
+    "price": 420,
+    "quantity": 20,
+    "category": "Baby Care",
+    "subcategory": "Feeding Bottles"
   }
 ]

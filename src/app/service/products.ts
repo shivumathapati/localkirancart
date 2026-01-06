@@ -1,6 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { Firestore, collection, collectionData, query, where,doc, setDoc } from '@angular/fire/firestore';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { Product } from '../models/product/product-module';
 import { HttpClient } from '@angular/common/http';
 
@@ -9,8 +9,13 @@ import { HttpClient } from '@angular/common/http';
 export class ProductService {
   private firestore = inject(Firestore);
   private http = inject(HttpClient);
-  
-  
+ 
+   private categorySource = new BehaviorSubject<string>('');
+  selectedCategory$ = this.categorySource.asObservable();
+
+  setCategory(categoryId: string) {
+    this.categorySource.next(categoryId);
+  }
 
   getAllProducts(): Observable<Product[]> {
     // Get reference to the 'products' collection
@@ -21,10 +26,15 @@ export class ProductService {
     return collectionData(productsRef, { idField: 'upc' }) as Observable<Product[]>;
   }
 
-  getProductByCategory(category: string): Observable<Product[]> {
+  getProductByCategory(category: string): Observable<Product[]>  {
     const productsRef = collection(this.firestore, 'products');
     const categoryQuery = query(productsRef, where('category', '==', category));
-  return collectionData(categoryQuery, { idField: 'upc' }) as Observable<Product[]>;
+    return collectionData(categoryQuery, { idField: 'upc' }) as Observable<Product[]>;
+  }
+  getProductBySubcategory(subcategory: string): Observable<Product[]> {
+    const productsRef = collection(this.firestore, 'products');
+    const subcategoryQuery = query(productsRef, where('subcategory', '==', subcategory));
+  return collectionData(subcategoryQuery, { idField: 'upc' }) as Observable<Product[]>;
   }
 
 

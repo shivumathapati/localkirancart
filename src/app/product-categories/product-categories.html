@@ -1,1 +1,5 @@
-<p>product-categories works!</p>
+@for(category of categories; track category){
+
+    <button mat-button (click)="selectCategory(category.name)">{{category.name}}</button>
+
+}
