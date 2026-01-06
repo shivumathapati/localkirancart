@@ -1,5 +1,5 @@
 import { Injectable, inject } from '@angular/core';
-import { Firestore, collection, collectionData } from '@angular/fire/firestore';
+import { Firestore, collection, collectionData, query, where } from '@angular/fire/firestore';
 import { Observable } from 'rxjs';
 import { Product } from '../models/product/product-module';
 
@@ -16,4 +16,13 @@ export class ProductService {
     // idField: 'upc' ensures the document ID is included in the object
     return collectionData(productsRef, { idField: 'upc' }) as Observable<Product[]>;
   }
+
+  getProductByCategory(category: string): Observable<Product[]> {
+    const productsRef = collection(this.firestore, 'products');
+    const categoryQuery = query(productsRef, where('category', '==', category));
+  return collectionData(categoryQuery, { idField: 'upc' }) as Observable<Product[]>;
+  }
+
+
+
 }
