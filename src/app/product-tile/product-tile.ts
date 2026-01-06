@@ -21,6 +21,9 @@ private productService = inject(ProductService);
 // products$ = this.productService.getAllProducts();
 products$ = this.productService.getProductByCategory('CAT03');
   // categories = new ProductCategories().categories;
+// products$ = this.productService.getAllProducts();
+jhjimjh$ = this.productService.uploadProducts();
+  categories = new ProductCategories().categories;
   
 
 }

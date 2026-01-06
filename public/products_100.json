@@ -1,0 +1,1002 @@
+[
+  {
+    "documentId": "100000000001",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:01:00+05:30",
+    "name": "Product 1",
+    "price": 53,
+    "quantity": 11,
+    "subcategory": "Dairy",
+    "upc": "100000000001"
+  },
+  {
+    "documentId": "100000000002",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:02:00+05:30",
+    "name": "Product 2",
+    "price": 56,
+    "quantity": 12,
+    "subcategory": "Beverages",
+    "upc": "100000000002"
+  },
+  {
+    "documentId": "100000000003",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:03:00+05:30",
+    "name": "Product 3",
+    "price": 59,
+    "quantity": 13,
+    "subcategory": "Cakes",
+    "upc": "100000000003"
+  },
+  {
+    "documentId": "100000000004",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:04:00+05:30",
+    "name": "Product 4",
+    "price": 62,
+    "quantity": 14,
+    "subcategory": "Bakery",
+    "upc": "100000000004"
+  },
+  {
+    "documentId": "100000000005",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:05:00+05:30",
+    "name": "Product 5",
+    "price": 65,
+    "quantity": 15,
+    "subcategory": "Grains",
+    "upc": "100000000005"
+  },
+  {
+    "documentId": "100000000006",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:06:00+05:30",
+    "name": "Product 6",
+    "price": 68,
+    "quantity": 16,
+    "subcategory": "Milk",
+    "upc": "100000000006"
+  },
+  {
+    "documentId": "100000000007",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:07:00+05:30",
+    "name": "Product 7",
+    "price": 71,
+    "quantity": 17,
+    "subcategory": "Dairy",
+    "upc": "100000000007"
+  },
+  {
+    "documentId": "100000000008",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:08:00+05:30",
+    "name": "Product 8",
+    "price": 74,
+    "quantity": 18,
+    "subcategory": "Beverages",
+    "upc": "100000000008"
+  },
+  {
+    "documentId": "100000000009",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:09:00+05:30",
+    "name": "Product 9",
+    "price": 77,
+    "quantity": 19,
+    "subcategory": "Cakes",
+    "upc": "100000000009"
+  },
+  {
+    "documentId": "100000000010",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:10:00+05:30",
+    "name": "Product 10",
+    "price": 80,
+    "quantity": 20,
+    "subcategory": "Bakery",
+    "upc": "100000000010"
+  },
+  {
+    "documentId": "100000000011",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:11:00+05:30",
+    "name": "Product 11",
+    "price": 83,
+    "quantity": 21,
+    "subcategory": "Grains",
+    "upc": "100000000011"
+  },
+  {
+    "documentId": "100000000012",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:12:00+05:30",
+    "name": "Product 12",
+    "price": 86,
+    "quantity": 22,
+    "subcategory": "Milk",
+    "upc": "100000000012"
+  },
+  {
+    "documentId": "100000000013",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:13:00+05:30",
+    "name": "Product 13",
+    "price": 89,
+    "quantity": 23,
+    "subcategory": "Dairy",
+    "upc": "100000000013"
+  },
+  {
+    "documentId": "100000000014",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:14:00+05:30",
+    "name": "Product 14",
+    "price": 92,
+    "quantity": 24,
+    "subcategory": "Beverages",
+    "upc": "100000000014"
+  },
+  {
+    "documentId": "100000000015",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:15:00+05:30",
+    "name": "Product 15",
+    "price": 95,
+    "quantity": 25,
+    "subcategory": "Cakes",
+    "upc": "100000000015"
+  },
+  {
+    "documentId": "100000000016",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:16:00+05:30",
+    "name": "Product 16",
+    "price": 98,
+    "quantity": 26,
+    "subcategory": "Bakery",
+    "upc": "100000000016"
+  },
+  {
+    "documentId": "100000000017",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:17:00+05:30",
+    "name": "Product 17",
+    "price": 101,
+    "quantity": 27,
+    "subcategory": "Grains",
+    "upc": "100000000017"
+  },
+  {
+    "documentId": "100000000018",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:18:00+05:30",
+    "name": "Product 18",
+    "price": 104,
+    "quantity": 28,
+    "subcategory": "Milk",
+    "upc": "100000000018"
+  },
+  {
+    "documentId": "100000000019",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:19:00+05:30",
+    "name": "Product 19",
+    "price": 107,
+    "quantity": 29,
+    "subcategory": "Dairy",
+    "upc": "100000000019"
+  },
+  {
+    "documentId": "100000000020",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:20:00+05:30",
+    "name": "Product 20",
+    "price": 110,
+    "quantity": 30,
+    "subcategory": "Beverages",
+    "upc": "100000000020"
+  },
+  {
+    "documentId": "100000000021",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:21:00+05:30",
+    "name": "Product 21",
+    "price": 113,
+    "quantity": 31,
+    "subcategory": "Cakes",
+    "upc": "100000000021"
+  },
+  {
+    "documentId": "100000000022",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:22:00+05:30",
+    "name": "Product 22",
+    "price": 116,
+    "quantity": 32,
+    "subcategory": "Bakery",
+    "upc": "100000000022"
+  },
+  {
+    "documentId": "100000000023",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:23:00+05:30",
+    "name": "Product 23",
+    "price": 119,
+    "quantity": 33,
+    "subcategory": "Grains",
+    "upc": "100000000023"
+  },
+  {
+    "documentId": "100000000024",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:24:00+05:30",
+    "name": "Product 24",
+    "price": 122,
+    "quantity": 34,
+    "subcategory": "Milk",
+    "upc": "100000000024"
+  },
+  {
+    "documentId": "100000000025",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:25:00+05:30",
+    "name": "Product 25",
+    "price": 125,
+    "quantity": 35,
+    "subcategory": "Dairy",
+    "upc": "100000000025"
+  },
+  {
+    "documentId": "100000000026",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:26:00+05:30",
+    "name": "Product 26",
+    "price": 128,
+    "quantity": 36,
+    "subcategory": "Beverages",
+    "upc": "100000000026"
+  },
+  {
+    "documentId": "100000000027",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:27:00+05:30",
+    "name": "Product 27",
+    "price": 131,
+    "quantity": 37,
+    "subcategory": "Cakes",
+    "upc": "100000000027"
+  },
+  {
+    "documentId": "100000000028",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:28:00+05:30",
+    "name": "Product 28",
+    "price": 134,
+    "quantity": 38,
+    "subcategory": "Bakery",
+    "upc": "100000000028"
+  },
+  {
+    "documentId": "100000000029",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:29:00+05:30",
+    "name": "Product 29",
+    "price": 137,
+    "quantity": 39,
+    "subcategory": "Grains",
+    "upc": "100000000029"
+  },
+  {
+    "documentId": "100000000030",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:30:00+05:30",
+    "name": "Product 30",
+    "price": 140,
+    "quantity": 40,
+    "subcategory": "Milk",
+    "upc": "100000000030"
+  },
+  {
+    "documentId": "100000000031",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:31:00+05:30",
+    "name": "Product 31",
+    "price": 143,
+    "quantity": 41,
+    "subcategory": "Dairy",
+    "upc": "100000000031"
+  },
+  {
+    "documentId": "100000000032",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:32:00+05:30",
+    "name": "Product 32",
+    "price": 146,
+    "quantity": 42,
+    "subcategory": "Beverages",
+    "upc": "100000000032"
+  },
+  {
+    "documentId": "100000000033",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:33:00+05:30",
+    "name": "Product 33",
+    "price": 149,
+    "quantity": 43,
+    "subcategory": "Cakes",
+    "upc": "100000000033"
+  },
+  {
+    "documentId": "100000000034",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:34:00+05:30",
+    "name": "Product 34",
+    "price": 152,
+    "quantity": 44,
+    "subcategory": "Bakery",
+    "upc": "100000000034"
+  },
+  {
+    "documentId": "100000000035",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:35:00+05:30",
+    "name": "Product 35",
+    "price": 155,
+    "quantity": 45,
+    "subcategory": "Grains",
+    "upc": "100000000035"
+  },
+  {
+    "documentId": "100000000036",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:36:00+05:30",
+    "name": "Product 36",
+    "price": 158,
+    "quantity": 46,
+    "subcategory": "Milk",
+    "upc": "100000000036"
+  },
+  {
+    "documentId": "100000000037",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:37:00+05:30",
+    "name": "Product 37",
+    "price": 161,
+    "quantity": 47,
+    "subcategory": "Dairy",
+    "upc": "100000000037"
+  },
+  {
+    "documentId": "100000000038",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:38:00+05:30",
+    "name": "Product 38",
+    "price": 164,
+    "quantity": 48,
+    "subcategory": "Beverages",
+    "upc": "100000000038"
+  },
+  {
+    "documentId": "100000000039",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:39:00+05:30",
+    "name": "Product 39",
+    "price": 167,
+    "quantity": 49,
+    "subcategory": "Cakes",
+    "upc": "100000000039"
+  },
+  {
+    "documentId": "100000000040",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:40:00+05:30",
+    "name": "Product 40",
+    "price": 170,
+    "quantity": 50,
+    "subcategory": "Bakery",
+    "upc": "100000000040"
+  },
+  {
+    "documentId": "100000000041",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:41:00+05:30",
+    "name": "Product 41",
+    "price": 173,
+    "quantity": 51,
+    "subcategory": "Grains",
+    "upc": "100000000041"
+  },
+  {
+    "documentId": "100000000042",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:42:00+05:30",
+    "name": "Product 42",
+    "price": 176,
+    "quantity": 52,
+    "subcategory": "Milk",
+    "upc": "100000000042"
+  },
+  {
+    "documentId": "100000000043",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:43:00+05:30",
+    "name": "Product 43",
+    "price": 179,
+    "quantity": 53,
+    "subcategory": "Dairy",
+    "upc": "100000000043"
+  },
+  {
+    "documentId": "100000000044",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:44:00+05:30",
+    "name": "Product 44",
+    "price": 182,
+    "quantity": 54,
+    "subcategory": "Beverages",
+    "upc": "100000000044"
+  },
+  {
+    "documentId": "100000000045",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:45:00+05:30",
+    "name": "Product 45",
+    "price": 185,
+    "quantity": 55,
+    "subcategory": "Cakes",
+    "upc": "100000000045"
+  },
+  {
+    "documentId": "100000000046",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:46:00+05:30",
+    "name": "Product 46",
+    "price": 188,
+    "quantity": 56,
+    "subcategory": "Bakery",
+    "upc": "100000000046"
+  },
+  {
+    "documentId": "100000000047",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:47:00+05:30",
+    "name": "Product 47",
+    "price": 191,
+    "quantity": 57,
+    "subcategory": "Grains",
+    "upc": "100000000047"
+  },
+  {
+    "documentId": "100000000048",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:48:00+05:30",
+    "name": "Product 48",
+    "price": 194,
+    "quantity": 58,
+    "subcategory": "Milk",
+    "upc": "100000000048"
+  },
+  {
+    "documentId": "100000000049",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:49:00+05:30",
+    "name": "Product 49",
+    "price": 197,
+    "quantity": 59,
+    "subcategory": "Dairy",
+    "upc": "100000000049"
+  },
+  {
+    "documentId": "100000000050",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:50:00+05:30",
+    "name": "Product 50",
+    "price": 200,
+    "quantity": 60,
+    "subcategory": "Beverages",
+    "upc": "100000000050"
+  },
+  {
+    "documentId": "100000000051",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:51:00+05:30",
+    "name": "Product 51",
+    "price": 203,
+    "quantity": 61,
+    "subcategory": "Cakes",
+    "upc": "100000000051"
+  },
+  {
+    "documentId": "100000000052",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:52:00+05:30",
+    "name": "Product 52",
+    "price": 206,
+    "quantity": 62,
+    "subcategory": "Bakery",
+    "upc": "100000000052"
+  },
+  {
+    "documentId": "100000000053",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:53:00+05:30",
+    "name": "Product 53",
+    "price": 209,
+    "quantity": 63,
+    "subcategory": "Grains",
+    "upc": "100000000053"
+  },
+  {
+    "documentId": "100000000054",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:54:00+05:30",
+    "name": "Product 54",
+    "price": 212,
+    "quantity": 64,
+    "subcategory": "Milk",
+    "upc": "100000000054"
+  },
+  {
+    "documentId": "100000000055",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T10:55:00+05:30",
+    "name": "Product 55",
+    "price": 215,
+    "quantity": 65,
+    "subcategory": "Dairy",
+    "upc": "100000000055"
+  },
+  {
+    "documentId": "100000000056",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T10:56:00+05:30",
+    "name": "Product 56",
+    "price": 218,
+    "quantity": 66,
+    "subcategory": "Beverages",
+    "upc": "100000000056"
+  },
+  {
+    "documentId": "100000000057",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T10:57:00+05:30",
+    "name": "Product 57",
+    "price": 221,
+    "quantity": 67,
+    "subcategory": "Cakes",
+    "upc": "100000000057"
+  },
+  {
+    "documentId": "100000000058",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T10:58:00+05:30",
+    "name": "Product 58",
+    "price": 224,
+    "quantity": 68,
+    "subcategory": "Bakery",
+    "upc": "100000000058"
+  },
+  {
+    "documentId": "100000000059",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T10:59:00+05:30",
+    "name": "Product 59",
+    "price": 227,
+    "quantity": 69,
+    "subcategory": "Grains",
+    "upc": "100000000059"
+  },
+  {
+    "documentId": "100000000060",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T11:00:00+05:30",
+    "name": "Product 60",
+    "price": 230,
+    "quantity": 70,
+    "subcategory": "Milk",
+    "upc": "100000000060"
+  },
+  {
+    "documentId": "100000000061",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T11:01:00+05:30",
+    "name": "Product 61",
+    "price": 233,
+    "quantity": 71,
+    "subcategory": "Dairy",
+    "upc": "100000000061"
+  },
+  {
+    "documentId": "100000000062",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T11:02:00+05:30",
+    "name": "Product 62",
+    "price": 236,
+    "quantity": 72,
+    "subcategory": "Beverages",
+    "upc": "100000000062"
+  },
+  {
+    "documentId": "100000000063",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T11:03:00+05:30",
+    "name": "Product 63",
+    "price": 239,
+    "quantity": 73,
+    "subcategory": "Cakes",
+    "upc": "100000000063"
+  },
+  {
+    "documentId": "100000000064",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T11:04:00+05:30",
+    "name": "Product 64",
+    "price": 242,
+    "quantity": 74,
+    "subcategory": "Bakery",
+    "upc": "100000000064"
+  },
+  {
+    "documentId": "100000000065",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T11:05:00+05:30",
+    "name": "Product 65",
+    "price": 245,
+    "quantity": 75,
+    "subcategory": "Grains",
+    "upc": "100000000065"
+  },
+  {
+    "documentId": "100000000066",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T11:06:00+05:30",
+    "name": "Product 66",
+    "price": 248,
+    "quantity": 76,
+    "subcategory": "Milk",
+    "upc": "100000000066"
+  },
+  {
+    "documentId": "100000000067",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T11:07:00+05:30",
+    "name": "Product 67",
+    "price": 251,
+    "quantity": 77,
+    "subcategory": "Dairy",
+    "upc": "100000000067"
+  },
+  {
+    "documentId": "100000000068",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T11:08:00+05:30",
+    "name": "Product 68",
+    "price": 254,
+    "quantity": 78,
+    "subcategory": "Beverages",
+    "upc": "100000000068"
+  },
+  {
+    "documentId": "100000000069",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T11:09:00+05:30",
+    "name": "Product 69",
+    "price": 257,
+    "quantity": 79,
+    "subcategory": "Cakes",
+    "upc": "100000000069"
+  },
+  {
+    "documentId": "100000000070",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T11:10:00+05:30",
+    "name": "Product 70",
+    "price": 260,
+    "quantity": 80,
+    "subcategory": "Bakery",
+    "upc": "100000000070"
+  },
+  {
+    "documentId": "100000000071",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T11:11:00+05:30",
+    "name": "Product 71",
+    "price": 263,
+    "quantity": 81,
+    "subcategory": "Grains",
+    "upc": "100000000071"
+  },
+  {
+    "documentId": "100000000072",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T11:12:00+05:30",
+    "name": "Product 72",
+    "price": 266,
+    "quantity": 82,
+    "subcategory": "Milk",
+    "upc": "100000000072"
+  },
+  {
+    "documentId": "100000000073",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T11:13:00+05:30",
+    "name": "Product 73",
+    "price": 269,
+    "quantity": 83,
+    "subcategory": "Dairy",
+    "upc": "100000000073"
+  },
+  {
+    "documentId": "100000000074",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T11:14:00+05:30",
+    "name": "Product 74",
+    "price": 272,
+    "quantity": 84,
+    "subcategory": "Beverages",
+    "upc": "100000000074"
+  },
+  {
+    "documentId": "100000000075",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T11:15:00+05:30",
+    "name": "Product 75",
+    "price": 275,
+    "quantity": 85,
+    "subcategory": "Cakes",
+    "upc": "100000000075"
+  },
+  {
+    "documentId": "100000000076",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T11:16:00+05:30",
+    "name": "Product 76",
+    "price": 278,
+    "quantity": 86,
+    "subcategory": "Bakery",
+    "upc": "100000000076"
+  },
+  {
+    "documentId": "100000000077",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T11:17:00+05:30",
+    "name": "Product 77",
+    "price": 281,
+    "quantity": 87,
+    "subcategory": "Grains",
+    "upc": "100000000077"
+  },
+  {
+    "documentId": "100000000078",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T11:18:00+05:30",
+    "name": "Product 78",
+    "price": 284,
+    "quantity": 88,
+    "subcategory": "Milk",
+    "upc": "100000000078"
+  },
+  {
+    "documentId": "100000000079",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T11:19:00+05:30",
+    "name": "Product 79",
+    "price": 287,
+    "quantity": 89,
+    "subcategory": "Dairy",
+    "upc": "100000000079"
+  },
+  {
+    "documentId": "100000000080",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T11:20:00+05:30",
+    "name": "Product 80",
+    "price": 290,
+    "quantity": 90,
+    "subcategory": "Beverages",
+    "upc": "100000000080"
+  },
+  {
+    "documentId": "100000000081",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T11:21:00+05:30",
+    "name": "Product 81",
+    "price": 293,
+    "quantity": 91,
+    "subcategory": "Cakes",
+    "upc": "100000000081"
+  },
+  {
+    "documentId": "100000000082",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T11:22:00+05:30",
+    "name": "Product 82",
+    "price": 296,
+    "quantity": 92,
+    "subcategory": "Bakery",
+    "upc": "100000000082"
+  },
+  {
+    "documentId": "100000000083",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T11:23:00+05:30",
+    "name": "Product 83",
+    "price": 299,
+    "quantity": 93,
+    "subcategory": "Grains",
+    "upc": "100000000083"
+  },
+  {
+    "documentId": "100000000084",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T11:24:00+05:30",
+    "name": "Product 84",
+    "price": 302,
+    "quantity": 94,
+    "subcategory": "Milk",
+    "upc": "100000000084"
+  },
+  {
+    "documentId": "100000000085",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T11:25:00+05:30",
+    "name": "Product 85",
+    "price": 305,
+    "quantity": 95,
+    "subcategory": "Dairy",
+    "upc": "100000000085"
+  },
+  {
+    "documentId": "100000000086",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T11:26:00+05:30",
+    "name": "Product 86",
+    "price": 308,
+    "quantity": 96,
+    "subcategory": "Beverages",
+    "upc": "100000000086"
+  },
+  {
+    "documentId": "100000000087",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T11:27:00+05:30",
+    "name": "Product 87",
+    "price": 311,
+    "quantity": 97,
+    "subcategory": "Cakes",
+    "upc": "100000000087"
+  },
+  {
+    "documentId": "100000000088",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T11:28:00+05:30",
+    "name": "Product 88",
+    "price": 314,
+    "quantity": 98,
+    "subcategory": "Bakery",
+    "upc": "100000000088"
+  },
+  {
+    "documentId": "100000000089",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T11:29:00+05:30",
+    "name": "Product 89",
+    "price": 317,
+    "quantity": 99,
+    "subcategory": "Grains",
+    "upc": "100000000089"
+  },
+  {
+    "documentId": "100000000090",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T11:30:00+05:30",
+    "name": "Product 90",
+    "price": 320,
+    "quantity": 100,
+    "subcategory": "Milk",
+    "upc": "100000000090"
+  },
+  {
+    "documentId": "100000000091",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T11:31:00+05:30",
+    "name": "Product 91",
+    "price": 323,
+    "quantity": 101,
+    "subcategory": "Dairy",
+    "upc": "100000000091"
+  },
+  {
+    "documentId": "100000000092",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T11:32:00+05:30",
+    "name": "Product 92",
+    "price": 326,
+    "quantity": 102,
+    "subcategory": "Beverages",
+    "upc": "100000000092"
+  },
+  {
+    "documentId": "100000000093",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T11:33:00+05:30",
+    "name": "Product 93",
+    "price": 329,
+    "quantity": 103,
+    "subcategory": "Cakes",
+    "upc": "100000000093"
+  },
+  {
+    "documentId": "100000000094",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T11:34:00+05:30",
+    "name": "Product 94",
+    "price": 332,
+    "quantity": 104,
+    "subcategory": "Bakery",
+    "upc": "100000000094"
+  },
+  {
+    "documentId": "100000000095",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T11:35:00+05:30",
+    "name": "Product 95",
+    "price": 335,
+    "quantity": 105,
+    "subcategory": "Grains",
+    "upc": "100000000095"
+  },
+  {
+    "documentId": "100000000096",
+    "category": "CAT02",
+    "createdAt": "2026-01-05T11:36:00+05:30",
+    "name": "Product 96",
+    "price": 338,
+    "quantity": 106,
+    "subcategory": "Milk",
+    "upc": "100000000096"
+  },
+  {
+    "documentId": "100000000097",
+    "category": "CAT03",
+    "createdAt": "2026-01-05T11:37:00+05:30",
+    "name": "Product 97",
+    "price": 341,
+    "quantity": 107,
+    "subcategory": "Dairy",
+    "upc": "100000000097"
+  },
+  {
+    "documentId": "100000000098",
+    "category": "CAT04",
+    "createdAt": "2026-01-05T11:38:00+05:30",
+    "name": "Product 98",
+    "price": 344,
+    "quantity": 108,
+    "subcategory": "Beverages",
+    "upc": "100000000098"
+  },
+  {
+    "documentId": "100000000099",
+    "category": "CAT05",
+    "createdAt": "2026-01-05T11:39:00+05:30",
+    "name": "Product 99",
+    "price": 347,
+    "quantity": 109,
+    "subcategory": "Cakes",
+    "upc": "100000000099"
+  },
+  {
+    "documentId": "100000000100",
+    "category": "CAT01",
+    "createdAt": "2026-01-05T11:40:00+05:30",
+    "name": "Product 100",
+    "price": 350,
+    "quantity": 110,
+    "subcategory": "Bakery",
+    "upc": "100000000100"
+  }
+]
