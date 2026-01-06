@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { ProductTile } from "../product-tile/product-tile";
 import { Scanner } from '../scanner/scanner';
+import { ProductCategories } from '../product-categories/product-categories';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [ProductTile,Scanner],
-  // imports: [Scanner],
+  imports: [ProductTile,Scanner,ProductCategories],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.css',
 })

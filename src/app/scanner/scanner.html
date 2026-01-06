@@ -18,7 +18,7 @@
     </div>
     }
 
-    @if (!isFillingForm) {
+    @if (isFillingForm) {
     <div class="card">
         <h2>{{ isExistingProduct ? 'Update Stock' : 'Add New Product' }}</h2>
 
@@ -27,6 +27,7 @@
         <div class="form-group">
             <label>Product Name</label>
             <input [(ngModel)]="product.name" placeholder="Enter name">
+            {{product.name}}
         </div>
 
         <div class="form-group">

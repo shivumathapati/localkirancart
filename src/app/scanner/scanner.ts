@@ -176,6 +176,8 @@ export class Scanner {
       ]
     }
   ]
+
+  
   subcategories: string[] = [];
 
 

@@ -1,6 +1,9 @@
 export interface Product {
-  upc: string;
+  upc: string; 
   name: string;
   price: number;
   quantity: number;
+  category: string;
+  subcategory: string;
 }
+
