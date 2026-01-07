@@ -1,60 +1,59 @@
 <ol>
-{{'show selected categories here form categories component'}}
+    {{'show selected categories here form categories component'}}
     @if(1){
 
-    
 
-        
-        <ul class="card-container">
-            @for (product of products$; track product) {
-                <li>
 
-                    <mat-card class="example-card" appearance="outlined">
-                        <mat-card-header>
-                            <div mat-card-avatar class="example-header-image"></div>
-                            <mat-card-title>{{ product.name }}</mat-card-title>
-                            <mat-card-subtitle>Qt. {{product.quantity}}</mat-card-subtitle>
-                        </mat-card-header>
-                        <!-- <img mat-card-image src="{{product.}}" alt="Photo of a Shiba Inu"> -->
-                        <mat-card-content>
+
+    <ul class="card-container">
+        @for (product of products$; track product) {
+        <li>
+
+            <mat-card class="example-card" appearance="outlined">
+                <mat-card-header>
+                    <div mat-card-avatar class="example-header-image"></div>
+                    <mat-card-title>{{ product.name }}</mat-card-title>
+                    <mat-card-subtitle>Qt. {{product.quantity}}</mat-card-subtitle>
+                </mat-card-header>
+                <!-- <img mat-card-image src="{{product.}}" alt="Photo of a Shiba Inu"> -->
+                <mat-card-content>
                     <p>
-                        Price:     {{product.price}} RS
+                        Price: {{product.price}} RS
                     </p>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button matButton>Add to Cart</button>
+                    <button matButton (click)="addToCart(product)">Add to Cart</button>
                     <button matButton>SHARE</button>
                 </mat-card-actions>
             </mat-card>
         </li>
-    } @empty {
+        } @empty {
         <li>No items found.</li>
-    }
-</ul>
-}@else{
- 
-       <ul class="card-container" style="display: flex;
+        }
+    </ul>
+    }@else{
+
+    <ul class="card-container" style="display: flex;
     flex-direction: column;
     justify-content: space-between;">
-            @for (product of products$; track product) {
-                <li style="    display: flex;
+        @for (product of products$; track product) {
+        <li style="    display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;" >
-                    {{ product.name }}
-                    <p>
-                        Price:     {{product.price}} RS
-                    </p>
-                    Qt. {{product.quantity}}
-  
-                    <button matButton>Add items</button>
-                    <button matButton>Remove</button>
-                   
-        </li>
-    } @empty {
-        <li>No items found.</li>
-    }
-</ul>
-}
-</ol>
+    width: 100%;">
+            {{ product.name }}
+            <p>
+                Price: {{product.price}} RS
+            </p>
+            Qt. {{product.quantity}}
 
+            <button matButton>Add items</button>
+            <button matButton>Remove</button>
+
+        </li>
+        } @empty {
+        <li>No items found.</li>
+        }
+    </ul>
+    }
+</ol>

@@ -17,8 +17,8 @@
     </div>
 
     <div class="buttons">
-      <button type="submit" class="btn btn-primary">Login</button>
-      <button type="button" class="btn btn-outline" onclick="location.href='/signup'">Sign Up</button>
+      <button type="submit" class="btn btn-primary" (click)="login(username.value, password.value)">Login</button>
+      <button type="button" class="btn btn-outline" (click)="register(username.value, password.value)">Sign Up</button>
     </div>
   </form>
 </div>

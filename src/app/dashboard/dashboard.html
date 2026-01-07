@@ -1,10 +1,21 @@
-
+```
 <div>
     <div>
-        <app-scanner></app-scanner>
+        <div class="dashboard-container">
+            <div class="header-actions"
+                style="padding: 10px; display: flex; justify-content: space-between; align-items: center; background: #eee;">
+                <h3>Shop</h3>
+                <button mat-raised-button color="primary" (click)="goToCheckout()">
+                    Cart ({{cartService.cartCount()}}) - {{cartService.totalPrice() | currency:'INR'}}
+                </button>
+            </div>
+
+            <app-scanner></app-scanner>
+        </div>
+        <div>
+            <app-product-categories></app-product-categories>
+            <app-product-tile></app-product-tile>
+        </div>
     </div>
-    <div>    
-        <app-product-categories></app-product-categories>
-        <app-product-tile></app-product-tile>
-    </div>   
 </div>
+```

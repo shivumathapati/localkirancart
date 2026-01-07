@@ -1,0 +1,39 @@
+<div class="checkout-container" style="padding: 20px;">
+    <h2>Checkout</h2>
+
+    <button mat-stroked-button color="primary" (click)="goBack()">
+        &larr; Back to Dashboard
+    </button>
+
+    <div class="cart-summary" style="margin-top: 20px;">
+        <h3>Your Cart</h3>
+        <ul>
+            @for (item of cartItems(); track item.product.upc) {
+            <li>
+                {{item.product.name}} x {{item.quantity}}
+                = {{(item.product.price || 0) * item.quantity | currency:'INR'}}
+            </li>
+            }
+        </ul>
+        <h3>Total: {{totalPrice() | currency:'INR'}}</h3>
+    </div>
+
+    <div class="delivery-details" style="margin-top: 20px; max-width: 500px;">
+        <mat-form-field appearance="outline" style="width: 100%;">
+            <mat-label>Delivery Address</mat-label>
+            <textarea matInput [(ngModel)]="address" rows="3"></textarea>
+        </mat-form-field>
+
+        <div style="margin-bottom: 20px;">
+            <p>OR</p>
+            <button mat-button (click)="shareLocation()">
+                <span *ngIf="!locationCoords()">📍 Share Current Location</span>
+                <span *ngIf="locationCoords()">✅ Location Shared</span>
+            </button>
+        </div>
+
+        <button mat-raised-button color="accent" (click)="placeOrder()" [disabled]="cartService.cartCount() === 0">
+            Place Order & Generate ID
+        </button>
+    </div>
+</div>

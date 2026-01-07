@@ -8,6 +8,7 @@ import { Observable, switchMap } from 'rxjs';
 import { Product } from '../models/product/product-module';
 import { AsyncPipe } from '@angular/common';
 import { ProductCategories } from '../product-categories/product-categories';
+import { CartService } from '../service/cart.service';
 @Component({
   selector: 'app-product-tile',
   imports: [MatButtonModule, MatCardModule],
@@ -15,14 +16,16 @@ import { ProductCategories } from '../product-categories/product-categories';
   styleUrl: './product-tile.css',
 })
 export class ProductTile {
-private productService = inject(ProductService);
+  private productService = inject(ProductService);
+  private cartService = inject(CartService);
 
 
-products$!: any[];
+  products$!: any[];
 
-jhjimjh$ = this.productService.uploadProducts();
+  // removed unused jhjimjh$
+
   categories = new ProductCategories().categories;
-   ngOnInit() {
+  ngOnInit() {
     this.productService.selectedCategory$
       .pipe(
         switchMap(categoryId =>
@@ -34,7 +37,16 @@ jhjimjh$ = this.productService.uploadProducts();
       });
   }
 
+  addToCart(product: Product) {
+    const quantityStr = window.prompt(`Enter quantity for ${product.name}:`, '1');
+    if (quantityStr) {
+      const quantity = parseInt(quantityStr, 10);
+      if (quantity > 0) {
+        this.cartService.addToCart(product, quantity);
+        alert(`${quantity} ${product.name}(s) added to cart.`);
+      } else {
+        alert('Invalid quantity');
+      }
+    }
+  }
 }
-
-  
-
