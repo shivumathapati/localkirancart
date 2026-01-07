@@ -2,3 +2,23 @@
 .mat-expansion-panel-header-title {
     font-weight: bold;
 }
+
+::ng-deep .status-accepted {
+    border-left: 5px solid blue !important;
+    background-color: #e3f2fd;
+}
+
+::ng-deep .status-out-for-delivery {
+    border-left: 5px solid purple !important;
+    background-color: #f3e5f5;
+}
+
+::ng-deep .status-delivered {
+    border-left: 5px solid green !important;
+    background-color: #e8f5e9;
+}
+
+::ng-deep .status-pending {
+    border-left: 5px solid orange !important;
+    background-color: #fff3e0;
+}

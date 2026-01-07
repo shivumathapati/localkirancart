@@ -3,7 +3,12 @@
 
     <div class="orders-list">
         @for (order of orders$ | async; track order.id) {
-        <mat-expansion-panel style="margin-bottom: 15px;">
+        <mat-expansion-panel style="margin-bottom: 15px;" [ngClass]="{
+                'status-accepted': order.status === 'accepted',
+                'status-out-for-delivery': order.status === 'out_for_delivery',
+                'status-delivered': order.status === 'delivered',
+                'status-pending': order.status === 'pending'
+            }">
             <mat-expansion-panel-header>
                 <mat-panel-title>
                     Order ID: {{order.id}}

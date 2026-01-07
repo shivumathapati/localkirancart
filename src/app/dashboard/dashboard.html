@@ -25,8 +25,9 @@
                     </button>
                 </div>
             </div>
-
-            <app-scanner></app-scanner>
+ @if(isAdmin$ | async){
+     <app-scanner></app-scanner> 
+}
         </div>
         <div>
             <app-product-categories></app-product-categories>
