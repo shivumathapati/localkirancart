@@ -5,6 +5,7 @@ import { Scanner } from '../scanner/scanner';
 import { ProductCategories } from '../product-categories/product-categories';
 import { CartService } from '../service/cart.service';
 import { ProductService } from '../service/products';
+import { AuthService } from '../service/auth.service'; // Import AuthService
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common'; // For standard pipes if needed
 import { MatButtonModule } from '@angular/material/button';
@@ -21,12 +22,28 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 export class Dashboard {
   cartService = inject(CartService);
   productService = inject(ProductService);
+  authService = inject(AuthService); // Inject it
   private router = inject(Router);
 
   cartItems = this.cartService.itemsArray;
   totalPrice = this.cartService.totalPrice;
 
+  // Use the isAdmin$ observable from AuthService
+  isAdmin$ = this.authService.isAdmin$;
+
   goToCheckout() {
     this.router.navigate(['/checkout']);
+  }
+
+  goToMyOrders() {
+    this.router.navigate(['/my-orders']);
+  }
+
+  goToAdminOrders() {
+    this.router.navigate(['/admin/orders']);
+  }
+
+  logout() {
+    this.authService.logout();
   }
 }

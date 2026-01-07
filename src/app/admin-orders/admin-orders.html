@@ -1,0 +1,60 @@
+<div class="admin-orders-container" style="padding: 20px;">
+    <h2>Admin Order Management</h2>
+
+    <div class="orders-list">
+        @for (order of orders$ | async; track order.id) {
+        <mat-expansion-panel style="margin-bottom: 15px;">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Order ID: {{order.id}}
+                </mat-panel-title>
+                <mat-panel-description>
+                    {{order.userEmail}} - {{order.totalPrice | currency:'INR'}} -
+                    <strong>{{order.status | uppercase}}</strong>
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+
+            <div class="order-details">
+                <p><strong>Address:</strong> {{order.address}}</p>
+                <p><strong>Date:</strong> {{order.createdAt | date:'medium'}}</p>
+
+                <h4>Items:</h4>
+                <ul>
+                    @for (item of order.items; track $index) {
+                    <li style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px;">
+                        <span [style.text-decoration]="item.unavailable ? 'line-through' : 'none'">
+                            {{item.name}} (x{{item.quantity}})
+                        </span>
+                        <div>
+                            <mat-checkbox [checked]="item.unavailable"
+                                (change)="toggleItemAvailability(order, $index, item.unavailable)">
+                                Mark Unavailable
+                            </mat-checkbox>
+                        </div>
+                    </li>
+                    }
+                </ul>
+
+                <div class="actions" style="margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px;">
+                    <button mat-raised-button color="primary" (click)="updateStatus(order.id, 'accepted')"
+                        [disabled]="order.status === 'accepted' || order.status === 'out_for_delivery' || order.status === 'delivered'">
+                        Accept Order
+                    </button>
+                    &nbsp;
+                    <button mat-raised-button color="accent" (click)="updateStatus(order.id, 'out_for_delivery')"
+                        [disabled]="order.status !== 'accepted'">
+                        Out for Delivery
+                    </button>
+                    &nbsp;
+                    <button mat-raised-button color="warn" (click)="updateStatus(order.id, 'delivered')"
+                        [disabled]="order.status !== 'out_for_delivery'">
+                        Delivered
+                    </button>
+                </div>
+            </div>
+        </mat-expansion-panel>
+        } @empty {
+        <p>No orders found.</p>
+        }
+    </div>
+</div>

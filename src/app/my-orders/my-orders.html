@@ -1,0 +1,39 @@
+<div class="my-orders-container" style="padding: 20px;">
+    <h2>My Orders</h2>
+
+    <div class="orders-list">
+        @for (order of orders$ | async; track order.id) {
+        <mat-card style="margin-bottom: 15px;">
+            <mat-card-header>
+                <mat-card-title>Order #{{order.id | slice:0:8}}</mat-card-title>
+                <mat-card-subtitle>
+                    {{order.createdAt | date:'medium'}}
+                </mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <p><strong>Total:</strong> {{order.totalPrice | currency:'INR'}}</p>
+                <p>
+                    <strong>Status: </strong>
+                    <span [ngClass]="order.status"
+                        style="font-weight: bold; padding: 5px 10px; border-radius: 4px; background: #eee;">
+                        {{order.status | uppercase}}
+                    </span>
+                </p>
+
+                <mat-list>
+                    <h4 mat-subheader>Items</h4>
+                    @for (item of order.items; track $index) {
+                    <mat-list-item>
+                        <span matListItemTitle>{{item.name}}</span>
+                        <span matListItemLine>Quantity: {{item.quantity}}</span>
+                        <span matListItemMeta *ngIf="item.unavailable" style="color: red;">(Out of Stock)</span>
+                    </mat-list-item>
+                    }
+                </mat-list>
+            </mat-card-content>
+        </mat-card>
+        } @empty {
+        <p>You have no orders yet.</p>
+        }
+    </div>
+</div>

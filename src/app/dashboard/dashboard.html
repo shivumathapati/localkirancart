@@ -5,9 +5,21 @@
             <div class="header-actions"
                 style="padding: 10px; display: flex; justify-content: space-between; align-items: center; background: #eee;">
                 <h3>Shop</h3>
-                <button mat-raised-button color="primary" (click)="goToCheckout()">
-                    Cart ({{cartService.cartCount()}}) - {{cartService.totalPrice() | currency:'INR'}}
-                </button>
+                <div class="nav-buttons">
+                    @if(isAdmin$ | async){
+                        
+                        <button mat-button (click)="goToAdminOrders()" style="color: red;">Admin
+                            Orders</button>
+                        }@else {
+                        <button mat-button (click)="goToMyOrders()">My Orders</button>
+
+                    }
+                    <button mat-button (click)="logout()">Logout</button>
+
+                    <button mat-raised-button color="primary" (click)="goToCheckout()" style="margin-left: 10px;">
+                        Cart ({{cartService.cartCount()}}) - {{cartService.totalPrice() | currency:'INR'}}
+                    </button>
+                </div>
             </div>
 
             <app-scanner></app-scanner>

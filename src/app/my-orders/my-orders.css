@@ -1,0 +1,16 @@
+/* My Orders CSS */
+.pending {
+    color: orange;
+}
+
+.accepted {
+    color: blue;
+}
+
+.out_for_delivery {
+    color: purple;
+}
+
+.delivered {
+    color: green;
+}

@@ -30,7 +30,7 @@ export class AuthService {
     readonly isAdmin$: Observable<boolean> = this.user$.pipe(
         map(user => {
             if (!user || notUserEmail(user)) return false;
-            return user.email === 'SuryaStarOne@gmail.com';
+            return user.email === 'suryastarone@gmail.com';
         })
     );
 

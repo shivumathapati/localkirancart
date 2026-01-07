@@ -7,6 +7,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { CartService } from '../service/cart.service';
 import { ProductService } from '../service/products';
+import { AuthService } from '../service/auth.service';
 
 @Component({
     selector: 'app-checkout',
@@ -18,6 +19,7 @@ import { ProductService } from '../service/products';
 export class Checkout {
     cartService = inject(CartService);
     productService = inject(ProductService);
+    authService = inject(AuthService);
     router = inject(Router);
 
     address = model('');
@@ -56,6 +58,9 @@ export class Checkout {
             return;
         }
 
+        const user = this.authService.getCurrentUser();
+        const userEmail = user ? user.email : 'guest';
+
         const orderData = {
             items: this.cartItems().map(item => ({
                 productId: item.product.upc,
@@ -66,7 +71,9 @@ export class Checkout {
             totalPrice: this.totalPrice(),
             address: this.address(),
             location: this.locationCoords(),
-            status: 'pending'
+            status: 'pending',
+            userEmail: userEmail,
+            userId: user ? user.uid : 'guest'
         };
 
         try {

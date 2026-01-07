@@ -212,9 +212,39 @@ export class ProductService {
     await setDoc(docRef, {
       ...orderData,
       id: docRef.id,
-      createdAt: new Date()
+      createdAt: new Date().toISOString() // Use string format for better serialization
     });
     return docRef.id;
+  }
+
+  // Admin: Get all orders (optionally filter by status later if needed)
+  getOrders(): Observable<any[]> {
+    const ordersRef = collection(this.firestore, 'product_order');
+    // You might want to order by date, requiring an index
+    return collectionData(ordersRef, { idField: 'id' });
+  }
+
+  // User: Get orders for specific user/email
+  getUserOrders(email: string): Observable<any[]> {
+    const ordersRef = collection(this.firestore, 'product_order');
+    // Assuming 'email' or 'userId' is stored in orderData. 
+    // In dashboard.ts we should ensure email is saved.
+    // For now, let's query assuming we'll save 'userEmail' in the order.
+    // Note: Use 'userEmail' field.
+    const q = query(ordersRef, where('userEmail', '==', email));
+    return collectionData(q, { idField: 'id' });
+  }
+
+  // Admin: Update Status
+  async updateOrderStatus(orderId: string, status: string) {
+    const orderDoc = doc(this.firestore, 'product_order', orderId);
+    await setDoc(orderDoc, { status }, { merge: true });
+  }
+
+  // Admin: Update Items (mark unavailable etc)
+  async updateOrderItems(orderId: string, items: any[]) {
+    const orderDoc = doc(this.firestore, 'product_order', orderId);
+    await setDoc(orderDoc, { items }, { merge: true });
   }
 
   uploadProducts() {
