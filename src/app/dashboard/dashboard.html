@@ -7,12 +7,16 @@
                 <h3>Shop</h3>
                 <div class="nav-buttons">
                     @if(isAdmin$ | async){
-                        
-                        <button mat-button (click)="goToAdminOrders()" style="color: red;">Admin
-                            Orders</button>
-                        }@else {
-                        <button mat-button (click)="goToMyOrders()">My Orders</button>
-
+                    <button mat-button (click)="goToAdminOrders()" style="color: red;"
+                        [matBadge]="adminPendingCount$ | async" matBadgeColor="warn"
+                        [matBadgeHidden]="(adminPendingCount$ | async) === 0">
+                        Admin Orders
+                    </button>
+                    }@else {
+                    <button mat-button (click)="goToMyOrders()" [matBadge]="userActiveCount$ | async"
+                        matBadgeColor="accent" [matBadgeHidden]="(userActiveCount$ | async) === 0">
+                        My Orders
+                    </button>
                     }
                     <button mat-button (click)="logout()">Logout</button>
 
