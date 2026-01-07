@@ -34,12 +34,24 @@ export class Checkout {
 
     shareLocation() {
         if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition((position) => {
-                this.locationCoords.set({
-                    lat: position.coords.latitude,
-                    lng: position.coords.longitude
-                });
-                alert('Location fetched successfully!');
+            navigator.geolocation.getCurrentPosition(async (position) => {
+                const lat = position.coords.latitude;
+                const lng = position.coords.longitude;
+
+                try {
+                    const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lng}`);
+                    const data = await response.json();
+                    if (data && data.display_name) {
+                        this.address.set(data.display_name);
+                    } else {
+                        // Fallback if address not found, maybe show coords in address field?
+                        this.address.set(`Lat: ${lat}, Lng: ${lng}`);
+                    }
+                } catch (error) {
+                    // Fallback on error
+                    this.address.set(`Lat: ${lat}, Lng: ${lng}`);
+                    alert('Error determining address: ' + error);
+                }
             }, (error) => {
                 alert('Error fetching location: ' + error.message);
             });

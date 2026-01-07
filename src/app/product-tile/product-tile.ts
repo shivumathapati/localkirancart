@@ -37,16 +37,22 @@ export class ProductTile {
       });
   }
 
+  getQuantity(product: Product): number {
+    return this.cartService.itemsMap().get(product.upc)?.quantity || 0;
+  }
+
   addToCart(product: Product) {
-    const quantityStr = window.prompt(`Enter quantity for ${product.name}:`, '1');
-    if (quantityStr) {
-      const quantity = parseInt(quantityStr, 10);
-      if (quantity > 0) {
-        this.cartService.addToCart(product, quantity);
-        alert(`${quantity} ${product.name}(s) added to cart.`);
-      } else {
-        alert('Invalid quantity');
-      }
+    this.cartService.addToCart(product, 1);
+  }
+
+  increment(product: Product) {
+    this.cartService.addToCart(product, 1);
+  }
+
+  decrement(product: Product) {
+    const currentQty = this.getQuantity(product);
+    if (currentQty > 0) {
+      this.cartService.updateQuantity(product.upc, currentQty - 1);
     }
   }
 }

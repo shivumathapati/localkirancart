@@ -1,65 +1,97 @@
 <div class="admin-orders-container" style="padding: 20px;">
     <h2>Admin Order Management</h2>
 
-    <div class="orders-list">
-        @for (order of orders$ | async; track order.id) {
-        <mat-expansion-panel style="margin-bottom: 15px;" [ngClass]="{
-                'status-accepted': order.status === 'accepted',
-                'status-out-for-delivery': order.status === 'out_for_delivery',
-                'status-delivered': order.status === 'delivered',
-                'status-pending': order.status === 'pending'
-            }">
-            <mat-expansion-panel-header>
-                <mat-panel-title>
-                    Order ID: {{order.id}}
-                </mat-panel-title>
-                <mat-panel-description>
-                    {{order.userEmail}} - {{order.totalPrice | currency:'INR'}} -
-                    <strong>{{order.status | uppercase}}</strong>
-                </mat-panel-description>
-            </mat-expansion-panel-header>
+    <div *ngIf="orders$ | async as orders">
+        <mat-tab-group>
+            <mat-tab label="Pending ({{getOrdersByStatus(orders, 'pending').length}})">
+                <ng-container
+                    *ngTemplateOutlet="ordersList; context: {$implicit: getOrdersByStatus(orders, 'pending')}"></ng-container>
+            </mat-tab>
+            <mat-tab label="Accepted ({{getOrdersByStatus(orders, 'accepted').length}})">
+                <ng-container
+                    *ngTemplateOutlet="ordersList; context: {$implicit: getOrdersByStatus(orders, 'accepted')}"></ng-container>
+            </mat-tab>
+            <mat-tab label="Out for Delivery ({{getOrdersByStatus(orders, 'out_for_delivery').length}})">
+                <ng-container
+                    *ngTemplateOutlet="ordersList; context: {$implicit: getOrdersByStatus(orders, 'out_for_delivery')}"></ng-container>
+            </mat-tab>
+            <mat-tab label="Delivered ({{getOrdersByStatus(orders, 'delivered').length}})">
+                <ng-container
+                    *ngTemplateOutlet="ordersList; context: {$implicit: getOrdersByStatus(orders, 'delivered')}"></ng-container>
+            </mat-tab>
+            <mat-tab label="All ({{orders.length}})">
+                <ng-container *ngTemplateOutlet="ordersList; context: {$implicit: orders}"></ng-container>
+            </mat-tab>
+        </mat-tab-group>
 
-            <div class="order-details">
-                <p><strong>Address:</strong> {{order.address}}</p>
-                <p><strong>Date:</strong> {{order.createdAt | date:'medium'}}</p>
+        <ng-template #ordersList let-ordersList>
+            <div class="orders-list" style="margin-top: 20px;">
+                @for (order of ordersList; track order.id) {
+                <mat-expansion-panel style="margin-bottom: 15px;" [ngClass]="{
+                        'status-accepted': order.status === 'accepted',
+                        'status-out-for-delivery': order.status === 'out_for_delivery',
+                        'status-delivered': order.status === 'delivered',
+                        'status-pending': order.status === 'pending'
+                    }">
+                    <mat-expansion-panel-header>
 
-                <h4>Items:</h4>
-                <ul>
-                    @for (item of order.items; track $index) {
-                    <li style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px;">
-                        <span [style.text-decoration]="item.unavailable ? 'line-through' : 'none'">
-                            {{item.name}} (x{{item.quantity}})
-                        </span>
-                        <div>
-                            <mat-checkbox [checked]="item.unavailable"
-                                (change)="toggleItemAvailability(order, $index, item.unavailable)">
-                                Mark Unavailable
-                            </mat-checkbox>
+                        <!-- ... rest of expansion panel ... -->
+                        <!-- I need to copy the entire expansion panel content here -->
+                        <!-- Since I cannot put comments inside replace_file_content easily without breaking if it's strictly checking -->
+                        <mat-panel-title>
+                            Order ID: {{order.id}}
+                        </mat-panel-title>
+                        <mat-panel-description>
+                            {{order.userEmail}} - {{order.totalPrice | currency:'INR'}} -
+                            <strong>{{order.status | uppercase}}</strong>
+                        </mat-panel-description>
+                    </mat-expansion-panel-header>
+
+                    <div class="order-details">
+                        <p><strong>Address:</strong> {{order.address}}</p>
+                        <p><strong>Date:</strong> {{order.createdAt | date:'medium'}}</p>
+
+                        <h4>Items:</h4>
+                        <ul>
+                            @for (item of order.items; track $index) {
+                            <li
+                                style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px;">
+                                <span [style.text-decoration]="item.unavailable ? 'line-through' : 'none'">
+                                    {{item.name}} (x{{item.quantity}})
+                                </span>
+                                <div>
+                                    <mat-checkbox [checked]="item.unavailable"
+                                        (change)="toggleItemAvailability(order, $index, item.unavailable)">
+                                        Mark Unavailable
+                                    </mat-checkbox>
+                                </div>
+                            </li>
+                            }
+                        </ul>
+
+                        <div class="actions" style="margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px;">
+                            <button mat-raised-button color="primary" (click)="updateStatus(order.id, 'accepted')"
+                                [disabled]="order.status === 'accepted' || order.status === 'out_for_delivery' || order.status === 'delivered'">
+                                Accept Order
+                            </button>
+                            &nbsp;
+                            <button mat-raised-button color="accent"
+                                (click)="updateStatus(order.id, 'out_for_delivery')"
+                                [disabled]="order.status !== 'accepted'">
+                                Out for Delivery
+                            </button>
+                            &nbsp;
+                            <button mat-raised-button color="warn" (click)="updateStatus(order.id, 'delivered')"
+                                [disabled]="order.status !== 'out_for_delivery'">
+                                Delivered
+                            </button>
                         </div>
-                    </li>
-                    }
-                </ul>
-
-                <div class="actions" style="margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px;">
-                    <button mat-raised-button color="primary" (click)="updateStatus(order.id, 'accepted')"
-                        [disabled]="order.status === 'accepted' || order.status === 'out_for_delivery' || order.status === 'delivered'">
-                        Accept Order
-                    </button>
-                    &nbsp;
-                    <button mat-raised-button color="accent" (click)="updateStatus(order.id, 'out_for_delivery')"
-                        [disabled]="order.status !== 'accepted'">
-                        Out for Delivery
-                    </button>
-                    &nbsp;
-                    <button mat-raised-button color="warn" (click)="updateStatus(order.id, 'delivered')"
-                        [disabled]="order.status !== 'out_for_delivery'">
-                        Delivered
-                    </button>
-                </div>
+                    </div>
+                </mat-expansion-panel>
+                } @empty {
+                <p>No orders found in this category.</p>
+                }
             </div>
-        </mat-expansion-panel>
-        } @empty {
-        <p>No orders found.</p>
-        }
+        </ng-template>
     </div>
 </div>

@@ -31,6 +31,7 @@ export class CartService {
     });
 
     itemsArray = computed(() => Array.from(this.items().values()));
+    itemsMap = computed(() => this.items());
 
     addToCart(product: Product, quantity: number) {
         const currentItems = new Map(this.items());
