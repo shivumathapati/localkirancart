@@ -1,0 +1,243 @@
+.page-container {
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f6f6f7;
+    /* Light background */
+    font-family: 'Inter', sans-serif;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.home-link {
+    color: #0078ad;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.separator {
+    margin: 0 8px;
+    color: #999;
+}
+
+.current {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Layout */
+.layout-wrapper {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 350px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    padding: 16px;
+    flex-shrink: 0;
+}
+
+.vertical-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    cursor: pointer;
+    border-left: 4px solid transparent;
+    transition: all 0.2s;
+    color: #555;
+}
+
+.vertical-item:hover {
+    background-color: #f8f9fa;
+}
+
+.vertical-item.active {
+    background-color: #eef4ff;
+    /* Light blue active bg */
+    border-left-color: #0078ad;
+    /* Blue accent */
+    color: #0078ad;
+    font-weight: 600;
+}
+
+.vertical-icon-placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #888;
+}
+
+.vertical-item.active .vertical-icon-placeholder {
+    background-color: #dbeafe;
+    color: #0078ad;
+}
+
+/* Main Content */
+.content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.category-card {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+    transition: all 0.2s;
+    margin: 10px 0;
+}
+
+.category-card.expanded {
+    border-color: #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+}
+
+/* Accordion Header */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.card-header:hover {
+    background-color: #fafafa;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-image-wrapper {
+    width: 48px;
+    height: 48px;
+    background-color: #f4f6fb;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.header-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.category-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #212121;
+    margin: 0;
+}
+
+.chevron {
+    color: #0078ad;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.chevron.rotated {
+    transform: rotate(180deg);
+}
+
+/* Expanded Body */
+.card-body {
+    border-top: 1px solid #eee;
+    padding: 16px 24px;
+    background-color: white;
+    animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.subcategories-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* No gap, using borders or padding */
+}
+
+.subcategory-row {
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #444;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.subcategory-row:last-child {
+    border-bottom: none;
+}
+
+.subcategory-row:hover {
+    color: #0078ad;
+}
+
+.right-arrow {
+    color: #bbb;
+    font-size: 0.8rem;
+}
+
+.empty-state {
+    color: #999;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .layout-wrapper {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        display: flex;
+        overflow-x: auto;
+        padding: 8px;
+    }
+
+    .vertical-item {
+        padding: 8px 16px;
+        min-width: 80px;
+    }
+}

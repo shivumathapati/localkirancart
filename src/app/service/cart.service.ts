@@ -1,5 +1,8 @@
-import { Injectable, computed, signal } from '@angular/core';
+import { Injectable, computed, signal, inject } from '@angular/core';
 import { Product } from '../models/product/product-module';
+import { HttpClient } from '@angular/common/http';
+import { Firestore, collection, writeBatch, doc } from '@angular/fire/firestore';
+import { firstValueFrom } from 'rxjs';
 
 export interface CartItem {
     product: Product;
@@ -10,6 +13,9 @@ export interface CartItem {
     providedIn: 'root'
 })
 export class CartService {
+    private http = inject(HttpClient);
+    private firestore = inject(Firestore);
+
     // Signal to track cart items: productId -> CartItem
     private items = signal<Map<string, CartItem>>(new Map());
 
@@ -66,5 +72,55 @@ export class CartService {
 
     clearCart() {
         this.items.set(new Map());
+    }
+
+    async seedCategories() {
+        try {
+            const data: any = await firstValueFrom(this.http.get('/CategoriesData.json'));
+            const rootCategories = data.categoriesData;
+
+            if (!rootCategories || !Array.isArray(rootCategories)) {
+                console.error('Invalid categories data format');
+                return;
+            }
+
+            const batch = writeBatch(this.firestore);
+            const categoriesRef = collection(this.firestore, 'categories');
+            let operationCount = 0;
+
+            // Helper to recursively process categories
+            const processCategory = (category: any) => {
+                // Create a copy to modify
+                const categoryDoc = { ...category };
+
+                // Remove the nested sub_categorie array from the document to be saved
+                // We will process the children separately
+                delete categoryDoc.sub_categorie;
+
+                // Set the document
+                const docRef = doc(categoriesRef, categoryDoc.id.toString());
+                batch.set(docRef, categoryDoc);
+                operationCount++;
+
+                // Process children if they exist
+                if (category.sub_categorie && Array.isArray(category.sub_categorie)) {
+                    category.sub_categorie.forEach((child: any) => processCategory(child));
+                }
+            };
+
+            rootCategories.forEach((cat: any) => processCategory(cat));
+
+            // Firestore batch has a limit of 500 operations. 
+            // If we exceed this, we'd need to chunk it. 
+            // Assuming < 500 for now based on file size, but good to note.
+            if (operationCount > 500) {
+                console.warn('Warning: Batch size exceeds 500. This might fail. Consider chunking.');
+            }
+
+            await batch.commit();
+            console.log(`Successfully seeded ${operationCount} categories.`);
+        } catch (error) {
+            console.error('Error seeding categories:', error);
+        }
     }
 }

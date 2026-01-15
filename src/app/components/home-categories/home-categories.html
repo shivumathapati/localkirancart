@@ -1,0 +1,71 @@
+<div class="page-container">
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <span class="home-link">Home</span> <span class="separator">></span> <span class="current">All Categories</span>
+    </div>
+
+    <div class="layout-wrapper">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- @for (vertical of verticals; track vertical.name) {
+            <div class="vertical-item" [class.active]="selectedVertical === vertical.name"
+                (click)="selectVertical(vertical.name)">
+                <img src="{{ vertical.icon }}" style="width: 80px;" alt="">
+                <span class="vertical-name">{{ vertical.name }}</span>
+            </div>
+            } -->
+
+            @for (category of categories$ | async; track category.id) {
+            <div class="category-card" [class.expanded]="expandedCategoryId === category.id">
+
+                <!-- Accordion Header -->
+                <div class="card-header" (click)="toggleCategory(category.id)">
+                    <div class="header-left">
+                        <div class="header-image-wrapper">
+                            <!-- Use header image or thumbnail if available -->
+                            <img [src]="baseURL + '/' + (category.thumbnail_image_path || category.masthead_image_path)"
+                                [alt]="category.name" loading="lazy">
+                        </div>
+                        <h2 class="category-title">{{ category.name }}</h2>
+                    </div>
+
+                    <div class="header-right">
+                        <!-- Chevron Icon -->
+                        <span class="chevron" [class.rotated]="expandedCategoryId === category.id">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Expanded Content -->
+                @if (expandedCategoryId === category.id) {
+                <div class="card-body">
+                    <div class="subcategories-list">
+                        @for (sub of category.sub_categorie; track sub.id) {
+                        <div class="subcategory-row">
+                            <span>{{ sub.name }}</span>
+                            <span class="right-arrow">></span>
+                        </div>
+                        }
+                    </div>
+
+                    @if (!category.sub_categorie || category.sub_categorie.length === 0) {
+                    <div class="empty-state">No subcategories available</div>
+                    }
+                </div>
+                }
+            </div>
+            }
+
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content-area">
+
+        </main>
+    </div>
+</div>

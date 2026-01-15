@@ -6,6 +6,7 @@ import { adminGuard } from './guards/admin.guard';
 import { Checkout } from './checkout/checkout';
 import { AdminOrders } from './admin-orders/admin-orders';
 import { MyOrders } from './my-orders/my-orders';
+import { HomeCategoriesComponent } from './components/home-categories/home-categories';
 
 export const routes: Routes = [{
     path: '', component: Login
@@ -17,6 +18,8 @@ export const routes: Routes = [{
     path: 'admin/orders', component: AdminOrders, canActivate: [authGuard, adminGuard]
 }, {
     path: 'my-orders', component: MyOrders, canActivate: [authGuard]
+}, {
+    path: 'categories', component: HomeCategoriesComponent, canActivate: [authGuard]
 },
 
 

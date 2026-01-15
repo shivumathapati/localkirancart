@@ -46,7 +46,15 @@ export class ProductTile {
   }
 
   increment(product: Product) {
-    this.cartService.addToCart(product, 1);
+    // this.cartService.seedCategories();
+    // this.cartService.addToCart(product, 1);
+    this.productService.uploadCategories();
+  }
+
+  updateCategories() {
+    // this.cartService.seedCategories();
+    // this.cartService.addToCart(product, 1);
+    this.productService.uploadCategories();
   }
 
   decrement(product: Product) {

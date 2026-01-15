@@ -3,6 +3,7 @@ import { Firestore, collection, collectionData, query, where, doc, setDoc } from
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Product } from '../models/product/product-module';
 import { HttpClient } from '@angular/common/http';
+import { Category } from '../models/category.model';
 
 
 @Injectable({ providedIn: 'root' })
@@ -259,6 +260,35 @@ export class ProductService {
         }
 
         console.log('✅ Products uploaded successfully');
+      });
+  }
+
+  async uploadCategoryRecursive(category: Category, collectionRef: any) {
+    const { sub_categorie, ...categoryData } = category; // Separate nested data
+    const docRef = doc(collectionRef, category.id.toString());
+
+    // Upload current category document
+    await setDoc(docRef, categoryData);
+
+    // Recursively upload subcategories
+    if (sub_categorie && sub_categorie.length > 0) {
+      const subCollectionRef = collection(docRef, 'sub_categorie');
+      for (const subCat of sub_categorie) {
+        await this.uploadCategoryRecursive(subCat, subCollectionRef);
+      }
+    }
+  }
+
+  uploadCategories() {
+    this.http.get<Category[]>('CategoriesData.json')
+      .subscribe(async (categories) => {
+        const categoriesRef = collection(this.firestore, 'categories');
+
+        console.log('🔄 Starting recursive category upload...');
+        for (const category of categories) {
+          await this.uploadCategoryRecursive(category, categoriesRef);
+        }
+        console.log('✅ Categories uploaded successfully recursively');
       });
   }
 

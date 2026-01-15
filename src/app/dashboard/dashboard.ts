@@ -13,11 +13,12 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatBadgeModule } from '@angular/material/badge';
+import { HomeCategoriesComponent } from "../components/home-categories/home-categories";
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [ProductTile, Scanner, ProductCategories, FormsModule, CommonModule, MatButtonModule, MatInputModule, MatFormFieldModule, MatBadgeModule],
+  imports: [ProductTile, Scanner, FormsModule, CommonModule, MatButtonModule, MatInputModule, MatFormFieldModule, MatBadgeModule, HomeCategoriesComponent],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.css',
 })

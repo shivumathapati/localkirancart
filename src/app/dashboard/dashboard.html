@@ -1,4 +1,3 @@
-```
 <div>
     <div>
         <div class="dashboard-container">
@@ -25,14 +24,14 @@
                     </button>
                 </div>
             </div>
- @if(isAdmin$ | async){
-     <app-scanner></app-scanner> 
-}
+            @if(isAdmin$ | async){
+            <app-scanner></app-scanner>
+            }
         </div>
         <div>
-            <app-product-categories></app-product-categories>
+            <!-- <app-product-categories></app-product-categories> -->
+            <app-home-categories></app-home-categories>
             <app-product-tile></app-product-tile>
         </div>
     </div>
 </div>
-```
