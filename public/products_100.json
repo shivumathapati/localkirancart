@@ -1,3512 +1,452 @@
 [
   {
-    "upc": "890100000001",
-    "name": "Premium Basmati Rice 1kg",
-    "price": 120,
-    "quantity": 50,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000002",
-    "name": "Sona Masoori Rice 5kg",
-    "price": 350,
-    "quantity": 30,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000003",
-    "name": "Kolam Rice 10kg",
-    "price": 620,
-    "quantity": 20,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000004",
-    "name": "Brown Rice 1kg",
-    "price": 160,
-    "quantity": 40,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000005",
-    "name": "Organic Rice 5kg",
-    "price": 480,
-    "quantity": 15,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000006",
-    "name": "Broken Rice 1kg",
-    "price": 60,
-    "quantity": 70,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000007",
-    "name": "Steam Rice 10kg",
-    "price": 590,
-    "quantity": 25,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000008",
-    "name": "Raw Rice 5kg",
-    "price": 280,
-    "quantity": 35,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000009",
-    "name": "Mini Basmati Rice 1kg",
-    "price": 110,
-    "quantity": 45,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000010",
-    "name": "Jeera Samba Rice 5kg",
-    "price": 420,
-    "quantity": 18,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Rice",
-    "image_url": "https://www.jiomart.com/images/category/28987/thumb/rice-20250708.png"
-  },
-  {
-    "upc": "890100000011",
-    "name": "Whole Wheat 1kg",
-    "price": 55,
-    "quantity": 60,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Wheat",
-    "image_url": "https://www.jiomart.com/images/category/28992/thumb/wheat-soya-20240621.png"
-  },
-  {
-    "upc": "890100000012",
-    "name": "Sharbati Wheat 5kg",
-    "price": 260,
-    "quantity": 40,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Wheat",
-    "image_url": "https://www.jiomart.com/images/category/28992/thumb/wheat-soya-20240621.png"
-  },
-  {
-    "upc": "890100000013",
-    "name": "Organic Wheat 2kg",
-    "price": 140,
-    "quantity": 30,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Wheat",
-    "image_url": "https://www.jiomart.com/images/category/28992/thumb/wheat-soya-20240621.png"
-  },
-  {
-    "upc": "890100000014",
-    "name": "Lokwan Wheat 10kg",
-    "price": 520,
-    "quantity": 20,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Wheat",
-    "image_url": "https://www.jiomart.com/images/category/28992/thumb/wheat-soya-20240621.png"
-  },
-  {
-    "upc": "890100000015",
-    "name": "Desi Wheat 1kg",
-    "price": 65,
-    "quantity": 50,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Wheat",
-    "image_url": "https://www.jiomart.com/images/category/28992/thumb/wheat-soya-20240621.png"
-  },
-  {
-    "upc": "890100000016",
-    "name": "Aashirvaad Atta 5kg",
-    "price": 290,
-    "quantity": 35,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Atta",
-    "image_url": "https://www.jiomart.com/images/category/28985/thumb/atta-flours-sooji-20240621.png"
-  },
-  {
-    "upc": "890100000017",
-    "name": "Whole Wheat Atta 10kg",
-    "price": 520,
-    "quantity": 20,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Atta",
-    "image_url": "https://www.jiomart.com/images/category/28985/thumb/atta-flours-sooji-20240621.png"
-  },
-  {
-    "upc": "890100000018",
-    "name": "Multigrain Atta 5kg",
-    "price": 340,
-    "quantity": 25,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Atta",
-    "image_url": "https://www.jiomart.com/images/category/28985/thumb/atta-flours-sooji-20240621.png"
-  },
-  {
-    "upc": "890100000019",
-    "name": "Organic Atta 2kg",
-    "price": 180,
-    "quantity": 40,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Atta",
-    "image_url": "https://www.jiomart.com/images/category/28985/thumb/atta-flours-sooji-20240621.png"
-  },
-  {
-    "upc": "890100000020",
-    "name": "Chakki Fresh Atta 1kg",
-    "price": 60,
-    "quantity": 70,
-    "category": "Staples & Grocery Essentials",
-    "subcategory": "Atta",
-    "image_url": "https://www.jiomart.com/images/category/28985/thumb/atta-flours-sooji-20240621.png"
-  },
-  {
-    "upc": "890200000001",
-    "name": "Marie Gold Biscuits 200g",
-    "price": 35,
-    "quantity": 60,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000002",
-    "name": "Good Day Butter Biscuits",
-    "price": 40,
-    "quantity": 50,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000003",
-    "name": "Hide & Seek Chocolate Biscuits",
-    "price": 45,
-    "quantity": 45,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000004",
-    "name": "Oreo Vanilla Cream",
-    "price": 30,
-    "quantity": 70,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000005",
-    "name": "Bourbon Cream Biscuits",
-    "price": 50,
-    "quantity": 40,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000006",
-    "name": "Milk Bikis Cream",
-    "price": 25,
-    "quantity": 80,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000007",
-    "name": "Little Hearts Biscuits",
-    "price": 20,
-    "quantity": 90,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000008",
-    "name": "Treat Croissant Chocolate",
-    "price": 15,
-    "quantity": 100,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000009",
-    "name": "Jim Jam Cream Biscuits",
-    "price": 55,
-    "quantity": 35,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000010",
-    "name": "Nutri Choice Digestive",
-    "price": 60,
-    "quantity": 30,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Biscuits",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890200000011",
-    "name": "Lays Classic Salted",
-    "price": 20,
-    "quantity": 80,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890200000012",
-    "name": "Lays Magic Masala",
-    "price": 20,
-    "quantity": 75,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890200000013",
-    "name": "Kurkure Masala Munch",
-    "price": 20,
-    "quantity": 85,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890200000014",
-    "name": "Bingo Mad Angles",
-    "price": 25,
-    "quantity": 70,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890200000015",
-    "name": "Pringles Original",
-    "price": 120,
-    "quantity": 25,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890200000016",
-    "name": "Uncle Chipps Spicy Treat",
-    "price": 20,
-    "quantity": 90,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890200000017",
-    "name": "Too Yumm Multigrain Chips",
-    "price": 30,
-    "quantity": 60,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890200000018",
-    "name": "Balaji Wafers Cream & Onion",
-    "price": 15,
-    "quantity": 100,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890200000019",
-    "name": "Haldiram’s Potato Chips",
-    "price": 25,
-    "quantity": 65,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890200000020",
-    "name": "Maxx Potato Chips",
-    "price": 10,
-    "quantity": 120,
-    "category": "Packaged Food & Snacks",
-    "subcategory": "Chips",
-    "image_url": "https://www.jiomart.com/images/category/29000/thumb/chips-namkeens-20240621.png"
-  },
-  {
-    "upc": "890300000001",
-    "name": "Amul Toned Milk 1L",
-    "price": 54,
-    "quantity": 80,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000002",
-    "name": "Amul Gold Milk 1L",
-    "price": 66,
-    "quantity": 60,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000003",
-    "name": "Nandini Toned Milk 1L",
-    "price": 52,
-    "quantity": 75,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000004",
-    "name": "Nandini Full Cream Milk 1L",
-    "price": 64,
-    "quantity": 55,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000005",
-    "name": "Heritage Milk 500ml",
-    "price": 28,
-    "quantity": 90,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000006",
-    "name": "Country Delight Cow Milk 1L",
-    "price": 72,
-    "quantity": 40,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000007",
-    "name": "Organic Cow Milk 1L",
-    "price": 80,
-    "quantity": 30,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000008",
-    "name": "Amul Slim & Trim Milk 1L",
-    "price": 50,
-    "quantity": 65,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000009",
-    "name": "Aavin Milk 1L",
-    "price": 48,
-    "quantity": 85,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000010",
-    "name": "Gokul Milk 1L",
-    "price": 55,
-    "quantity": 70,
-    "category": "Dairy & Bakery",
-    "subcategory": "Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890300000011",
-    "name": "Amul Masti Curd 500g",
-    "price": 35,
-    "quantity": 60,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000012",
-    "name": "Mother Dairy Curd 400g",
-    "price": 30,
-    "quantity": 65,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000013",
-    "name": "Nandini Thick Curd 500g",
-    "price": 34,
-    "quantity": 70,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000014",
-    "name": "Heritage Fresh Curd 500g",
-    "price": 32,
-    "quantity": 55,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/220/thumb/fresh-fruits-20240621.png"
-  },
-  {
-    "upc": "890300000015",
-    "name": "Organic Curd 400g",
-    "price": 45,
-    "quantity": 40,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/28995/thumb/millets-organic-20251106.png"
-  },
-  {
-    "upc": "890300000016",
-    "name": "Amul Lite Curd 500g",
-    "price": 36,
-    "quantity": 50,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000017",
-    "name": "Nestle A+ Dahi 400g",
-    "price": 38,
-    "quantity": 45,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000018",
-    "name": "Country Delight Curd 500g",
-    "price": 48,
-    "quantity": 35,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000019",
-    "name": "Farm Fresh Curd 1kg",
-    "price": 70,
-    "quantity": 25,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/220/thumb/fresh-fruits-20240621.png"
-  },
-  {
-    "upc": "890300000020",
-    "name": "Aavin Curd 500g",
-    "price": 33,
-    "quantity": 60,
-    "category": "Dairy & Bakery",
-    "subcategory": "Curd",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000021",
-    "name": "Amul Butter 100g",
-    "price": 55,
-    "quantity": 50,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000022",
-    "name": "Amul Butter 500g",
-    "price": 245,
-    "quantity": 30,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000023",
-    "name": "Mother Dairy Butter 100g",
-    "price": 52,
-    "quantity": 55,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000024",
-    "name": "Britannia Butter 200g",
-    "price": 95,
-    "quantity": 45,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000025",
-    "name": "Unsalted Butter 100g",
-    "price": 60,
-    "quantity": 40,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000026",
-    "name": "Organic Butter 200g",
-    "price": 140,
-    "quantity": 25,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/28995/thumb/millets-organic-20251106.png"
-  },
-  {
-    "upc": "890300000027",
-    "name": "Table Butter 500g",
-    "price": 230,
-    "quantity": 20,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000028",
-    "name": "Cooking Butter 1kg",
-    "price": 460,
-    "quantity": 15,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/28984/thumb/cooking-essentials-20240711.png"
-  },
-  {
-    "upc": "890300000029",
-    "name": "Salted Butter 100g",
-    "price": 50,
-    "quantity": 65,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/61/thumb/dairy-bakery-20240620.png"
-  },
-  {
-    "upc": "890300000030",
-    "name": "Premium Butter 250g",
-    "price": 130,
-    "quantity": 35,
-    "category": "Dairy & Bakery",
-    "subcategory": "Butter",
-    "image_url": "https://www.jiomart.com/images/category/28983/thumb/premium-fruits-vegetables-20241111.png"
-  },
-  {
-    "upc": "890300000031",
-    "name": "Amul Cheese Slices 200g",
-    "price": 125,
-    "quantity": 40,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890300000032",
-    "name": "Amul Mozzarella Cheese 200g",
-    "price": 110,
-    "quantity": 35,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890300000033",
-    "name": "Britannia Cheese Block 200g",
-    "price": 115,
-    "quantity": 30,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890300000034",
-    "name": "Cheddar Cheese 200g",
-    "price": 140,
-    "quantity": 25,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890300000035",
-    "name": "Cheese Cubes 200g",
-    "price": 120,
-    "quantity": 45,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890300000036",
-    "name": "Parmesan Cheese 100g",
-    "price": 180,
-    "quantity": 20,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890300000037",
-    "name": "Pizza Cheese Blend 500g",
-    "price": 260,
-    "quantity": 18,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890300000038",
-    "name": "Low Fat Cheese 200g",
-    "price": 135,
-    "quantity": 28,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890300000039",
-    "name": "Organic Cheese 200g",
-    "price": 170,
-    "quantity": 22,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890300000040",
-    "name": "Processed Cheese 1kg",
-    "price": 520,
-    "quantity": 10,
-    "category": "Dairy & Bakery",
-    "subcategory": "Cheese",
-    "image_url": "https://www.jiomart.com/images/category/29010/thumb/cheese-paneer-tofu-20240621.png"
-  },
-  {
-    "upc": "890400000001",
-    "name": "Tata Tea Gold 250g",
-    "price": 140,
-    "quantity": 40,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000002",
-    "name": "Red Label Tea 500g",
-    "price": 260,
-    "quantity": 35,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000003",
-    "name": "Tata Agni Tea 250g",
-    "price": 120,
-    "quantity": 50,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000004",
-    "name": "Tata Tea Premium 1kg",
-    "price": 520,
-    "quantity": 25,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000005",
-    "name": "Red Label Natural Care",
-    "price": 180,
-    "quantity": 30,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000006",
-    "name": "Brooke Bond 3 Roses",
-    "price": 210,
-    "quantity": 28,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000007",
-    "name": "Wagh Bakri Tea 500g",
-    "price": 240,
-    "quantity": 32,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000008",
-    "name": "Green Tea Lemon 100g",
-    "price": 160,
-    "quantity": 45,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000009",
-    "name": "Organic Green Tea 50g",
-    "price": 200,
-    "quantity": 20,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000010",
-    "name": "Masala Tea Powder 250g",
-    "price": 150,
-    "quantity": 38,
-    "category": "Beverages",
-    "subcategory": "Tea",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000011",
-    "name": "Nescafe Classic 50g",
-    "price": 145,
-    "quantity": 40,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000012",
-    "name": "Bru Instant Coffee 100g",
-    "price": 210,
-    "quantity": 35,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000013",
-    "name": "Nescafe Gold 100g",
-    "price": 540,
-    "quantity": 20,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000014",
-    "name": "Bru Green Label 200g",
-    "price": 280,
-    "quantity": 30,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000015",
-    "name": "Filter Coffee Powder 250g",
-    "price": 180,
-    "quantity": 45,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000016",
-    "name": "Davidoff Rich Aroma 100g",
-    "price": 620,
-    "quantity": 15,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000017",
-    "name": "Continental Coffee 200g",
-    "price": 260,
-    "quantity": 25,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000018",
-    "name": "Cold Coffee Powder 100g",
-    "price": 150,
-    "quantity": 40,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000019",
-    "name": "Organic Coffee Beans 250g",
-    "price": 420,
-    "quantity": 18,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000020",
-    "name": "Instant Coffee Sachets",
-    "price": 90,
-    "quantity": 60,
-    "category": "Beverages",
-    "subcategory": "Coffee",
-    "image_url": "https://www.jiomart.com/images/category/29009/thumb/tea-coffee-20250408.png"
-  },
-  {
-    "upc": "890400000021",
-    "name": "Coca Cola 1.25L",
-    "price": 65,
-    "quantity": 80,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000022",
-    "name": "Pepsi 1.25L",
-    "price": 65,
-    "quantity": 75,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000023",
-    "name": "Sprite 1L",
-    "price": 60,
-    "quantity": 70,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000024",
-    "name": "Thums Up 2L",
-    "price": 95,
-    "quantity": 50,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000025",
-    "name": "Fanta Orange 1L",
-    "price": 60,
-    "quantity": 65,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000026",
-    "name": "Mountain Dew 1L",
-    "price": 60,
-    "quantity": 68,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000027",
-    "name": "Limca 500ml",
-    "price": 30,
-    "quantity": 90,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000028",
-    "name": "7UP 2L",
-    "price": 95,
-    "quantity": 45,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000029",
-    "name": "Coca Cola Can 300ml",
-    "price": 40,
-    "quantity": 85,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000030",
-    "name": "Pepsi Black Can",
-    "price": 45,
-    "quantity": 60,
-    "category": "Beverages",
-    "subcategory": "Soft Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000031",
-    "name": "Tropicana Orange Juice 1L",
-    "price": 120,
-    "quantity": 40,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000032",
-    "name": "Real Mixed Fruit Juice 1L",
-    "price": 110,
-    "quantity": 45,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000033",
-    "name": "Minute Maid Mango 1L",
-    "price": 105,
-    "quantity": 50,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000034",
-    "name": "Paper Boat Aamras 500ml",
-    "price": 90,
-    "quantity": 60,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000035",
-    "name": "B Natural Apple Juice 1L",
-    "price": 115,
-    "quantity": 35,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000036",
-    "name": "Real Pomegranate Juice",
-    "price": 130,
-    "quantity": 30,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000037",
-    "name": "Tropicana Pineapple Juice",
-    "price": 118,
-    "quantity": 38,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000038",
-    "name": "Paper Boat Guava Juice",
-    "price": 85,
-    "quantity": 55,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000039",
-    "name": "Organic Fruit Juice 1L",
-    "price": 160,
-    "quantity": 25,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000040",
-    "name": "Mixed Berry Juice 1L",
-    "price": 140,
-    "quantity": 28,
-    "category": "Beverages",
-    "subcategory": "Fruit Juices",
-    "image_url": "https://www.jiomart.com/images/category/29003/thumb/drinks-juices-20240627.png"
-  },
-  {
-    "upc": "890400000041",
-    "name": "Red Bull Energy Drink",
-    "price": 125,
-    "quantity": 40,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000042",
-    "name": "Monster Energy 350ml",
-    "price": 140,
-    "quantity": 35,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000043",
-    "name": "Glucon-D Energy Drink",
-    "price": 95,
-    "quantity": 50,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000044",
-    "name": "Fast&Up Reload Drink",
-    "price": 110,
-    "quantity": 45,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000045",
-    "name": "Enerzal Powder 100g",
-    "price": 85,
-    "quantity": 55,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000046",
-    "name": "Gatorade Lemon 500ml",
-    "price": 70,
-    "quantity": 60,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000047",
-    "name": "Powerade Blue 500ml",
-    "price": 75,
-    "quantity": 58,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000048",
-    "name": "ORSL Energy Drink",
-    "price": 65,
-    "quantity": 70,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000049",
-    "name": "Electral Energy Drink",
-    "price": 60,
-    "quantity": 65,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000050",
-    "name": "Hydration Drink Mix",
-    "price": 90,
-    "quantity": 48,
-    "category": "Beverages",
-    "subcategory": "Energy Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000051",
-    "name": "Bournvita 500g",
-    "price": 240,
-    "quantity": 35,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000052",
-    "name": "Horlicks Classic 500g",
-    "price": 255,
-    "quantity": 30,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000053",
-    "name": "Boost Energy Drink 500g",
-    "price": 260,
-    "quantity": 28,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000054",
-    "name": "Complan Nutrition Drink",
-    "price": 280,
-    "quantity": 25,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000055",
-    "name": "Ensure Health Drink",
-    "price": 620,
-    "quantity": 15,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/2571/thumb/health-wellness-20210825.png"
-  },
-  {
-    "upc": "890400000056",
-    "name": "Junior Horlicks 500g",
-    "price": 270,
-    "quantity": 22,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000057",
-    "name": "Women’s Horlicks",
-    "price": 290,
-    "quantity": 20,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000058",
-    "name": "Protinex Original",
-    "price": 540,
-    "quantity": 18,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000059",
-    "name": "Viva Malt Drink",
-    "price": 210,
-    "quantity": 32,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000060",
-    "name": "Organic Health Drink",
-    "price": 360,
-    "quantity": 15,
-    "category": "Beverages",
-    "subcategory": "Health Drinks",
-    "image_url": "https://www.jiomart.com/images/category/2571/thumb/health-wellness-20210825.png"
-  },
-  {
-    "upc": "890400000061",
-    "name": "Amul Flavoured Milk Chocolate",
-    "price": 30,
-    "quantity": 80,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000062",
-    "name": "Amul Kesar Milk",
-    "price": 35,
-    "quantity": 75,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000063",
-    "name": "Nestle A+ Milkshake",
-    "price": 40,
-    "quantity": 65,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000064",
-    "name": "Britannia Little Hearts Milk",
-    "price": 28,
-    "quantity": 85,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000065",
-    "name": "Hershey’s Milkshake",
-    "price": 45,
-    "quantity": 55,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000066",
-    "name": "Badam Milk 200ml",
-    "price": 35,
-    "quantity": 70,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000067",
-    "name": "Strawberry Milk Drink",
-    "price": 30,
-    "quantity": 78,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000068",
-    "name": "Vanilla Milk Drink",
-    "price": 32,
-    "quantity": 72,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000069",
-    "name": "Chocolate Milk 500ml",
-    "price": 60,
-    "quantity": 50,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000070",
-    "name": "Organic Flavoured Milk",
-    "price": 55,
-    "quantity": 45,
-    "category": "Beverages",
-    "subcategory": "Flavoured Milk",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "890400000071",
-    "name": "Kinley Soda 750ml",
-    "price": 20,
-    "quantity": 90,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000072",
-    "name": "Bisleri Soda 750ml",
-    "price": 20,
-    "quantity": 88,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000073",
-    "name": "Catch Club Soda",
-    "price": 22,
-    "quantity": 80,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000074",
-    "name": "Schweppes Soda",
-    "price": 35,
-    "quantity": 60,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000075",
-    "name": "Paper Boat Sparkling Soda",
-    "price": 30,
-    "quantity": 65,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/29999/thumb/notebooks-paper-products-20240718.png"
-  },
-  {
-    "upc": "890400000076",
-    "name": "Sprite Soda Water",
-    "price": 25,
-    "quantity": 70,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000077",
-    "name": "Lemon Soda 500ml",
-    "price": 28,
-    "quantity": 75,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000078",
-    "name": "Tonic Water 500ml",
-    "price": 45,
-    "quantity": 55,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000079",
-    "name": "Sparkling Water 1L",
-    "price": 50,
-    "quantity": 40,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000080",
-    "name": "Club Soda Can",
-    "price": 25,
-    "quantity": 68,
-    "category": "Beverages",
-    "subcategory": "Soda",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000081",
-    "name": "Bisleri Water 1L",
-    "price": 20,
-    "quantity": 100,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000082",
-    "name": "Kinley Water 1L",
-    "price": 20,
-    "quantity": 95,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000083",
-    "name": "Aquafina Water 1L",
-    "price": 20,
-    "quantity": 90,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000084",
-    "name": "Rail Neer Water",
-    "price": 15,
-    "quantity": 120,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000085",
-    "name": "Himalayan Mineral Water",
-    "price": 60,
-    "quantity": 40,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000086",
-    "name": "Bailey Water 1L",
-    "price": 18,
-    "quantity": 85,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000087",
-    "name": "Smartwater 1L",
-    "price": 90,
-    "quantity": 25,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000088",
-    "name": "Alkaline Water 1L",
-    "price": 70,
-    "quantity": 35,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000089",
-    "name": "Spring Water Bottle",
-    "price": 50,
-    "quantity": 45,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000090",
-    "name": "RO Purified Water",
-    "price": 15,
-    "quantity": 110,
-    "category": "Beverages",
-    "subcategory": "Packaged Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000091",
-    "name": "Tender Coconut Water 200ml",
-    "price": 35,
-    "quantity": 70,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000092",
-    "name": "Paper Boat Coconut Water",
-    "price": 45,
-    "quantity": 60,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/29999/thumb/notebooks-paper-products-20240718.png"
-  },
-  {
-    "upc": "890400000093",
-    "name": "Raw Pressery Coconut Water",
-    "price": 95,
-    "quantity": 30,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000094",
-    "name": "Zico Coconut Water",
-    "price": 90,
-    "quantity": 28,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000095",
-    "name": "Organic Coconut Water",
-    "price": 85,
-    "quantity": 35,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/28995/thumb/millets-organic-20251106.png"
-  },
-  {
-    "upc": "890400000096",
-    "name": "Fresh Coconut Water Bottle",
-    "price": 40,
-    "quantity": 65,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/220/thumb/fresh-fruits-20240621.png"
-  },
-  {
-    "upc": "890400000097",
-    "name": "Coconut Water 500ml",
-    "price": 60,
-    "quantity": 50,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000098",
-    "name": "Natural Coconut Water",
-    "price": 55,
-    "quantity": 55,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/default_thumb/no_image.png"
-  },
-  {
-    "upc": "890400000099",
-    "name": "Packaged Coconut Water",
-    "price": 50,
-    "quantity": 58,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/28997/thumb/biscuits-drinks-packaged-foods-20240620.png"
-  },
-  {
-    "upc": "890400000100",
-    "name": "Premium Coconut Water",
-    "price": 110,
-    "quantity": 22,
-    "category": "Beverages",
-    "subcategory": "Coconut Water",
-    "image_url": "https://www.jiomart.com/images/category/28983/thumb/premium-fruits-vegetables-20241111.png"
-  },
-  {
-    "upc": "SPC0001",
-    "name": "Pure Turmeric Powder 100g",
-    "price": 45,
-    "quantity": 50,
-    "category": "Spices & Condiments",
-    "subcategory": "Turmeric Powder",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0002",
-    "name": "Organic Turmeric Powder 200g",
-    "price": 85,
-    "quantity": 40,
-    "category": "Spices & Condiments",
-    "subcategory": "Turmeric Powder",
-    "image_url": "https://www.jiomart.com/images/category/28995/thumb/millets-organic-20251106.png"
-  },
-  {
-    "upc": "SPC0003",
-    "name": "Premium Turmeric Powder 500g",
-    "price": 190,
-    "quantity": 25,
-    "category": "Spices & Condiments",
-    "subcategory": "Turmeric Powder",
-    "image_url": "https://www.jiomart.com/images/category/28983/thumb/premium-fruits-vegetables-20241111.png"
-  },
-  {
-    "upc": "SPC0004",
-    "name": "Red Chilli Powder 100g",
-    "price": 55,
-    "quantity": 60,
-    "category": "Spices & Condiments",
-    "subcategory": "Red Chilli Powder",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0005",
-    "name": "Kashmiri Red Chilli Powder 200g",
-    "price": 120,
-    "quantity": 35,
-    "category": "Spices & Condiments",
-    "subcategory": "Red Chilli Powder",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0006",
-    "name": "Extra Hot Chilli Powder 500g",
-    "price": 260,
-    "quantity": 20,
-    "category": "Spices & Condiments",
-    "subcategory": "Red Chilli Powder",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0007",
-    "name": "Coriander Powder 100g",
-    "price": 40,
-    "quantity": 55,
-    "category": "Spices & Condiments",
-    "subcategory": "Coriander Powder",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0008",
-    "name": "Fresh Coriander Powder 200g",
-    "price": 75,
-    "quantity": 45,
-    "category": "Spices & Condiments",
-    "subcategory": "Coriander Powder",
-    "image_url": "https://www.jiomart.com/images/category/220/thumb/fresh-fruits-20240621.png"
-  },
-  {
-    "upc": "SPC0009",
-    "name": "Aromatic Coriander Powder 500g",
-    "price": 170,
-    "quantity": 30,
-    "category": "Spices & Condiments",
-    "subcategory": "Coriander Powder",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0010",
-    "name": "Classic Garam Masala 100g",
-    "price": 65,
-    "quantity": 50,
-    "category": "Spices & Condiments",
-    "subcategory": "Garam Masala",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0011",
-    "name": "Homestyle Garam Masala 200g",
-    "price": 120,
-    "quantity": 40,
-    "category": "Spices & Condiments",
-    "subcategory": "Garam Masala",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0012",
-    "name": "Premium Garam Masala 500g",
-    "price": 280,
-    "quantity": 25,
-    "category": "Spices & Condiments",
-    "subcategory": "Garam Masala",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0013",
-    "name": "Cumin Seeds 100g",
-    "price": 60,
-    "quantity": 50,
-    "category": "Spices & Condiments",
-    "subcategory": "Cumin Seeds",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0014",
-    "name": "Whole Cumin Seeds 200g",
-    "price": 110,
-    "quantity": 40,
-    "category": "Spices & Condiments",
-    "subcategory": "Cumin Seeds",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0015",
-    "name": "Aromatic Cumin Seeds 500g",
-    "price": 260,
-    "quantity": 20,
-    "category": "Spices & Condiments",
-    "subcategory": "Cumin Seeds",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0016",
-    "name": "Mustard Seeds 100g",
-    "price": 35,
-    "quantity": 60,
-    "category": "Spices & Condiments",
-    "subcategory": "Mustard Seeds",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0017",
-    "name": "Black Mustard Seeds 200g",
-    "price": 65,
-    "quantity": 45,
-    "category": "Spices & Condiments",
-    "subcategory": "Mustard Seeds",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0018",
-    "name": "Premium Mustard Seeds 500g",
-    "price": 150,
-    "quantity": 30,
-    "category": "Spices & Condiments",
-    "subcategory": "Mustard Seeds",
-    "image_url": "https://www.jiomart.com/images/category/28983/thumb/premium-fruits-vegetables-20241111.png"
-  },
-  {
-    "upc": "SPC0019",
-    "name": "Mango Pickle 250g",
-    "price": 95,
-    "quantity": 40,
-    "category": "Spices & Condiments",
-    "subcategory": "Pickles",
-    "image_url": "https://www.jiomart.com/images/category/29006/thumb/pickles-chutney-flavouring-20240621.png"
-  },
-  {
-    "upc": "SPC0020",
-    "name": "Mixed Vegetable Pickle 500g",
-    "price": 180,
-    "quantity": 30,
-    "category": "Spices & Condiments",
-    "subcategory": "Pickles",
-    "image_url": "https://www.jiomart.com/images/category/29006/thumb/pickles-chutney-flavouring-20240621.png"
-  },
-  {
-    "upc": "SPC0021",
-    "name": "Lime Pickle 1kg",
-    "price": 320,
-    "quantity": 20,
-    "category": "Spices & Condiments",
-    "subcategory": "Pickles",
-    "image_url": "https://www.jiomart.com/images/category/29006/thumb/pickles-chutney-flavouring-20240621.png"
-  },
-  {
-    "upc": "SPC0022",
-    "name": "Tomato Sauce 200g",
-    "price": 55,
-    "quantity": 60,
-    "category": "Spices & Condiments",
-    "subcategory": "Sauces",
-    "image_url": "https://www.jiomart.com/images/category/29008/thumb/spread-sauces-ketchup-20240621.png"
-  },
-  {
-    "upc": "SPC0023",
-    "name": "Chilli Sauce 500g",
-    "price": 120,
-    "quantity": 40,
-    "category": "Spices & Condiments",
-    "subcategory": "Sauces",
-    "image_url": "https://www.jiomart.com/images/category/29008/thumb/spread-sauces-ketchup-20240621.png"
-  },
-  {
-    "upc": "SPC0024",
-    "name": "Soy Sauce 1L",
-    "price": 210,
-    "quantity": 25,
-    "category": "Spices & Condiments",
-    "subcategory": "Sauces",
-    "image_url": "https://www.jiomart.com/images/category/29008/thumb/spread-sauces-ketchup-20240621.png"
-  },
-  {
-    "upc": "SPC0025",
-    "name": "Classic Tomato Ketchup 200g",
-    "price": 50,
-    "quantity": 70,
-    "category": "Spices & Condiments",
-    "subcategory": "Ketchup",
-    "image_url": "https://www.jiomart.com/images/category/29008/thumb/spread-sauces-ketchup-20240621.png"
-  },
-  {
-    "upc": "SPC0026",
-    "name": "Spicy Tomato Ketchup 500g",
-    "price": 115,
-    "quantity": 45,
-    "category": "Spices & Condiments",
-    "subcategory": "Ketchup",
-    "image_url": "https://www.jiomart.com/images/category/29008/thumb/spread-sauces-ketchup-20240621.png"
-  },
-  {
-    "upc": "SPC0027",
-    "name": "No Sugar Tomato Ketchup 1kg",
-    "price": 230,
-    "quantity": 25,
-    "category": "Spices & Condiments",
-    "subcategory": "Ketchup",
-    "image_url": "https://www.jiomart.com/images/category/29008/thumb/spread-sauces-ketchup-20240621.png"
-  },
-  {
-    "upc": "SPC0028",
-    "name": "White Vinegar 200ml",
-    "price": 40,
-    "quantity": 60,
-    "category": "Spices & Condiments",
-    "subcategory": "Vinegar",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0029",
-    "name": "Apple Cider Vinegar 500ml",
-    "price": 160,
-    "quantity": 35,
-    "category": "Spices & Condiments",
-    "subcategory": "Vinegar",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "SPC0030",
-    "name": "Synthetic Vinegar 1L",
-    "price": 110,
-    "quantity": 40,
-    "category": "Spices & Condiments",
-    "subcategory": "Vinegar",
-    "image_url": "https://www.jiomart.com/images/category/28990/thumb/masala-spices-mukhwas-20251030.png"
-  },
-  {
-    "upc": "PC0001",
-    "name": "Neem Bath Soap 100g",
-    "price": 35,
-    "quantity": 80,
-    "category": "Personal Care",
-    "subcategory": "Bath Soap",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0002",
-    "name": "Aloe Vera Bath Soap 125g",
-    "price": 45,
-    "quantity": 70,
-    "category": "Personal Care",
-    "subcategory": "Bath Soap",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0003",
-    "name": "Moisturizing Bath Soap 150g",
-    "price": 55,
-    "quantity": 60,
-    "category": "Personal Care",
-    "subcategory": "Bath Soap",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0004",
-    "name": "Herbal Bath Soap Pack of 3",
-    "price": 135,
-    "quantity": 40,
-    "category": "Personal Care",
-    "subcategory": "Bath Soap",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0005",
-    "name": "Sandalwood Bath Soap",
-    "price": 65,
-    "quantity": 50,
-    "category": "Personal Care",
-    "subcategory": "Bath Soap",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0006",
-    "name": "Anti-Dandruff Shampoo 100ml",
-    "price": 85,
-    "quantity": 60,
-    "category": "Personal Care",
-    "subcategory": "Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0007",
-    "name": "Herbal Shampoo 200ml",
-    "price": 160,
-    "quantity": 50,
-    "category": "Personal Care",
-    "subcategory": "Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0008",
-    "name": "Protein Shampoo 340ml",
-    "price": 280,
-    "quantity": 35,
-    "category": "Personal Care",
-    "subcategory": "Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0009",
-    "name": "Kids Mild Shampoo 100ml",
-    "price": 95,
-    "quantity": 45,
-    "category": "Personal Care",
-    "subcategory": "Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0010",
-    "name": "Daily Use Shampoo 650ml",
-    "price": 420,
-    "quantity": 25,
-    "category": "Personal Care",
-    "subcategory": "Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0011",
-    "name": "Smoothening Conditioner 100ml",
-    "price": 110,
-    "quantity": 50,
-    "category": "Personal Care",
-    "subcategory": "Conditioner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0012",
-    "name": "Herbal Conditioner 200ml",
-    "price": 210,
-    "quantity": 40,
-    "category": "Personal Care",
-    "subcategory": "Conditioner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0013",
-    "name": "Damage Repair Conditioner",
-    "price": 260,
-    "quantity": 35,
-    "category": "Personal Care",
-    "subcategory": "Conditioner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0014",
-    "name": "Anti-Hairfall Conditioner",
-    "price": 240,
-    "quantity": 30,
-    "category": "Personal Care",
-    "subcategory": "Conditioner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0015",
-    "name": "Moisture Lock Conditioner",
-    "price": 280,
-    "quantity": 25,
-    "category": "Personal Care",
-    "subcategory": "Conditioner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0016",
-    "name": "Herbal Toothpaste 100g",
-    "price": 65,
-    "quantity": 80,
-    "category": "Personal Care",
-    "subcategory": "Toothpaste",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0017",
-    "name": "Whitening Toothpaste 150g",
-    "price": 95,
-    "quantity": 70,
-    "category": "Personal Care",
-    "subcategory": "Toothpaste",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0018",
-    "name": "Sensitive Toothpaste 100g",
-    "price": 120,
-    "quantity": 50,
-    "category": "Personal Care",
-    "subcategory": "Toothpaste",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0019",
-    "name": "Kids Toothpaste 80g",
-    "price": 75,
-    "quantity": 60,
-    "category": "Personal Care",
-    "subcategory": "Toothpaste",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0020",
-    "name": "Gel Toothpaste 150g",
-    "price": 105,
-    "quantity": 45,
-    "category": "Personal Care",
-    "subcategory": "Toothpaste",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0021",
-    "name": "Soft Bristle Toothbrush",
-    "price": 40,
-    "quantity": 90,
-    "category": "Personal Care",
-    "subcategory": "Toothbrush",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0022",
-    "name": "Medium Bristle Toothbrush",
-    "price": 45,
-    "quantity": 85,
-    "category": "Personal Care",
-    "subcategory": "Toothbrush",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0023",
-    "name": "Kids Toothbrush",
-    "price": 35,
-    "quantity": 70,
-    "category": "Personal Care",
-    "subcategory": "Toothbrush",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0024",
-    "name": "Charcoal Toothbrush",
-    "price": 65,
-    "quantity": 50,
-    "category": "Personal Care",
-    "subcategory": "Toothbrush",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0025",
-    "name": "Toothbrush Pack of 3",
-    "price": 120,
-    "quantity": 40,
-    "category": "Personal Care",
-    "subcategory": "Toothbrush",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0026",
-    "name": "Coconut Hair Oil 100ml",
-    "price": 70,
-    "quantity": 75,
-    "category": "Personal Care",
-    "subcategory": "Hair Oil",
-    "image_url": "https://www.jiomart.com/images/category/92/thumb/hair-care-20240621.png"
-  },
-  {
-    "upc": "PC0027",
-    "name": "Almond Hair Oil 200ml",
-    "price": 180,
-    "quantity": 50,
-    "category": "Personal Care",
-    "subcategory": "Hair Oil",
-    "image_url": "https://www.jiomart.com/images/category/92/thumb/hair-care-20240621.png"
-  },
-  {
-    "upc": "PC0028",
-    "name": "Ayurvedic Hair Oil 100ml",
-    "price": 120,
-    "quantity": 45,
-    "category": "Personal Care",
-    "subcategory": "Hair Oil",
-    "image_url": "https://www.jiomart.com/images/category/92/thumb/hair-care-20240621.png"
-  },
-  {
-    "upc": "PC0029",
-    "name": "Onion Hair Oil 150ml",
-    "price": 210,
-    "quantity": 35,
-    "category": "Personal Care",
-    "subcategory": "Hair Oil",
-    "image_url": "https://www.jiomart.com/images/category/92/thumb/hair-care-20240621.png"
-  },
-  {
-    "upc": "PC0030",
-    "name": "Hair Growth Oil 200ml",
-    "price": 260,
-    "quantity": 30,
-    "category": "Personal Care",
-    "subcategory": "Hair Oil",
-    "image_url": "https://www.jiomart.com/images/category/92/thumb/hair-care-20240621.png"
-  },
-  {
-    "upc": "PC0031",
-    "name": "Neem Face Wash 100ml",
-    "price": 110,
-    "quantity": 60,
-    "category": "Personal Care",
-    "subcategory": "Face Wash",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0032",
-    "name": "Charcoal Face Wash",
-    "price": 150,
-    "quantity": 45,
-    "category": "Personal Care",
-    "subcategory": "Face Wash",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0033",
-    "name": "Vitamin C Face Wash",
-    "price": 190,
-    "quantity": 40,
-    "category": "Personal Care",
-    "subcategory": "Face Wash",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0034",
-    "name": "Men Oil Control Face Wash",
-    "price": 170,
-    "quantity": 35,
-    "category": "Personal Care",
-    "subcategory": "Face Wash",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0035",
-    "name": "Gentle Face Wash",
-    "price": 130,
-    "quantity": 50,
-    "category": "Personal Care",
-    "subcategory": "Face Wash",
-    "image_url": "https://www.jiomart.com/images/category/119/thumb/bath-hand-wash-20240621.png"
-  },
-  {
-    "upc": "PC0036",
-    "name": "Regular Shaving Cream 70g",
-    "price": 65,
-    "quantity": 70,
-    "category": "Personal Care",
-    "subcategory": "Shaving Cream",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0037",
-    "name": "Aloe Vera Shaving Cream",
-    "price": 85,
-    "quantity": 60,
-    "category": "Personal Care",
-    "subcategory": "Shaving Cream",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0038",
-    "name": "Sensitive Skin Shaving Cream",
-    "price": 110,
-    "quantity": 45,
-    "category": "Personal Care",
-    "subcategory": "Shaving Cream",
-    "image_url": "https://www.jiomart.com/images/category/122/thumb/skin-care-20251009.png"
-  },
-  {
-    "upc": "PC0039",
-    "name": "Foam Shaving Cream",
-    "price": 160,
-    "quantity": 40,
-    "category": "Personal Care",
-    "subcategory": "Shaving Cream",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0040",
-    "name": "Menthol Shaving Cream",
-    "price": 95,
-    "quantity": 55,
-    "category": "Personal Care",
-    "subcategory": "Shaving Cream",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0041",
-    "name": "Fresh Deodorant Spray",
-    "price": 180,
-    "quantity": 45,
-    "category": "Personal Care",
-    "subcategory": "Deodorant",
-    "image_url": "https://www.jiomart.com/images/category/220/thumb/fresh-fruits-20240621.png"
-  },
-  {
-    "upc": "PC0042",
-    "name": "Sporty Deodorant",
-    "price": 210,
-    "quantity": 40,
-    "category": "Personal Care",
-    "subcategory": "Deodorant",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0043",
-    "name": "Long Lasting Deodorant",
-    "price": 240,
-    "quantity": 35,
-    "category": "Personal Care",
-    "subcategory": "Deodorant",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0044",
-    "name": "Floral Deodorant",
-    "price": 190,
-    "quantity": 50,
-    "category": "Personal Care",
-    "subcategory": "Deodorant",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0045",
-    "name": "Travel Size Deodorant",
-    "price": 120,
-    "quantity": 60,
-    "category": "Personal Care",
-    "subcategory": "Deodorant",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "PC0046",
-    "name": "Regular Sanitary Napkins Pack of 6",
-    "price": 85,
-    "quantity": 60,
-    "category": "Personal Care",
-    "subcategory": "Sanitary Napkins",
-    "image_url": "https://www.jiomart.com/images/category/32902/thumb/tissues-napkins-20250601.png"
-  },
-  {
-    "upc": "PC0047",
-    "name": "XL Sanitary Napkins Pack of 8",
-    "price": 140,
-    "quantity": 50,
-    "category": "Personal Care",
-    "subcategory": "Sanitary Napkins",
-    "image_url": "https://www.jiomart.com/images/category/32902/thumb/tissues-napkins-20250601.png"
-  },
-  {
-    "upc": "PC0048",
-    "name": "Cottony Soft Sanitary Napkins",
-    "price": 160,
-    "quantity": 45,
-    "category": "Personal Care",
-    "subcategory": "Sanitary Napkins",
-    "image_url": "https://www.jiomart.com/images/category/32902/thumb/tissues-napkins-20250601.png"
-  },
-  {
-    "upc": "PC0049",
-    "name": "Overnight Sanitary Napkins",
-    "price": 190,
-    "quantity": 40,
-    "category": "Personal Care",
-    "subcategory": "Sanitary Napkins",
-    "image_url": "https://www.jiomart.com/images/category/32902/thumb/tissues-napkins-20250601.png"
-  },
-  {
-    "upc": "PC0050",
-    "name": "Eco Friendly Sanitary Napkins",
-    "price": 220,
-    "quantity": 30,
-    "category": "Personal Care",
-    "subcategory": "Sanitary Napkins",
-    "image_url": "https://www.jiomart.com/images/category/32902/thumb/tissues-napkins-20250601.png"
-  },
-  {
-    "upc": "HC0001",
-    "name": "Detergent Powder Regular 500g",
-    "price": 65,
-    "quantity": 80,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0002",
-    "name": "Detergent Powder Lemon 1kg",
-    "price": 120,
-    "quantity": 60,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0003",
-    "name": "Detergent Powder Floral 2kg",
-    "price": 230,
-    "quantity": 45,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0004",
-    "name": "Detergent Powder Front Load 1kg",
-    "price": 180,
-    "quantity": 40,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0005",
-    "name": "Detergent Powder Top Load 3kg",
-    "price": 320,
-    "quantity": 30,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0006",
-    "name": "Detergent Powder Mini Pack 200g",
-    "price": 30,
-    "quantity": 100,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0007",
-    "name": "Detergent Powder Jasmine 1kg",
-    "price": 135,
-    "quantity": 55,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0008",
-    "name": "Detergent Powder Strong Clean 2kg",
-    "price": 260,
-    "quantity": 35,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0009",
-    "name": "Detergent Powder Value Pack 4kg",
-    "price": 420,
-    "quantity": 25,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0010",
-    "name": "Detergent Powder Eco Pack",
-    "price": 150,
-    "quantity": 50,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Powder",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0011",
-    "name": "Detergent Liquid Front Load 1L",
-    "price": 210,
-    "quantity": 40,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0012",
-    "name": "Detergent Liquid Top Load 500ml",
-    "price": 120,
-    "quantity": 55,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0013",
-    "name": "Detergent Liquid Floral 2L",
-    "price": 380,
-    "quantity": 30,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0014",
-    "name": "Detergent Liquid Baby Safe",
-    "price": 260,
-    "quantity": 25,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "HC0015",
-    "name": "Detergent Liquid Concentrated",
-    "price": 300,
-    "quantity": 35,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0016",
-    "name": "Detergent Liquid Mini 250ml",
-    "price": 70,
-    "quantity": 80,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0017",
-    "name": "Detergent Liquid Lemon 1L",
-    "price": 190,
-    "quantity": 45,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0018",
-    "name": "Detergent Liquid Eco Friendly",
-    "price": 240,
-    "quantity": 30,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0019",
-    "name": "Detergent Liquid Stain Remover",
-    "price": 280,
-    "quantity": 35,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0020",
-    "name": "Detergent Liquid Refill Pack",
-    "price": 160,
-    "quantity": 60,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Detergent Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0021",
-    "name": "Dishwash Bar Regular",
-    "price": 20,
-    "quantity": 120,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0022",
-    "name": "Dishwash Bar Lemon",
-    "price": 25,
-    "quantity": 110,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0023",
-    "name": "Dishwash Bar Value Pack",
-    "price": 45,
-    "quantity": 90,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0024",
-    "name": "Dishwash Bar Herbal",
-    "price": 30,
-    "quantity": 80,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0025",
-    "name": "Dishwash Bar Extra Power",
-    "price": 35,
-    "quantity": 75,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0026",
-    "name": "Dishwash Bar Mini",
-    "price": 15,
-    "quantity": 150,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0027",
-    "name": "Dishwash Bar Antibacterial",
-    "price": 40,
-    "quantity": 65,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0028",
-    "name": "Dishwash Bar Lime Fresh",
-    "price": 28,
-    "quantity": 85,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/220/thumb/fresh-fruits-20240621.png"
-  },
-  {
-    "upc": "HC0029",
-    "name": "Dishwash Bar Pack of 4",
-    "price": 90,
-    "quantity": 55,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0030",
-    "name": "Dishwash Bar Eco",
-    "price": 32,
-    "quantity": 70,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Bar",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0031",
-    "name": "Dishwash Liquid Lemon 500ml",
-    "price": 95,
-    "quantity": 70,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0032",
-    "name": "Dishwash Liquid Lime 1L",
-    "price": 170,
-    "quantity": 50,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0033",
-    "name": "Dishwash Liquid Gel 750ml",
-    "price": 150,
-    "quantity": 45,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0034",
-    "name": "Dishwash Liquid Refill",
-    "price": 130,
-    "quantity": 60,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0035",
-    "name": "Dishwash Liquid Antibacterial",
-    "price": 190,
-    "quantity": 40,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Dishwash Liquid",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0036",
-    "name": "Floor Cleaner Floral 1L",
-    "price": 140,
-    "quantity": 55,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Floor Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0037",
-    "name": "Floor Cleaner Disinfectant",
-    "price": 165,
-    "quantity": 45,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Floor Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0038",
-    "name": "Floor Cleaner Lavender",
-    "price": 155,
-    "quantity": 50,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Floor Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0039",
-    "name": "Floor Cleaner Concentrate",
-    "price": 220,
-    "quantity": 35,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Floor Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0040",
-    "name": "Floor Cleaner Herbal",
-    "price": 180,
-    "quantity": 40,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Floor Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0041",
-    "name": "Toilet Cleaner Regular 500ml",
-    "price": 95,
-    "quantity": 60,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Toilet Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0042",
-    "name": "Toilet Cleaner Strong 1L",
-    "price": 170,
-    "quantity": 45,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Toilet Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0043",
-    "name": "Toilet Cleaner Disinfectant",
-    "price": 150,
-    "quantity": 50,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Toilet Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0044",
-    "name": "Toilet Cleaner Fresh",
-    "price": 135,
-    "quantity": 55,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Toilet Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/220/thumb/fresh-fruits-20240621.png"
-  },
-  {
-    "upc": "HC0045",
-    "name": "Toilet Cleaner Power Gel",
-    "price": 190,
-    "quantity": 40,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Toilet Cleaner",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0046",
-    "name": "Black Phenyl 1L",
-    "price": 85,
-    "quantity": 65,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Phenyl",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0047",
-    "name": "White Phenyl 1L",
-    "price": 95,
-    "quantity": 60,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Phenyl",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0048",
-    "name": "Phenyl Concentrate",
-    "price": 120,
-    "quantity": 50,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Phenyl",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0049",
-    "name": "Phenyl Floral",
-    "price": 110,
-    "quantity": 55,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Phenyl",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0050",
-    "name": "Phenyl Disinfectant",
-    "price": 140,
-    "quantity": 45,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Phenyl",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0051",
-    "name": "Garbage Bags Small Pack",
-    "price": 60,
-    "quantity": 80,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Garbage Bags",
-    "image_url": "https://www.jiomart.com/images/category/304/thumb/bags-travel-luggage-20250531.png"
-  },
-  {
-    "upc": "HC0052",
-    "name": "Garbage Bags Medium Pack",
-    "price": 90,
-    "quantity": 70,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Garbage Bags",
-    "image_url": "https://www.jiomart.com/images/category/304/thumb/bags-travel-luggage-20250531.png"
-  },
-  {
-    "upc": "HC0053",
-    "name": "Garbage Bags Large Pack",
-    "price": 130,
-    "quantity": 55,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Garbage Bags",
-    "image_url": "https://www.jiomart.com/images/category/304/thumb/bags-travel-luggage-20250531.png"
-  },
-  {
-    "upc": "HC0054",
-    "name": "Garbage Bags Eco Friendly",
-    "price": 150,
-    "quantity": 45,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Garbage Bags",
-    "image_url": "https://www.jiomart.com/images/category/304/thumb/bags-travel-luggage-20250531.png"
-  },
-  {
-    "upc": "HC0055",
-    "name": "Garbage Bags Drawstring",
-    "price": 170,
-    "quantity": 40,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Garbage Bags",
-    "image_url": "https://www.jiomart.com/images/category/304/thumb/bags-travel-luggage-20250531.png"
-  },
-  {
-    "upc": "HC0056",
-    "name": "Room Freshener Rose Spray",
-    "price": 120,
-    "quantity": 50,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Room Freshener",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0057",
-    "name": "Room Freshener Lavender",
-    "price": 130,
-    "quantity": 45,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Room Freshener",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0058",
-    "name": "Room Freshener Jasmine",
-    "price": 125,
-    "quantity": 50,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Room Freshener",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0059",
-    "name": "Room Freshener Citrus",
-    "price": 140,
-    "quantity": 40,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Room Freshener",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0060",
-    "name": "Room Freshener Long Lasting",
-    "price": 160,
-    "quantity": 35,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Room Freshener",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0061",
-    "name": "Mosquito Coil Pack",
-    "price": 60,
-    "quantity": 90,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Insect Repellent",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0062",
-    "name": "Liquid Mosquito Repellent",
-    "price": 95,
-    "quantity": 70,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Insect Repellent",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0063",
-    "name": "Mosquito Repellent Refill",
-    "price": 85,
-    "quantity": 75,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Insect Repellent",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0064",
-    "name": "Herbal Insect Repellent",
-    "price": 140,
-    "quantity": 45,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Insect Repellent",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "HC0065",
-    "name": "Electric Mosquito Repellent",
-    "price": 220,
-    "quantity": 30,
-    "category": "Home Care & Cleaning",
-    "subcategory": "Insect Repellent",
-    "image_url": "https://www.jiomart.com/images/category/91/thumb/personal-care-20240620.png"
-  },
-  {
-    "upc": "BC0001",
-    "name": "Rice Cereal Baby Food 200g",
-    "price": 180,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0002",
-    "name": "Wheat Apple Baby Food 300g",
-    "price": 220,
-    "quantity": 35,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0003",
-    "name": "Multigrain Baby Food 250g",
-    "price": 240,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0004",
-    "name": "Organic Baby Food 200g",
-    "price": 260,
-    "quantity": 25,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0005",
-    "name": "Banana Apple Baby Food",
-    "price": 210,
-    "quantity": 35,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0006",
-    "name": "Cerelac Rice Veg",
-    "price": 190,
-    "quantity": 45,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0007",
-    "name": "Baby Food Stage 2",
-    "price": 230,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0008",
-    "name": "Baby Food Stage 3",
-    "price": 260,
-    "quantity": 25,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0009",
-    "name": "Ragi Baby Food",
-    "price": 200,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0010",
-    "name": "Oats Apple Baby Food",
-    "price": 240,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Baby Food",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0011",
-    "name": "Infant Milk Formula Stage 1",
-    "price": 480,
-    "quantity": 20,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0012",
-    "name": "Infant Milk Formula Stage 2",
-    "price": 520,
-    "quantity": 18,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0013",
-    "name": "Infant Milk Formula Stage 3",
-    "price": 560,
-    "quantity": 15,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0014",
-    "name": "Premium Baby Milk Formula",
-    "price": 620,
-    "quantity": 12,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0015",
-    "name": "Organic Baby Milk Formula",
-    "price": 650,
-    "quantity": 10,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0016",
-    "name": "Baby Milk Formula Refill",
-    "price": 430,
-    "quantity": 22,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0017",
-    "name": "Lactose Free Baby Formula",
-    "price": 700,
-    "quantity": 8,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0018",
-    "name": "Soy Based Baby Formula",
-    "price": 680,
-    "quantity": 10,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0019",
-    "name": "Economy Baby Milk Formula",
-    "price": 450,
-    "quantity": 25,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0020",
-    "name": "Baby Formula Travel Pack",
-    "price": 260,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Baby Milk Formula",
-    "image_url": "https://www.jiomart.com/images/category/29011/thumb/milk-milk-products-20240621.png"
-  },
-  {
-    "upc": "BC0021",
-    "name": "Newborn Diapers Small Pack",
-    "price": 180,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0022",
-    "name": "Diapers Size S",
-    "price": 320,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0023",
-    "name": "Diapers Size M",
-    "price": 420,
-    "quantity": 25,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0024",
-    "name": "Diapers Size L",
-    "price": 520,
-    "quantity": 20,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0025",
-    "name": "Diapers Size XL",
-    "price": 620,
-    "quantity": 18,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0026",
-    "name": "Pant Style Diapers M",
-    "price": 560,
-    "quantity": 22,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0027",
-    "name": "Pant Style Diapers L",
-    "price": 650,
-    "quantity": 18,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0028",
-    "name": "Overnight Diapers",
-    "price": 700,
-    "quantity": 15,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0029",
-    "name": "Eco Friendly Diapers",
-    "price": 750,
-    "quantity": 12,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0030",
-    "name": "Travel Diaper Pack",
-    "price": 250,
-    "quantity": 35,
-    "category": "Baby Care",
-    "subcategory": "Diapers",
-    "image_url": "https://www.jiomart.com/images/category/2564/thumb/diapers-wipes-20240621.png"
-  },
-  {
-    "upc": "BC0031",
-    "name": "Baby Wipes 72 Pulls",
-    "price": 120,
-    "quantity": 60,
-    "category": "Baby Care",
-    "subcategory": "Baby Wipes",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0032",
-    "name": "Aloe Vera Baby Wipes",
-    "price": 150,
-    "quantity": 50,
-    "category": "Baby Care",
-    "subcategory": "Baby Wipes",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0033",
-    "name": "Sensitive Baby Wipes",
-    "price": 170,
-    "quantity": 45,
-    "category": "Baby Care",
-    "subcategory": "Baby Wipes",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0034",
-    "name": "Baby Wipes Pack of 3",
-    "price": 320,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Baby Wipes",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0035",
-    "name": "Fragrance Free Baby Wipes",
-    "price": 180,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Baby Wipes",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0036",
-    "name": "Baby Soap Mild 75g",
-    "price": 45,
-    "quantity": 80,
-    "category": "Baby Care",
-    "subcategory": "Baby Soap",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0037",
-    "name": "Moisturizing Baby Soap",
-    "price": 55,
-    "quantity": 70,
-    "category": "Baby Care",
-    "subcategory": "Baby Soap",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0038",
-    "name": "Herbal Baby Soap",
-    "price": 65,
-    "quantity": 60,
-    "category": "Baby Care",
-    "subcategory": "Baby Soap",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0039",
-    "name": "Baby Soap Pack of 3",
-    "price": 150,
-    "quantity": 45,
-    "category": "Baby Care",
-    "subcategory": "Baby Soap",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0040",
-    "name": "Organic Baby Soap",
-    "price": 75,
-    "quantity": 50,
-    "category": "Baby Care",
-    "subcategory": "Baby Soap",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0041",
-    "name": "No Tears Baby Shampoo",
-    "price": 160,
-    "quantity": 45,
-    "category": "Baby Care",
-    "subcategory": "Baby Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0042",
-    "name": "Mild Baby Shampoo 100ml",
-    "price": 120,
-    "quantity": 60,
-    "category": "Baby Care",
-    "subcategory": "Baby Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0043",
-    "name": "Herbal Baby Shampoo",
-    "price": 180,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Baby Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0044",
-    "name": "Baby Shampoo 200ml",
-    "price": 220,
-    "quantity": 35,
-    "category": "Baby Care",
-    "subcategory": "Baby Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0045",
-    "name": "Organic Baby Shampoo",
-    "price": 260,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Baby Shampoo",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0046",
-    "name": "Baby Massage Oil 100ml",
-    "price": 140,
-    "quantity": 50,
-    "category": "Baby Care",
-    "subcategory": "Baby Oil",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0047",
-    "name": "Almond Baby Oil",
-    "price": 180,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Baby Oil",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0048",
-    "name": "Ayurvedic Baby Oil",
-    "price": 160,
-    "quantity": 45,
-    "category": "Baby Care",
-    "subcategory": "Baby Oil",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0049",
-    "name": "Organic Baby Oil",
-    "price": 210,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Baby Oil",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0050",
-    "name": "Baby Oil 200ml",
-    "price": 240,
-    "quantity": 25,
-    "category": "Baby Care",
-    "subcategory": "Baby Oil",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0051",
-    "name": "Baby Lotion Daily Moisture",
-    "price": 160,
-    "quantity": 45,
-    "category": "Baby Care",
-    "subcategory": "Baby Lotion",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0052",
-    "name": "Baby Lotion Aloe Vera",
-    "price": 180,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Baby Lotion",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0053",
-    "name": "Baby Lotion Shea Butter",
-    "price": 210,
-    "quantity": 35,
-    "category": "Baby Care",
-    "subcategory": "Baby Lotion",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0054",
-    "name": "Organic Baby Lotion",
-    "price": 240,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Baby Lotion",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0055",
-    "name": "Baby Lotion Sensitive Skin",
-    "price": 190,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Baby Lotion",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0056",
-    "name": "Baby Powder 100g",
-    "price": 95,
-    "quantity": 60,
-    "category": "Baby Care",
-    "subcategory": "Baby Powder",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0057",
-    "name": "Herbal Baby Powder",
-    "price": 120,
-    "quantity": 50,
-    "category": "Baby Care",
-    "subcategory": "Baby Powder",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0058",
-    "name": "Baby Powder Lavender",
-    "price": 110,
-    "quantity": 55,
-    "category": "Baby Care",
-    "subcategory": "Baby Powder",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0059",
-    "name": "Organic Baby Powder",
-    "price": 140,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Baby Powder",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0060",
-    "name": "Baby Powder 200g",
-    "price": 170,
-    "quantity": 35,
-    "category": "Baby Care",
-    "subcategory": "Baby Powder",
-    "image_url": "https://www.jiomart.com/images/category/2551/thumb/mom-baby-care-20240612.png"
-  },
-  {
-    "upc": "BC0061",
-    "name": "Feeding Bottle 125ml",
-    "price": 180,
-    "quantity": 40,
-    "category": "Baby Care",
-    "subcategory": "Feeding Bottles",
-    "image_url": "https://www.jiomart.com/images/category/30013/thumb/food-feeding-20240715.png"
-  },
-  {
-    "upc": "BC0062",
-    "name": "Feeding Bottle 250ml",
-    "price": 220,
-    "quantity": 35,
-    "category": "Baby Care",
-    "subcategory": "Feeding Bottles",
-    "image_url": "https://www.jiomart.com/images/category/30013/thumb/food-feeding-20240715.png"
-  },
-  {
-    "upc": "BC0063",
-    "name": "Anti-Colic Feeding Bottle",
-    "price": 280,
-    "quantity": 30,
-    "category": "Baby Care",
-    "subcategory": "Feeding Bottles",
-    "image_url": "https://www.jiomart.com/images/category/30013/thumb/food-feeding-20240715.png"
-  },
-  {
-    "upc": "BC0064",
-    "name": "Glass Feeding Bottle",
-    "price": 320,
-    "quantity": 25,
-    "category": "Baby Care",
-    "subcategory": "Feeding Bottles",
-    "image_url": "https://www.jiomart.com/images/category/30013/thumb/food-feeding-20240715.png"
-  },
-  {
-    "upc": "BC0065",
-    "name": "Feeding Bottle Twin Pack",
-    "price": 420,
-    "quantity": 20,
-    "category": "Baby Care",
-    "subcategory": "Feeding Bottles",
-    "image_url": "https://www.jiomart.com/images/category/30013/thumb/food-feeding-20240715.png"
+    "name": "Bikaji Chowpati Bhelpuri 110 g",
+    "product_id": "608498429",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490070538/bikaji-chowpati-bhelpuri-110-g-product-images-o490070538-p608498429-0-202501152011.jpg?im=Resize=(280,280)",
+    "product_price": "₹47.00",
+    "disscount": "51% OFF"
+  },
+  {
+    "name": "Bingo Original Chilli Sprinkled Potato Chips 85 g",
+    "product_id": "491551827",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491551827/bingo-original-style-chilli-sprinkled-flat-cut-spicy-potato-chips-pack-for-snacks-85-g-product-images-o491551827-p491551827-0-202501101846.jpg?im=Resize=(280,280)",
+    "product_price": "₹50.00",
+    "disscount": "40% OFF"
+  },
+  {
+    "name": "Bingo Mad Angles Achaari Masti 117g",
+    "product_id": "491551829",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491551829/bingo-achaari-masti-mad-angles-130-g-product-images-o491551829-p491551829-0-202409301839.jpg?im=Resize=(280,280)",
+    "product_price": "₹50.00",
+    "disscount": "46% OFF"
+  },
+  {
+    "name": "Act II Golden Sizzle Instant Popcorn 30 g",
+    "product_id": "490005293",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490005293/act-ii-golden-sizzle-instant-popcorn-30-g-product-images-o490005293-p490005293-0-202305301936.jpg?im=Resize=(280,280)",
+    "product_price": "₹10.00",
+    "disscount": "10% OFF"
+  },
+  {
+    "name": "Bikaji Masala Munch Soya Sticks 200 g",
+    "product_id": "590033097",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491335169/bikaji-soya-sticks-200-g-product-images-o491335169-p590033097-0-202203152214.jpg?im=Resize=(280,280)",
+    "product_price": "₹75.00",
+    "disscount": "53% OFF"
+  },
+  {
+    "name": "Bikaji Bikaneri Bhujia 1 kg",
+    "product_id": "490005311",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490005311/bikaji-bikaneri-bhujia-1-kg-product-images-o490005311-p490005311-0-202306091141.jpg?im=Resize=(280,280)",
+    "product_price": "₹330.00",
+    "disscount": "18% OFF"
+  },
+  {
+    "name": "Act II Classic Salted Instant Popcorn 30 g",
+    "product_id": "490005294",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490005294/act-ii-classic-salted-instant-popcorn-30-g-product-images-o490005294-p490005294-0-202306040258.jpg?im=Resize=(280,280)",
+    "product_price": "",
+    "disscount": ""
+  },
+  {
+    "name": "Bingo Masala Mad Angles 60 g",
+    "product_id": "490115580",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490115580/bingo-masala-mad-angles-60-g-product-images-o490115580-p490115580-0-202501151521.jpg?im=Resize=(280,280)",
+    "product_price": "₹20.00",
+    "disscount": "35% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Bhujia Sev 400 g",
+    "product_id": "490007673",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490007673/haldiram-s-nagpur-bhujia-sev-400-g-product-images-o490007673-p490007673-0-202501241901.jpg?im=Resize=(280,280)",
+    "product_price": "₹114.00",
+    "disscount": "10% OFF"
+  },
+  {
+    "name": "Act II Chilli Surprise Instant Popcorn 30 g",
+    "product_id": "590033056",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490005295/act-ii-chilli-surprise-instant-popcorn-30-g-product-images-o490005295-p590033056-0-202306091149.jpg?im=Resize=(280,280)",
+    "product_price": "₹10.00",
+    "disscount": "10% OFF"
+  },
+  {
+    "name": "Bikano Namkeen Mixture 340 g (Combo Pack)",
+    "product_id": "590033109",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490819910/bikano-namkeen-mixture-340-g-combo-pack-product-images-o490819910-p590033109-0-202512032029.jpg?im=Resize=(280,280)",
+    "product_price": "",
+    "disscount": ""
+  },
+  {
+    "name": "Bingo Mad Angles Very Peri Peri Chips 117 g",
+    "product_id": "491551830",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491551830/bingo-peri-peri-mad-angles-130-g-product-images-o491551830-p491551830-0-202409301839.jpg?im=Resize=(280,280)",
+    "product_price": "₹50.00",
+    "disscount": "46% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Aloo Bhujia 400 g",
+    "product_id": "490007672",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490007672/haldiram-s-nagpur-aloo-bhujia-350-g-product-images-o490007672-p490007672-0-202510272012.jpg?im=Resize=(280,280)",
+    "product_price": "₹95.00",
+    "disscount": "26% OFF"
+  },
+  {
+    "name": "Bikaji Kuch-Kuch All In One Mixture 400 g",
+    "product_id": "490005320",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490005320/bikaji-kuch-kuch-all-in-one-mixture-400-g-product-images-o490005320-p490005320-0-202308071129.jpg?im=Resize=(280,280)",
+    "product_price": "₹115.00",
+    "disscount": "13% OFF"
+  },
+  {
+    "name": "Haldiram’s Nagpur Mixture 400 g",
+    "product_id": "490009367",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490009367/haldiram-s-nagpur-mixture-400-g-product-images-o490009367-p490009367-0-202503191321.jpg?im=Resize=(280,280)",
+    "product_price": "₹82.00",
+    "disscount": "6% OFF"
+  },
+  {
+    "name": "Beyond Snacks Original Style Kerala Banana Chips 70 g",
+    "product_id": "590770826",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/492391097/beyond-snacks-original-style-kerala-banana-chips-70-g-product-images-o492391097-p590770826-0-202506051219.jpg?im=Resize=(280,280)",
+    "product_price": "₹60.00",
+    "disscount": "33% OFF"
+  },
+  {
+    "name": "Bikano Aloo Bhujia 200 g",
+    "product_id": "490006757",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490006757/bikano-aloo-bhujia-200-g-product-images-o490006757-p490006757-0-202304281601.jpg?im=Resize=(280,280)",
+    "product_price": "₹57.00",
+    "disscount": "5% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Moong Dal 200 g",
+    "product_id": "490000281",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490000281/haldiram-s-nagpur-moong-dal-200-g-product-images-o490000281-p490000281-0-202308041130.jpg?im=Resize=(280,280)",
+    "product_price": "₹57.00",
+    "disscount": "5% OFF"
+  },
+  {
+    "name": "Snactac Tasty Peanuts 150 g",
+    "product_id": "491551666",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491551666/snactac-tasty-peanuts-150-g-product-images-o491551666-p491551666-0-202208191837.jpg?im=Resize=(280,280)",
+    "product_price": "₹72.00",
+    "disscount": "48% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Bhujia Sev 200 g",
+    "product_id": "490000794",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490000794/haldiram-s-nagpur-bhujia-sev-200-g-product-images-o490000794-p490000794-0-202410161605.jpg?im=Resize=(280,280)",
+    "product_price": "₹57.00",
+    "disscount": "5% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Khatta Meetha Sweet n Salty Namkeen 400 g",
+    "product_id": "490009310",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490009310/haldiram-s-nagpur-khatta-meetha-sweet-n-salty-namkeen-400-g-product-images-o490009310-p490009310-0-202506041949.jpg?im=Resize=(280,280)",
+    "product_price": "₹90.00",
+    "disscount": "10% OFF"
+  },
+  {
+    "name": "Snactac Aloo Bhujia 150 g",
+    "product_id": "491551669",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491551669/snactac-aloo-bhujia-150-g-product-images-o491551669-p491551669-0-202208191842.jpg?im=Resize=(280,280)",
+    "product_price": "₹72.00",
+    "disscount": "50% OFF"
+  },
+  {
+    "name": "Chheda's Golden Lightly Salted Potato Chips 170 g",
+    "product_id": "490655158",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490655158/chheda-s-golden-lightly-salted-potato-chips-170-g-product-images-o490655158-p490655158-0-202511271749.png?im=Resize=(280,280)",
+    "product_price": "₹84.00",
+    "disscount": "38% OFF"
+  },
+  {
+    "name": "Jabsons Classic Salted Roasted Peanuts 125 g",
+    "product_id": "590110722",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490459612/jabsons-classic-salted-roasted-peanuts-125-g-product-images-o490459612-p590110722-0-202406101852.jpg?im=Resize=(280,280)",
+    "product_price": "₹95.00",
+    "disscount": "50% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Aloo Bhujia 200 g",
+    "product_id": "490000270",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490000270/haldiram-s-nagpur-aloo-bhujia-200-g-product-images-o490000270-p490000270-0-202302211845.jpg?im=Resize=(280,280)",
+    "product_price": "₹52.00",
+    "disscount": "5% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Panchratan Mixture 200 g",
+    "product_id": "490000284",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490000284/haldiram-s-nagpur-panchratan-mixture-150-g-product-images-o490000284-p490000284-0-202307131819.jpg?im=Resize=(280,280)",
+    "product_price": "₹85.00",
+    "disscount": "10% OFF"
+  },
+  {
+    "name": "Haldiram’s Nagpur All-In-One Classic Mixture 400 g",
+    "product_id": "490009366",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490009366/haldiram-s-nagpur-all-in-one-classic-mixture-400-g-product-images-o490009366-p490009366-0-202308141632.jpg?im=Resize=(280,280)",
+    "product_price": "₹109.00",
+    "disscount": "11% OFF"
+  },
+  {
+    "name": "Pringles Pizza Flavour Potato Crisps 102 g",
+    "product_id": "590032694",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491432568/pringles-pizza-flavour-potato-crisps-102-g-product-images-o491432568-p590032694-0-202504291528.png?im=Resize=(280,280)",
+    "product_price": "₹110.00",
+    "disscount": "13% OFF"
+  },
+  {
+    "name": "Haldiram’s Nagpur Khatta Meetha 200 g",
+    "product_id": "607928779",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/493032044/haldiram-s-nagpur-taste-of-tradition-khatta-meetha-indian-snacks-200-g-20-g-10-extra-product-images-o493032044-p607928779-0-202402121039.jpg?im=Resize=(280,280)",
+    "product_price": "₹50.00",
+    "disscount": "12% OFF"
+  },
+  {
+    "name": "Haldiram's Mini Bhakharwadi 200 g",
+    "product_id": "490617278",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490617278/haldiram-s-mini-bhakharwadi-200-g-product-images-o490617278-p490617278-0-202307131827.jpg?im=Resize=(280,280)",
+    "product_price": "₹62.00",
+    "disscount": "6% OFF"
+  },
+  {
+    "name": "Snactac Moong Dal 150 g",
+    "product_id": "491551667",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491551667/snactac-moong-dal-150-g-product-images-o491551667-p491551667-0-202208191837.jpg?im=Resize=(280,280)",
+    "product_price": "₹72.00",
+    "disscount": "38% OFF"
+  },
+  {
+    "name": "Cornitos Cheese And Herbs Nacho Crisps 77 g",
+    "product_id": "602572418",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/493635129/cornitos-cheese-and-herbs-nacho-crisps-77-g-product-images-o493635129-p602572418-0-202406142010.jpg?im=Resize=(280,280)",
+    "product_price": "₹60.00",
+    "disscount": "50% OFF"
+  },
+  {
+    "name": "Act II Classic Salted Popcorn 60 g (3 pcs)",
+    "product_id": "590033067",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491391510/act-ii-classic-salted-popcorn-180-g-pack-of-3-product-images-o491391510-p590033067-0-202203170757.jpg?im=Resize=(280,280)",
+    "product_price": "₹60.00",
+    "disscount": "18% OFF"
+  },
+  {
+    "name": "Bikaji Moong Dal 200 g",
+    "product_id": "490000189",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490000189/bikaji-moong-dal-200-g-product-images-o490000189-p490000189-0-202304281600.jpg?im=Resize=(280,280)",
+    "product_price": "₹58.00",
+    "disscount": "15% OFF"
+  },
+  {
+    "name": "Balaji Wafers Masala Masti Potato Wafers 30 g",
+    "product_id": "490025526",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490025526/balaji-wafers-masala-masti-potato-wafers-30-g-product-images-o490025526-p490025526-0-202511121751.jpg?im=Resize=(280,280)",
+    "product_price": "",
+    "disscount": ""
+  },
+  {
+    "name": "Laxmi Narayan Misal Farsan 450 g",
+    "product_id": "604190246",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/493032032/laxmi-narayan-misal-farsan-450-g-product-images-o493032032-p604190246-0-202501140412.jpg?im=Resize=(280,280)",
+    "product_price": "₹170.00",
+    "disscount": "50% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Mixture 200 g",
+    "product_id": "490009363",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490009363/haldiram-s-nagpur-mixture-200-g-product-images-o490009363-p490009363-0-202401260853.jpg?im=Resize=(280,280)",
+    "product_price": "₹43.00",
+    "disscount": "6% OFF"
+  },
+  {
+    "name": "Chheda Long Masala Banana Chips 170 g",
+    "product_id": "603703318",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/493634868/chheda-long-masala-banana-chips-170-g-product-images-o493634868-p603703318-0-202505141214.jpg?im=Resize=(280,280)",
+    "product_price": "₹89.00",
+    "disscount": "33% OFF"
+  },
+  {
+    "name": "BTW Navratan Mix Namkeen 850g | Tasty Mixture | Navratan Mixture | Namkeen Indian Snacks",
+    "product_id": "606421229",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/rvvyl3927h/btw-navratan-mix-namkeen-850g-tasty-mixture-navratan-mixture-namkeen-indian-snacks-product-images-orvvyl3927h-p606421229-0-202501241701.jpg?im=Resize=(280,280)",
+    "product_price": "₹255.00",
+    "disscount": "34% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Tasty Nuts 200 g",
+    "product_id": "490000268",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490000268/haldiram-s-nagpur-tasty-nuts-200-g-product-images-o490000268-p490000268-0-202307131824.jpg?im=Resize=(280,280)",
+    "product_price": "₹52.00",
+    "disscount": "5% OFF"
+  },
+  {
+    "name": "Pringles Desi Masala Tadka Potato Crisps 102 g",
+    "product_id": "491552052",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/491552052/pringles-desi-masala-tadka-potato-crisps-102-g-product-images-o491552052-p491552052-0-202504291533.jpg?im=Resize=(280,280)",
+    "product_price": "₹110.00",
+    "disscount": "10% OFF"
+  },
+  {
+    "name": "Laxminarayan Mix Farsan 500 g",
+    "product_id": "606695126",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/492489321/laxminarayan-mix-farsan-500-g-product-images-o492489321-p606695126-0-202312131617.jpg?im=Resize=(280,280)",
+    "product_price": "₹150.00",
+    "disscount": "34% OFF"
+  },
+  {
+    "name": "Act II Classic Caramel Bliss Popcorn 16 g",
+    "product_id": "611926346",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/494244863/act-ii-classic-caramel-bliss-popcorn-16-g-product-images-o494244863-p611926346-0-202507101746.jpg?im=Resize=(280,280)",
+    "product_price": "",
+    "disscount": ""
+  },
+  {
+    "name": "Pringles Desi Masala Tadka Chips 40 g",
+    "product_id": "611431688",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/494570285/pringles-desi-masala-tadka-chips-40-g-product-images-o494570285-p611431688-0-202505121049.jpg?im=Resize=(280,280)",
+    "product_price": "₹53.00",
+    "disscount": "5% OFF"
+  },
+  {
+    "name": "Taali Premium Nimboo Pudina Peanuts 150 g",
+    "product_id": "593563745",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/493031623/taali-restaurant-style-premium-nimbu-pudina-roasted-peanuts-150-g-product-images-o493031623-p593563745-0-202505201844.jpg?im=Resize=(280,280)",
+    "product_price": "₹75.00",
+    "disscount": "50% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur All In One Mixture 200 g",
+    "product_id": "490000269",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490000269/haldiram-s-nagpur-all-in-one-mixture-200-g-product-images-o490000269-p490000269-0-202405281531.jpg?im=Resize=(280,280)",
+    "product_price": "₹57.00",
+    "disscount": "5% OFF"
+  },
+  {
+    "name": "Chheda's Tomato Banana Chips 170 g",
+    "product_id": "490655157",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490655157/chheda-s-tomato-banana-chips-170-g-product-images-o490655157-p490655157-0-202505141214.jpg?im=Resize=(280,280)",
+    "product_price": "₹84.00",
+    "disscount": "50% OFF"
+  },
+  {
+    "name": "Act II Butter Delite Instant Popcorn 70 g",
+    "product_id": "490459386",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490459386/act-ii-butter-delite-instant-popcorn-70-g-product-images-o490459386-p490459386-0-202306091255.jpg?im=Resize=(280,280)",
+    "product_price": "₹32.00",
+    "disscount": "15% OFF"
+  },
+  {
+    "name": "Haldiram's Nagpur Farali Chiwda 200 g",
+    "product_id": "490000276",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/490000276/haldiram-s-nagpur-farali-chiwda-200-g-product-images-o490000276-p490000276-0-202308241822.jpg?im=Resize=(280,280)",
+    "product_price": "₹47.00",
+    "disscount": "6% OFF"
+  },
+  {
+    "name": "Mr Makhana Himalayan Salt & Pepper Popped Lotus Seeds 21 g",
+    "product_id": "590551651",
+    "product_categoryid": "28997",
+    "product_subcategoryid": "29000",
+    "product_image_url": "https://www.jiomart.com/images/product/original/492172184/mr-makhana-himalayan-salt-pepper-popped-lotus-seeds-21-g-product-images-o492172184-p590551651-0-202511051850.jpg?im=Resize=(280,280)",
+    "product_price": "₹50.00",
+    "disscount": "20% OFF"
   }
 ]

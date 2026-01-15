@@ -31,7 +31,7 @@ export class CartService {
     totalPrice = computed(() => {
         let total = 0;
         for (const item of this.items().values()) {
-            total += (item.product.price || 0) * item.quantity;
+            total += (item.product.product_price || 0) * item.quantity;
         }
         return total;
     });
@@ -41,12 +41,12 @@ export class CartService {
 
     addToCart(product: Product, quantity: number) {
         const currentItems = new Map(this.items());
-        const existing = currentItems.get(product.upc);
+        const existing = currentItems.get(product.product_id);
 
         if (existing) {
-            currentItems.set(product.upc, { ...existing, quantity: existing.quantity + quantity });
+            currentItems.set(product.product_id, { ...existing, quantity: existing.quantity + quantity });
         } else {
-            currentItems.set(product.upc, { product, quantity });
+            currentItems.set(product.product_id, { product, quantity });
         }
         this.items.set(currentItems);
     }

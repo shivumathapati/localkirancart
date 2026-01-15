@@ -1,10 +1,12 @@
 export interface Product {
-  upc: string; 
+  product_id: string;
   name: string;
-  price: number;
-  quantity: number;
+  product_categoryid: string;
+  quantity?: number;
+  product_price: number;
   category: string;
-  subcategory: string;
-  image_url: string;
+  product_subcategoryid: string;
+  product_image_url: string;
+  disscount: string;
 }
 

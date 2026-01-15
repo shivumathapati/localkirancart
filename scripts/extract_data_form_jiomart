@@ -1,0 +1,27 @@
+// Select all the product list items
+const items = document.querySelectorAll("#algolia_hits > div > ol > li");
+// Map through each item to extract the required data
+const productData = Array.from(items).map(item => {
+    // Select specific elements within the current item
+    const anchor = item.querySelector('a.plp-card-wrapper');
+    const gtmDiv = item.querySelector('.gtmEvents');
+    const priceDiv = item.querySelector('.plp-card-details-price');
+    const discountDiv = item.querySelector('.plp-card-details-discount');
+    // Extract the specific 'second span' for price as requested.
+    // Note: specific check to ensure the second span exists.
+    const priceSpans = priceDiv ? priceDiv.querySelectorAll('span') : [];
+    // transform NodeList to Array to safely access index 1
+    const secondPriceSpan = priceSpans.length > 1 ? priceSpans[1] : null;
+    return {
+        name: anchor ? anchor.getAttribute('title') : '',
+        product_id: gtmDiv ? gtmDiv.getAttribute('data-id') : '',
+        product_categoryid: gtmDiv ? gtmDiv.getAttribute('data-categoryid') : '',
+        product_subcategoryid: gtmDiv ? gtmDiv.getAttribute('data-subcategoryid') : '',
+        product_image_url: gtmDiv ? gtmDiv.getAttribute('data-image') : '',
+        // Getting text from the second span specifically
+        product_price: secondPriceSpan ? secondPriceSpan.innerText.trim() : '',
+        disscount: discountDiv ? discountDiv.innerText.trim() : ''
+    };
+});
+// Output the result
+console.log(productData);

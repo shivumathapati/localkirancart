@@ -196,13 +196,13 @@ export class ProductService {
 
   getProductByCategory(category: string): Observable<Product[]> {
     const productsRef = collection(this.firestore, 'products');
-    const categoryQuery = query(productsRef, where('category', '==', category));
-    return collectionData(categoryQuery, { idField: 'upc' }) as Observable<Product[]>;
+    const categoryQuery = query(productsRef, where('product_categoryid', '==', category));
+    return collectionData(categoryQuery, { idField: 'product_id' }) as Observable<Product[]>;
   }
   getProductBySubcategory(subcategory: string): Observable<Product[]> {
     const productsRef = collection(this.firestore, 'products');
     const subcategoryQuery = query(productsRef, where('subcategory', '==', subcategory));
-    return collectionData(subcategoryQuery, { idField: 'upc' }) as Observable<Product[]>;
+    return collectionData(subcategoryQuery, { idField: 'product_id' }) as Observable<Product[]>;
   }
 
 
@@ -255,7 +255,7 @@ export class ProductService {
         const productRef = collection(this.firestore, 'products');
 
         for (const product of products) {
-          const docRef = doc(productRef, product.upc);
+          const docRef = doc(productRef, product.product_id);
           await setDoc(docRef, product);
         }
 

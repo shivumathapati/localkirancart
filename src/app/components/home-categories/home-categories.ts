@@ -16,18 +16,22 @@ export class HomeCategoriesComponent implements OnInit {
   categories$!: Observable<Category[]>;
   baseURL = "https://www.jiomart.com";
 
+
+
   // State for sidebar
-  selectedVertical = 'Groceries'; // Default
+  selectedVertical = 'Groceries';
+
   verticals = [
-    { name: 'Groceries', icon: 'assets/icons/groceries.png' }, // Placeholder icons
+    { name: 'Groceries', icon: 'assets/icons/groceries.png' },
     { name: 'Fashion', icon: 'assets/icons/fashion.png' },
     { name: 'Electronics', icon: 'assets/icons/electronics.png' },
     { name: 'Precious Jewellery', icon: 'assets/icons/jewellery.png' },
     { name: 'Home & Lifestyle', icon: 'assets/icons/home.png' },
   ];
 
-  // State for accordion
+  // State for accordion and breadcrumb
   expandedCategoryId: number | null = null;
+  currentCategoryName: string = '';
 
   ngOnInit() {
     this.categories$ = this.categoryService.getCategoriesWithSubcategories().pipe(
@@ -35,22 +39,24 @@ export class HomeCategoriesComponent implements OnInit {
         // Auto-expand the first category by default
         if (categories.length > 0) {
           this.expandedCategoryId = categories[0].id;
+          this.currentCategoryName = categories[0].name;
         }
       })
     );
   }
 
-  toggleCategory(categoryId: number) {
-    if (this.expandedCategoryId === categoryId) {
+  toggleCategory(category: Category) {
+    if (this.expandedCategoryId === category.id) {
       this.expandedCategoryId = null; // Collapse
+      this.currentCategoryName = ''; // Reset
     } else {
-      this.expandedCategoryId = categoryId; // Expand
+      this.expandedCategoryId = category.id; // Expand
+      this.currentCategoryName = category.name; // Update Name for Breadcrumb
     }
   }
 
   selectVertical(verticalName: string) {
     this.selectedVertical = verticalName;
     // In a real app, this would filter categories$.
-    // Since we only have Grocery data, we just update the UI state.
   }
 }

@@ -29,7 +29,7 @@ export class ProductTile {
     this.productService.selectedCategory$
       .pipe(
         switchMap(categoryId =>
-          this.productService.getProductByCategory(categoryId)
+          this.productService.getProductByCategory('28997')
         )
       )
       .subscribe(products => {
@@ -38,7 +38,7 @@ export class ProductTile {
   }
 
   getQuantity(product: Product): number {
-    return this.cartService.itemsMap().get(product.upc)?.quantity || 0;
+    return this.cartService.itemsMap().get(product.product_id)?.quantity || 0;
   }
 
   addToCart(product: Product) {
@@ -60,7 +60,7 @@ export class ProductTile {
   decrement(product: Product) {
     const currentQty = this.getQuantity(product);
     if (currentQty > 0) {
-      this.cartService.updateQuantity(product.upc, currentQty - 1);
+      this.cartService.updateQuantity(product.product_id, currentQty - 1);
     }
   }
 }

@@ -75,9 +75,9 @@ export class Checkout {
 
         const orderData = {
             items: this.cartItems().map(item => ({
-                productId: item.product.upc,
+                productId: item.product.product_id,
                 name: item.product.name,
-                price: item.product.price,
+                price: item.product.product_price,
                 quantity: item.quantity
             })),
             totalPrice: this.totalPrice(),

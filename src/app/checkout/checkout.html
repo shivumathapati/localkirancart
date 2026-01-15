@@ -8,10 +8,10 @@
     <div class="cart-summary" style="margin-top: 20px;">
         <h3>Your Cart</h3>
         <ul>
-            @for (item of cartItems(); track item.product.upc) {
+            @for (item of cartItems(); track item.product.product_id) {
             <li>
                 {{item.product.name}} x {{item.quantity}}
-                = {{(item.product.price || 0) * item.quantity | currency:'INR'}}
+                = {{(item.product.product_price || 0) * item.quantity | currency:'INR'}}
             </li>
             }
         </ul>
