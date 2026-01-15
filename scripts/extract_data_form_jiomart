@@ -19,7 +19,7 @@ const productData = Array.from(items).map(item => {
         product_subcategoryid: gtmDiv ? gtmDiv.getAttribute('data-subcategoryid') : '',
         product_image_url: gtmDiv ? gtmDiv.getAttribute('data-image') : '',
         // Getting text from the second span specifically
-        product_price: secondPriceSpan ? secondPriceSpan.innerText.trim() : '',
+        product_price: secondPriceSpan ? secondPriceSpan.innerText.trim().slice(1,secondPriceSpan.innerText.length): '',
         disscount: discountDiv ? discountDiv.innerText.trim() : ''
     };
 });

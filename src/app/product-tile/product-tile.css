@@ -1,15 +1,23 @@
 .example-card {
-  max-width: 300px;
+  max-width: 200px;
+  min-width: 200px;
 }
 
 .example-header-image {
-  
+
   background-size: cover;
 }
+
 .card-container {
-    display: flex;
-    justify-content: center;
-    gap: 11px;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }

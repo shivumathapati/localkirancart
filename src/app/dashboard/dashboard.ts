@@ -18,7 +18,7 @@ import { HomeCategoriesComponent } from "../components/home-categories/home-cate
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [ProductTile, Scanner, FormsModule, CommonModule, MatButtonModule, MatInputModule, MatFormFieldModule, MatBadgeModule, HomeCategoriesComponent],
+  imports: [Scanner, FormsModule, CommonModule, MatButtonModule, MatInputModule, MatFormFieldModule, MatBadgeModule, HomeCategoriesComponent],
   templateUrl: './dashboard.html',
   styleUrl: './dashboard.css',
 })

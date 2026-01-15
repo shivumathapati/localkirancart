@@ -3,16 +3,19 @@ import { AsyncPipe, CommonModule } from '@angular/common';
 import { CategoryService } from '../../service/category.service';
 import { Category } from '../../models/category.model';
 import { Observable, tap } from 'rxjs';
+import { ProductTile } from "../../product-tile/product-tile";
+import { ProductService } from '../../service/products';
 
 @Component({
   selector: 'app-home-categories',
   standalone: true,
-  imports: [CommonModule, AsyncPipe],
+  imports: [CommonModule, AsyncPipe, ProductTile],
   templateUrl: './home-categories.html',
   styleUrls: ['./home-categories.css']
 })
 export class HomeCategoriesComponent implements OnInit {
   private categoryService = inject(CategoryService);
+  private productService = inject(ProductService);
   categories$!: Observable<Category[]>;
   baseURL = "https://www.jiomart.com";
 
@@ -30,7 +33,7 @@ export class HomeCategoriesComponent implements OnInit {
   ];
 
   // State for accordion and breadcrumb
-  expandedCategoryId: number | null = null;
+  expandedCategoryId: string | null = null;
   currentCategoryName: string = '';
 
   ngOnInit() {
@@ -58,5 +61,10 @@ export class HomeCategoriesComponent implements OnInit {
   selectVertical(verticalName: string) {
     this.selectedVertical = verticalName;
     // In a real app, this would filter categories$.
+  }
+
+  selectCategory(category: string) {
+    console.log('HomeCategories: user selected category', category);
+    this.productService.setCategory(category);
   }
 }

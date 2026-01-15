@@ -54,7 +54,8 @@
                     <div class="subcategories-list">
                         @for (sub of category.sub_categorie; track sub.id) {
                         <div class="subcategory-row">
-                            <span>{{ sub.name }}</span>
+                            <span (click)="selectCategory(sub.id)">{{ sub.name }}</span>
+                            <!-- <button mat-button >{{sub.name}}</button> -->
                             <a href="{{ baseURL + '/' + (sub.url_path ) }}" target="_blank">
                                 <span class="right-arrow">></span>
                             </a>
@@ -75,6 +76,7 @@
 
         <!-- Main Content -->
         <main class="content-area">
+            <app-product-tile></app-product-tile>
 
         </main>
     </div>

@@ -1,5 +1,5 @@
-@for(category of categories; track category){
+@for(category of categories | async; track category){
 
-    <button mat-button (click)="selectCategory(category.name)">{{category.name}}</button>
+<button mat-button (click)="selectCategory(category.id)">{{category.name}}</button>
 
 }

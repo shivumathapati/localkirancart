@@ -29,10 +29,11 @@ export class ProductTile {
     this.productService.selectedCategory$
       .pipe(
         switchMap(categoryId =>
-          this.productService.getProductByCategory('28997')
+          this.productService.getProductBySubcategory(categoryId)
         )
       )
       .subscribe(products => {
+        console.log('ProductTile: received products', products);
         this.products$ = products;
       });
   }
@@ -46,9 +47,8 @@ export class ProductTile {
   }
 
   increment(product: Product) {
-    // this.cartService.seedCategories();
-    // this.cartService.addToCart(product, 1);
-    this.productService.uploadCategories();
+    this.cartService.addToCart(product, 1);
+    // this.productService.uploadCategories();
   }
 
   updateCategories() {

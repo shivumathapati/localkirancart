@@ -7,7 +7,7 @@ export interface CategoriesDataFile {
 }
 
 export interface Category {
-  id: number;
+  id: string;
   name: string;
   description?: string | null;
   parent_id?: number | null;
